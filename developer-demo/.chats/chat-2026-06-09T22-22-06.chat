@@ -1,0 +1,225 @@
+{
+  "title": "ok! I made some notes here in @brainstorm for four sketches - thoughts on creati",
+  "messages": [
+    {
+      "content": "ok! I made some notes here in @brainstorm for four sketches - thoughts on creating these? my sense is we should have the skeletons of these created and maybe come up with better titles - what other context do you need?\n[References: @note:brainstorm.md]",
+      "role": "user"
+    },
+    {
+      "content": "nice - the audience in this case is *mixed* - my sense is there will be more business decision makers and technical decision makers but also developers. I like a technical style. For the actual app, here's some of the previous beats:\nA competitor announces a superior allergy treatment drug launching in November — putting our market position at risk\nThe business rapidly mobilizes a small, agile, cross-functional team to assess the impact and accelerate our superior next-gen product to defend share and unlock incremental revenue\nPersonas: Project manager as ringleader, Operations Lead as 2nd team member\nPhase 1 – Assess the impact and build the case: gather data and quantify the opportunity\nPhase 2 – Validate the constraints and model the new scenario: supply chain limits the accelerated window -> agents can help!\nPhase 3 – Build the proposal and present to leadership: and recommend autonomous supply chain agents to hit the timeline\nUsing the Operations BRD, an IT business analyst builds an  autonomous Production Planning agent in Copilot Studio that integrates directly into the team's daily collaboration workspace.\nConnected to Work IQ and D365 ERP, the agent aggregates data across three plants to assess capacity, materials, and equipment constraints.\nIt proactively alerts the team with optimized run orders that rebalance volume and compress changeover times and runs a what-if analysis modeling the scenario and returning an executable plan with risks flagged for human acceptance.\nThe team reviews with a one-click, multi-agent sign-off, audited in Dataverse and governed by Agent 365, turning a slow, manual process into a continuous execution loop and leaving a full specification the development team can build on to create our organizations fleet of Agents.\n[Our beat - but our narrative is better]\nBuild a fleet of agents to improve supply chain operations - inventory, out‑of‑stock, availability‑to‑promise\nStarting in GitHub Copilot App, bring in an existing app from Copilot Studio (TBD)\nGitHub Copilot App runs multiple agent sessions, all in parallel, managing their own review cycles. Agents orchestrate the entire software lifecycle\nUsing Foundry, I select a model tuned specifically to our supply chain operations, processes and patterns — using Frontier Tuning, connect to my knowledge base and deploy to production\nWith Microsoft IQ, my supply chain agents return insights grounded in internal knowledge & external context, actively improving supply chain operations to launch ahead of the competition\nAgents operate as an extension of our teams, fully integrated into the flow of work, actively engaging in Microsoft Teams and M365.\nSecurity plays an active role in the SDLC loop. Code is scanned, exploits proven in a sandbox, findings flow back to the developer as a Copilot PR: Found, proven, fixed before the agent ships.\n[After our beat]\nIn Defender, the new vulnerability in MDASH is recorded in the Red-team agent in Perception and deeper internal investigation begins across similar repos.\nIn the same Defender console. new threat intelligence reports   a new attack pattern targeting supply agents,. With a human in the loop, project Perception's security agents take action against the threat and make the correction.\n<Include bridge> In A365 - Security admin reviews the supply chain agent now live in production and no attack has occurred.  They reside alongside the rest of the agent fleet. Governance, policy(healthcare), and healthcare posture are green\nA365 - Agents run securely on Windows 11/Scout with OS enforced identity, containment(MXC) and enterprise-grade manageability. A365 control plane extends to Windows and agents can be observed and governed  similar to in cloud environments.",
+      "role": "user"
+    },
+    {
+      "content": "Because I over-structured it.\n\nI used **Part 1A / 1B / 1C / 1D** to signal that these four sketches all belong to the same larger section, but that is probably too heavy for sketch titles.\n\nFor working sketches, that naming can feel:\n- too formal\n- too presentation-like\n- a little confusing if these are just sequential scenes inside one part\n\nA cleaner model is usually:\n\n- the **storyboard** carries the part name\n- the **sketches** carry simple scene names\n\nSo instead of:\n\n- Part 1A - Triage the Response in GitHub Copilot App\n- Part 1B - Promote the Agent from Local to Cloud\n- Part 1C - Improve the Agent\n- Part 1D - Govern the Agent and Hand Off to Protection\n\nyou'd likely want:\n\n- **Triage in GitHub Copilot App**\n- **Promote the Agent to Cloud**\n- **Improve the Agent**\n- **Govern the Agent Fleet**\n\nThen the storyboard or enclosing sequence can be named something like:\n\n- **Part 1 - Build and Operationalize the Supply Chain Agent**\n- or\n- **Part 1 - From Triage to Governed Agent**\n\nSo the short answer is: I was trying to make the hierarchy explicit, but I put that hierarchy in the wrong place.\n\nIf you want, I can fix this now by:\n1. removing the **Part 1A/1B/1C/1D** prefixes from the sketch titles, and\n2. optionally creating a **single storyboard** that carries the Part 1 label.",
+      "role": "assistant"
+    },
+    {
+      "content": "yes - lets do it",
+      "role": "user"
+    },
+    {
+      "content": null,
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"path\": \"brainstorm.md\"}",
+            "name": "read_note"
+          },
+          "id": "call_AQjwLqA4sCiwMKWkzaqCxOi4",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{\"path\": \"sketch-1-app-triage-in-github-copilot-app.sk\"}",
+            "name": "read_sketch"
+          },
+          "id": "call_MHQHI6JaUSMcP3yd5k1FYOZn",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{\"path\": \"sketch-2-promote-a-local-agent-to-the-cloud.sk\"}",
+            "name": "read_sketch"
+          },
+          "id": "call_7mdl2zk4MEmGA19g5ky2jVMP",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{\"path\": \"sketch-3-improve-the-agent.sk\"}",
+            "name": "read_sketch"
+          },
+          "id": "call_0ts0VUF0RjCyStLomkqYdu1x",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{\"path\": \"sketch-4-govern-the-agent-fleet.sk\"}",
+            "name": "read_sketch"
+          },
+          "id": "call_yiMfSczWdk0yroFH5NN6ghGg",
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "content": "# Start Demo\nThe following is a brainstorm of what I'm thinking we should do for start.\nTotal time estimate: 7 - 8m.\n\nSome interesting cross-cutting concerns:\n- IQs (Web IQ, Fabric IQ, Foundry IQ, Work IQ)\n- A365 and agent observability\n\n## Sketch 1 - GitHub Copilot App is Awesome\nThis needs to be couched in an actual app story. \"We at [Company X] already had some existing software investments we wanted where we wanted to incorporate this agentic goodness. Since this is an active collection of projects, I thought I would show you how the GHC App can help.\"\n- tour through the copilot app\n- start with macro concerns\n  - home\n  - my work\n  - automations\n  - Quick chats\n- project concerns\n  - sessions and worktrees\n  - rubber duck\n  - canvas\n  - significant thing to work on (i.e. a skill to bring a copilot studio agent over)\n\n## Sketch 2 - Local Agents to Cloud\nMoving agents to the cloud\n\n*Part 1 - local agents*\n- Start in VSCode with some agent code\n  - one local running in windows that we want to promote to the cloud\n- start with local agent working on windows\n- try to do something bad - blocked because of MxC\n\n*Part 2 - Adding Microsoft and Foundry*\n- toolbox\n- IQ's - walk through all of the iq's available and tastefully add\n- Romance Elijah's demo\n\n*Part 3 - Microsoft Foundry - Custom Agent Factory*\n- deploy as hosted agent\n- agent works in its own vm in the cloud (maybe mxc crossover?)\n- traces / rubric generation / agent optimizer\n\n*Part 4 - Autopilot Agents*\n- Agents in Teams and M365\n\n## Sketch 3 - Hill Climbing\nWhat comes after agent optimization? Three levels of Fine Tuning:\n- Ground up with your own code + data\n- Ground up with you own data (and Foundry's help)\n- Ground up with M365 RLE\n\n## Sketch 5 - Security and Governance\nA taste as a bridge to \"Protect and Observe\"\n- A365 agentic management (overview, registry, map, requests)\n- Defender + MDASH (handoff)",
+      "role": "tool",
+      "tool_call_id": "call_AQjwLqA4sCiwMKWkzaqCxOi4"
+    },
+    {
+      "content": "# Part 1A - Triage the Response in GitHub Copilot App\n\n## Row 0 [~20s]\n**Narrative:** - Competitor launches a new allergy treatment in November\n- Market position is at risk\n- Small cross-functional team forms to respond fast\n- Goal: assess impact and find where agents can help first\n**Actions:** - Open with the business trigger\n- Introduce the project manager and operations lead\n- Frame the goal: protect share by accelerating the next-gen product plan\n\n## Row 1 [~25s]\n**Narrative:** - Start in GitHub Copilot App\n- Use home, my work, automations, and quick chats as the team control surface\n- Move from broad status to the work that matters now\n**Actions:** - Tour home, my work, automations, and quick chats\n- Keep the pace brisk\n- Focus on active work, not a broad feature tour\n\n## Row 2 [~30s]\n**Narrative:** - Open the active launch project\n- Gather the facts, risks, and opportunity\n- Test whether the timeline can move across plants, materials, and equipment\n**Actions:** - Open the active supply chain or launch project\n- Show shared context and key work items\n- Highlight artifacts tied to the accelerated launch scenario\n\n## Row 3 [~30s]\n**Narrative:** - Use sessions and worktrees to keep threads of work clean\n- Use rubber duck and canvas to explore options\n- Turn discussion into a scoped path forward\n**Actions:** - Show sessions and worktrees\n- Briefly visit rubber duck and canvas\n- Position each tool inside the same team working loop\n\n## Row 4 [~35s]\n**Narrative:** - Land on the concrete next step\n- Bring the Production Planning agent or Copilot Studio artifact into the dev flow\n- Use that as the handoff into the next sketch\n**Actions:** - Land on the concrete next step\n- Show the Production Planning agent, skill, or Copilot Studio artifact\n- End on the handoff into code and agent development\n\n",
+      "role": "tool",
+      "tool_call_id": "call_MHQHI6JaUSMcP3yd5k1FYOZn"
+    },
+    {
+      "content": "# Part 1B - Promote the Agent from Local to Cloud\n\n## Row 0 [~25s]\n**Narrative:** - Pick up the same Production Planning agent in code\n- Start in VS Code with the first version from the Operations BRD\n- Run it locally before promoting it\n**Actions:** - Open VS Code with the local Production Planning agent\n- Tie it back to the prior project context\n- Show that it already fits the supply chain scenario\n\n## Row 1 [~30s]\n**Narrative:** - Show the local agent doing useful work\n- Pull together plant, capacity, and materials context\n- Suggest run-order changes with risks visible\n**Actions:** - Run the local agent\n- Show outputs tied to capacity, materials, and equipment constraints\n- Highlight optimized run-order suggestions\n\n## Row 2 [~25s]\n**Narrative:** - Trigger a risky action\n- Show Windows and MxC containment\n- Make the security boundary visible\n**Actions:** - Attempt a bad or disallowed action\n- Show the containment or policy boundary\n- Make the Windows, Scout, or MxC guardrail visible\n\n## Row 3 [~35s]\n**Narrative:** - Add toolbox support and IQ grounding\n- Connect internal knowledge and external context\n- Show how the agent gets better business context\n**Actions:** - Introduce toolbox\n- Add the relevant IQs\n- Tie each addition to better business context for the agent\n\n## Row 4 [~35s]\n**Narrative:** - Move into Foundry\n- Choose the model and connect knowledge\n- Define the production deployment path\n**Actions:** - Open Foundry\n- Show model selection and knowledge connection\n- Define the hosted deployment path\n\n## Row 5 [~30s]\n**Narrative:** - Deploy as a hosted agent\n- Show traces, rubrics, and optimization hooks\n- Move from local testing to managed cloud execution\n**Actions:** - Show the hosted deployment result\n- Visit traces, rubrics, and optimizer views\n- Emphasize managed cloud execution\n\n## Row 6 [~30s]\n**Narrative:** - Surface the agent in Teams and M365\n- Keep approvals and human review in place\n- Show the agent in the flow of work\n**Actions:** - Surface the agent in Teams or M365\n- Show approval or sign-off steps\n- Emphasize the flow of work, not another product tour\n\n",
+      "role": "tool",
+      "tool_call_id": "call_7mdl2zk4MEmGA19g5ky2jVMP"
+    },
+    {
+      "content": "# Part 1C - Improve the Agent\n\n## Row 0 [~20s]\n**Narrative:** - Start from live traces and outcomes\n- Ask how to make the agent better over time\n- Frame three practical improvement paths\n**Actions:** - Open on traces or quality views\n- Connect directly from the previous sketch\n- Set up the three improvement paths\n\n## Row 1 [~20s]\n**Narrative:** - Path 1: custom code plus custom data\n- Best when tight control matters\n- Shape both logic and grounding directly\n**Actions:** - Show the custom code plus custom data path\n- Point to the relevant code, data, or config artifacts\n- Position this as the high-control option\n\n## Row 2 [~20s]\n**Narrative:** - Path 2: your data with Foundry support\n- Use strong domain context already inside the business\n- Improve the agent faster with platform help\n**Actions:** - Show the Foundry-assisted path\n- Focus on enterprise data improving the agent\n- Keep the example tied to production planning\n\n## Row 3 [~20s]\n**Narrative:** - Path 3: M365 feedback and reinforcement loops\n- Learn from real usage, approvals, and outcomes\n- Improve behavior in the flow of work\n**Actions:** - Show the M365 feedback-driven path\n- Highlight approvals, feedback, or reinforcement signals\n- Keep the emphasis on real usage\n\n## Row 4 [~15s]\n**Narrative:** - Summarize the three paths\n- Reinforce that this is now a managed, improvable agent\n- Bridge to fleet visibility and governance\n**Actions:** - Summarize the three paths\n- Reinforce that the agent is now managed and improvable\n- Tee up the governance sketch\n\n",
+      "role": "tool",
+      "tool_call_id": "call_0ts0VUF0RjCyStLomkqYdu1x"
+    },
+    {
+      "content": "# Part 1D - Govern the Agent and Hand Off to Protection\n\n## Row 0 [~20s]\n**Narrative:** - Shift from building agents to seeing and governing them\n- Open in Agent 365\n- Show the Production Planning agent as part of the broader fleet\n**Actions:** - Open Agent 365 or A365\n- Show the overview, registry, map, and requests\n- Make the Production Planning agent visible in the broader fleet\n\n## Row 1 [~20s]\n**Narrative:** - Make policy and posture visible\n- Highlight governance state and regulated-business context\n- Keep the healthcare angle as a proof point\n**Actions:** - Show posture, policy, and governance indicators\n- Highlight any regulated-business context that is visible\n- Keep the healthcare angle brief and concrete\n\n## Row 2 [~20s]\n**Narrative:** - Show security as part of the build and release loop\n- Scan code, validate risky behavior in a sandbox, return findings to developers\n- Fix issues before the agent ships\n**Actions:** - Show the security loop at a high level\n- Cover code scanning, sandbox validation, and returned findings\n- Tie the loop back to the developer workflow\n\n## Row 3 [~20s]\n**Narrative:** - Hand off to Defender and MDASH for deeper investigation\n- Bridge into the next part of the demo\n- Keep this section focused on build, promotion, and governance handoff\n**Actions:** - Open or reference Defender and MDASH\n- Use them as the handoff point\n- End on the bridge into Protect and Observe\n\n",
+      "role": "tool",
+      "tool_call_id": "call_yiMfSczWdk0yroFH5NN6ghGg"
+    },
+    {
+      "content": null,
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"path\": \"sketch-1-app-triage-in-github-copilot-app.sk\", \"title\": \"Triage in GitHub Copilot App\", \"description\": \"Show the business trigger, orient the response team in GitHub Copilot App, and identify the Production Planning agent as the next build target.\", \"rows\": [{\"time\": \"~20s\", \"narrative\": \"- Competitor launches a new allergy treatment in November\\n- Market position is at risk\\n- Small cross-functional team forms to respond fast\\n- Goal: assess impact and find where agents can help first\", \"demo_actions\": \"- Open with the business trigger\\n- Introduce the project manager and operations lead\\n- Frame the goal: protect share by accelerating the next-gen product plan\"}, {\"time\": \"~25s\", \"narrative\": \"- Start in GitHub Copilot App\\n- Use home, my work, automations, and quick chats as the team control surface\\n- Move from broad status to the work that matters now\", \"demo_actions\": \"- Tour home, my work, automations, and quick chats\\n- Keep the pace brisk\\n- Focus on active work, not a broad feature tour\"}, {\"time\": \"~30s\", \"narrative\": \"- Open the active launch project\\n- Gather the facts, risks, and opportunity\\n- Test whether the timeline can move across plants, materials, and equipment\", \"demo_actions\": \"- Open the active supply chain or launch project\\n- Show shared context and key work items\\n- Highlight artifacts tied to the accelerated launch scenario\"}, {\"time\": \"~30s\", \"narrative\": \"- Use sessions and worktrees to keep threads of work clean\\n- Use rubber duck and canvas to explore options\\n- Turn discussion into a scoped path forward\", \"demo_actions\": \"- Show sessions and worktrees\\n- Briefly visit rubber duck and canvas\\n- Position each tool inside the same team working loop\"}, {\"time\": \"~35s\", \"narrative\": \"- Land on the concrete next step\\n- Bring the Production Planning agent or Copilot Studio artifact into the dev flow\\n- Use that as the handoff into the next sketch\", \"demo_actions\": \"- Land on the concrete next step\\n- Show the Production Planning agent, skill, or Copilot Studio artifact\\n- End on the handoff into code and agent development\"}]}",
+            "name": "write_sketch"
+          },
+          "id": "call_oHIoxynE4QH1B7n62d8151XF",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{\"path\": \"sketch-2-promote-a-local-agent-to-the-cloud.sk\", \"title\": \"Promote the Agent to the Cloud\", \"description\": \"Take the Production Planning agent from local development in VS Code to hosted cloud execution with grounding, traces, and managed deployment.\", \"rows\": [{\"time\": \"~25s\", \"narrative\": \"- Pick up the same Production Planning agent in code\\n- Start in VS Code with the first version from the Operations BRD\\n- Run it locally before promoting it\", \"demo_actions\": \"- Open VS Code with the local Production Planning agent\\n- Tie it back to the prior project context\\n- Show that it already fits the supply chain scenario\"}, {\"time\": \"~30s\", \"narrative\": \"- Show the local agent doing useful work\\n- Pull together plant, capacity, and materials context\\n- Suggest run-order changes with risks visible\", \"demo_actions\": \"- Run the local agent\\n- Show outputs tied to capacity, materials, and equipment constraints\\n- Highlight optimized run-order suggestions\"}, {\"time\": \"~25s\", \"narrative\": \"- Trigger a risky action\\n- Show Windows and MxC containment\\n- Make the security boundary visible\", \"demo_actions\": \"- Attempt a bad or disallowed action\\n- Show the containment or policy boundary\\n- Make the Windows, Scout, or MxC guardrail visible\"}, {\"time\": \"~35s\", \"narrative\": \"- Add toolbox support and IQ grounding\\n- Connect internal knowledge and external context\\n- Show how the agent gets better business context\", \"demo_actions\": \"- Introduce toolbox\\n- Add the relevant IQs\\n- Tie each addition to better business context for the agent\"}, {\"time\": \"~35s\", \"narrative\": \"- Move into Foundry\\n- Choose the model and connect knowledge\\n- Define the production deployment path\", \"demo_actions\": \"- Open Foundry\\n- Show model selection and knowledge connection\\n- Define the hosted deployment path\"}, {\"time\": \"~30s\", \"narrative\": \"- Deploy as a hosted agent\\n- Show traces, rubrics, and optimization hooks\\n- Move from local testing to managed cloud execution\", \"demo_actions\": \"- Show the hosted deployment result\\n- Visit traces, rubrics, and optimizer views\\n- Emphasize managed cloud execution\"}, {\"time\": \"~30s\", \"narrative\": \"- Surface the agent in Teams and M365\\n- Keep approvals and human review in place\\n- Show the agent in the flow of work\", \"demo_actions\": \"- Surface the agent in Teams or M365\\n- Show approval or sign-off steps\\n- Emphasize the flow of work, not another product tour\"}]}",
+            "name": "write_sketch"
+          },
+          "id": "call_GgLwGXA01Dp1eUnkI6Msq865",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{\"path\": \"sketch-3-improve-the-agent.sk\", \"title\": \"Improve the Agent\", \"description\": \"Show the three practical paths to improve the Production Planning agent after deployment, using traces, data, and real usage signals.\", \"rows\": [{\"time\": \"~20s\", \"narrative\": \"- Start from live traces and outcomes\\n- Ask how to make the agent better over time\\n- Frame three practical improvement paths\", \"demo_actions\": \"- Open on traces or quality views\\n- Connect directly from the previous sketch\\n- Set up the three improvement paths\"}, {\"time\": \"~20s\", \"narrative\": \"- Path 1: custom code plus custom data\\n- Best when tight control matters\\n- Shape both logic and grounding directly\", \"demo_actions\": \"- Show the custom code plus custom data path\\n- Point to the relevant code, data, or config artifacts\\n- Position this as the high-control option\"}, {\"time\": \"~20s\", \"narrative\": \"- Path 2: your data with Foundry support\\n- Use strong domain context already inside the business\\n- Improve the agent faster with platform help\", \"demo_actions\": \"- Show the Foundry-assisted path\\n- Focus on enterprise data improving the agent\\n- Keep the example tied to production planning\"}, {\"time\": \"~20s\", \"narrative\": \"- Path 3: M365 feedback and reinforcement loops\\n- Learn from real usage, approvals, and outcomes\\n- Improve behavior in the flow of work\", \"demo_actions\": \"- Show the M365 feedback-driven path\\n- Highlight approvals, feedback, or reinforcement signals\\n- Keep the emphasis on real usage\"}, {\"time\": \"~15s\", \"narrative\": \"- Summarize the three paths\\n- Reinforce that this is now a managed, improvable agent\\n- Bridge to fleet visibility and governance\", \"demo_actions\": \"- Summarize the three paths\\n- Reinforce that the agent is now managed and improvable\\n- Tee up the governance sketch\"}]}",
+            "name": "write_sketch"
+          },
+          "id": "call_ULqHqgHEhzRk9KtqICLJA7Uw",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{\"path\": \"sketch-4-govern-the-agent-fleet.sk\", \"title\": \"Govern the Agent Fleet\", \"description\": \"Position the Production Planning agent within the governed fleet, show policy and security touchpoints, and hand off into Protect and Observe.\", \"rows\": [{\"time\": \"~20s\", \"narrative\": \"- Shift from building agents to seeing and governing them\\n- Open in Agent 365\\n- Show the Production Planning agent as part of the broader fleet\", \"demo_actions\": \"- Open Agent 365 or A365\\n- Show the overview, registry, map, and requests\\n- Make the Production Planning agent visible in the broader fleet\"}, {\"time\": \"~20s\", \"narrative\": \"- Make policy and posture visible\\n- Highlight governance state and regulated-business context\\n- Keep the healthcare angle as a proof point\", \"demo_actions\": \"- Show posture, policy, and governance indicators\\n- Highlight any regulated-business context that is visible\\n- Keep the healthcare angle brief and concrete\"}, {\"time\": \"~20s\", \"narrative\": \"- Show security as part of the build and release loop\\n- Scan code, validate risky behavior in a sandbox, return findings to developers\\n- Fix issues before the agent ships\", \"demo_actions\": \"- Show the security loop at a high level\\n- Cover code scanning, sandbox validation, and returned findings\\n- Tie the loop back to the developer workflow\"}, {\"time\": \"~20s\", \"narrative\": \"- Hand off to Defender and MDASH for deeper investigation\\n- Bridge into the next part of the demo\\n- Keep this section focused on build, promotion, and governance handoff\", \"demo_actions\": \"- Open or reference Defender and MDASH\\n- Use them as the handoff point\\n- End on the bridge into Protect and Observe\"}]}",
+            "name": "write_sketch"
+          },
+          "id": "call_bVjD18j7skczUdzx6puqOtk4",
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "content": "Set 5 planning rows in D:\\cutready\\start-2026\\developer-demo\\sketch-1-app-triage-in-github-copilot-app.sk",
+      "role": "tool",
+      "tool_call_id": "call_oHIoxynE4QH1B7n62d8151XF"
+    },
+    {
+      "content": "Set 7 planning rows in D:\\cutready\\start-2026\\developer-demo\\sketch-2-promote-a-local-agent-to-the-cloud.sk",
+      "role": "tool",
+      "tool_call_id": "call_GgLwGXA01Dp1eUnkI6Msq865"
+    },
+    {
+      "content": "Set 5 planning rows in D:\\cutready\\start-2026\\developer-demo\\sketch-3-improve-the-agent.sk",
+      "role": "tool",
+      "tool_call_id": "call_ULqHqgHEhzRk9KtqICLJA7Uw"
+    },
+    {
+      "content": "Set 4 planning rows in D:\\cutready\\start-2026\\developer-demo\\sketch-4-govern-the-agent-fleet.sk",
+      "role": "tool",
+      "tool_call_id": "call_bVjD18j7skczUdzx6puqOtk4"
+    },
+    {
+      "content": "Done.\n\n## New sketch titles\n- **Triage in GitHub Copilot App**\n- **Promote the Agent to the Cloud**\n- **Improve the Agent**\n- **Govern the Agent Fleet**\n\n## What I changed\n- Removed the `Part 1A/1B/1C/1D` naming\n- Kept the existing row structure intact\n- Updated each sketch description so it reads cleanly on its own, while still fitting into a larger three-part arc\n\n## Why these titles work better\n- Short and clear\n- Easy to scan in a storyboard\n- Descriptive without sounding like final slide titles\n- They preserve the sequence:\n  - orient in app\n  - build and promote\n  - improve\n  - govern and hand off\n\nIf you want, next I can:\n- create the **storyboard** for this section, or\n- tighten the titles even further into a more technical style, like:\n  - `App Triage`\n  - `Local to Cloud`\n  - `Agent Improvement`\n  - `Fleet Governance`",
+      "role": "assistant"
+    },
+    {
+      "content": "can we move to having bullet points instead of concrete narratives? i think you also figured this collection of sketches encompased the whole thing - its only one part of three",
+      "role": "user"
+    },
+    {
+      "content": "Yes - I think that is the stronger framing.\n\nRight now, the first sketch can read a little like \"here is GitHub Copilot App.\" What you actually want is:\n\n- **we already have a portfolio of internal apps**\n- **the market changed**\n- **we need to adapt one or more apps quickly**\n- **GitHub Copilot App is where the team figures out what to change and starts the work**\n\nThat gives the demo a much better reason to exist.\n\n## Why this framing is better\nIt shifts the story from:\n- \"look at this app\"\n\nto:\n- \"here is a real software response to a business problem\"\n\nThat helps with a mixed audience because:\n- **business decision makers** see urgency, portfolio impact, and prioritization\n- **technical decision makers** see software modernization and delivery motion\n- **developers** see where the actual work starts\n\nIt also gives you permission to stay focused on the **functional parts**:\n- what apps exist\n- which app or service needs to change\n- what agent gets introduced\n- how the team moves from assessment to build\n\n## Recommended framing for Sketch 1\nI would position Sketch 1 as:\n\n- We have an existing set of supply chain and operations apps\n- A competitor move forces a fast response\n- The question is not \"should we build an agent?\"\n- The question is \"where in this app estate do we add agent behavior first?\"\n- GitHub Copilot App helps the team triage that quickly and turn it into an actual development path\n\n## What that means for the first sketch\nInstead of a broad product tour, the beats should probably become:\n\n### 1. Set the business trigger\n- competitor launch changes the timeline\n- we need to protect share\n- the response has to happen in software we already own\n\n### 2. Show the app estate\n- portfolio of existing internal apps or services\n- likely candidates across supply chain, planning, inventory, availability-to-promise\n- identify where the bottleneck or opportunity is\n\n### 3. Narrow to one active initiative\n- choose the app or service to extend\n- explain why this is the highest-leverage place to add agent behavior\n- connect it to the operations team and project lead\n\n### 4. Use GitHub Copilot App to organize the work\n- open the active repo, worktree, session, canvas\n- show that the team is moving from discussion to implementation\n- keep the emphasis on triage and decomposition\n\n### 5. End with the build target\n- the Production Planning agent\n- or the skill / service / integration that becomes the first concrete addition\n- then hand off into local development in Sketch 2\n\n## Suggested title refinements\nYour current title is fine, but if you want the title to reflect this better, I would consider:\n\n- **Triage the App Portfolio**\n- **Choose Where Agents Fit**\n- **Plan the Agentic Update**\n- **Triage the Supply Chain Apps**\n- **Find the First Agentic Insert**\n\nMy favorite if you want a technical-business balance:\n\n- **Triage the App Portfolio**\n\nor, if you want it more concrete:\n\n- **Choose the First Agentic Update**\n\n## My recommendation\nFor this demo, I would make Sketch 1 less about navigation chrome and more about:\n\n- app portfolio\n- active project\n- prioritization\n- selecting the first agentic change\n\nThen use GitHub Copilot App as the place where that decision becomes executable.\n\n## Context I would still want from you\nTo tighten Sketch 1, the most useful missing inputs are:\n\n- the **3-5 apps** in the portfolio you want to reference\n- which **one app** becomes the main focus\n- whether the Production Planning agent is:\n  - a new standalone agent,\n  - a Copilot Studio agent brought into the app,\n  - or a skill/service added into an existing app\n- how literal you want the repo/app mapping to be:\n  - one app, one repo\n  - one platform, multiple services\n  - mixed portfolio\n- whether you want the first sketch to feel more like:\n  - **portfolio triage**, or\n  - **repo triage inside one chosen app**\n\n## Best next move\nI suggest I rewrite **Sketch 1** around this exact framing in bullet form:\n- existing app estate\n- urgent market trigger\n- choose the first app to update\n- identify the Production Planning agent as the implementation target\n\nIf you want, I can update the first sketch now and also rename it to something closer to **Triage the App Portfolio**.",
+      "role": "assistant"
+    },
+    {
+      "content": "ok - for the first app - I am thinking we have a collection of apps for our company that we need to update / add to with agentic software to enhance our position for this market position (in other words, I am more interested in the functional parts of the demo) - thoughts?",
+      "role": "user"
+    },
+    {
+      "content": null,
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"path\": \"brainstorm.md\"}",
+            "name": "read_note"
+          },
+          "id": "call_KGBUmf1cPF7gcQLL56pvTQUv",
+          "type": "function"
+        },
+        {
+          "function": {
+            "arguments": "{\"path\": \"sketch-1-app-triage-in-github-copilot-app.sk\"}",
+            "name": "read_sketch"
+          },
+          "id": "call_cBaZB6fop8BT7OpMRONOth8c",
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "content": "# Start Demo\nThe following is a brainstorm of what I'm thinking we should do for start.\nTotal time estimate: 7 - 8m.\n\nSome interesting cross-cutting concerns:\n- IQs (Web IQ, Fabric IQ, Foundry IQ, Work IQ)\n- A365 and agent observability\n\n## Sketch 1 - GitHub Copilot App is Awesome\nThis needs to be couched in an actual app story. \"We at [Company X] already had some existing software investments we wanted where we wanted to incorporate this agentic goodness. Since this is an active collection of projects, I thought I would show you how the GHC App can help.\"\n- tour through the copilot app\n- start with macro concerns\n  - home\n  - my work\n  - automations\n  - Quick chats\n- project concerns\n  - sessions and worktrees\n  - rubber duck\n  - canvas\n  - significant thing to work on (i.e. a skill to bring a copilot studio agent over)\n\n## Sketch 2 - Local Agents to Cloud\nMoving agents to the cloud\n\n*Part 1 - local agents*\n- Start in VSCode with some agent code\n  - one local running in windows that we want to promote to the cloud\n- start with local agent working on windows\n- try to do something bad - blocked because of MxC\n\n*Part 2 - Adding Microsoft and Foundry*\n- toolbox\n- IQ's - walk through all of the iq's available and tastefully add\n- Romance Elijah's demo\n\n*Part 3 - Microsoft Foundry - Custom Agent Factory*\n- deploy as hosted agent\n- agent works in its own vm in the cloud (maybe mxc crossover?)\n- traces / rubric generation / agent optimizer\n\n*Part 4 - Autopilot Agents*\n- Agents in Teams and M365\n\n## Sketch 3 - Hill Climbing\nWhat comes after agent optimization? Three levels of Fine Tuning:\n- Ground up with your own code + data\n- Ground up with you own data (and Foundry's help)\n- Ground up with M365 RLE\n\n## Sketch 5 - Security and Governance\nA taste as a bridge to \"Protect and Observe\"\n- A365 agentic management (overview, registry, map, requests)\n- Defender + MDASH (handoff)",
+      "role": "tool",
+      "tool_call_id": "call_KGBUmf1cPF7gcQLL56pvTQUv"
+    },
+    {
+      "content": "# Triage in GitHub Copilot App\n\n## Row 0 [~20s]\n**Narrative:** - Competitor launches a new allergy treatment in November\n- Market position is at risk\n- Small cross-functional team forms to respond fast\n- Goal: assess impact and find where agents can help first\n**Actions:** - Open with the business trigger\n- Introduce the project manager and operations lead\n- Frame the goal: protect share by accelerating the next-gen product plan\n\n## Row 1 [~25s]\n**Narrative:** - Start in GitHub Copilot App\n- Use home, my work, automations, and quick chats as the team control surface\n- Move from broad status to the work that matters now\n**Actions:** - Tour home, my work, automations, and quick chats\n- Keep the pace brisk\n- Focus on active work, not a broad feature tour\n\n## Row 2 [~30s]\n**Narrative:** - Open the active launch project\n- Gather the facts, risks, and opportunity\n- Test whether the timeline can move across plants, materials, and equipment\n**Actions:** - Open the active supply chain or launch project\n- Show shared context and key work items\n- Highlight artifacts tied to the accelerated launch scenario\n\n## Row 3 [~30s]\n**Narrative:** - Use sessions and worktrees to keep threads of work clean\n- Use rubber duck and canvas to explore options\n- Turn discussion into a scoped path forward\n**Actions:** - Show sessions and worktrees\n- Briefly visit rubber duck and canvas\n- Position each tool inside the same team working loop\n\n## Row 4 [~35s]\n**Narrative:** - Land on the concrete next step\n- Bring the Production Planning agent or Copilot Studio artifact into the dev flow\n- Use that as the handoff into the next sketch\n**Actions:** - Land on the concrete next step\n- Show the Production Planning agent, skill, or Copilot Studio artifact\n- End on the handoff into code and agent development\n\n",
+      "role": "tool",
+      "tool_call_id": "call_cBaZB6fop8BT7OpMRONOth8c"
+    },
+    {
+      "content": null,
+      "role": "assistant",
+      "tool_calls": [
+        {
+          "function": {
+            "arguments": "{\"path\":\"sketch-1-app-triage-in-github-copilot-app.sk\",\"title\":\"Triage in GitHub Copilot App\",\"description\":\"Use GitHub Copilot App to assess a portfolio of existing company apps, decide where an agentic update matters most, and identify the first concrete implementation target.\",\"rows\":[{\"time\":\"~20s\",\"narrative\":\"- Competitor launch creates pressure to respond fast\\n- Company already has a portfolio of internal apps\\n- Goal is to decide where an agentic update will matter most\",\"demo_actions\":\"- Open with the business trigger\\n- Frame the company as already running several internal apps\\n- Set up the need to choose the best insertion point for agentic software\"},{\"time\":\"~25s\",\"narrative\":\"- Start in GitHub Copilot App\\n- Use home, my work, automations, and quick chats to orient the team\\n- Move quickly from broad status to active software work\",\"demo_actions\":\"- Tour home, my work, automations, and quick chats\\n- Keep the pace brisk\\n- Use the app as the team control surface, not a feature tour\"},{\"time\":\"~30s\",\"narrative\":\"- Review the active app collection tied to supply chain and operations\\n- Compare where delays, manual work, or planning friction show up\\n- Narrow to the app or service with the highest upside\",\"demo_actions\":\"- Open the active project or app collection\\n- Show the relevant apps, services, or repos in play\\n- Highlight the one area where agent behavior can help first\"},{\"time\":\"~30s\",\"narrative\":\"- Use sessions, worktrees, rubber duck, and canvas to shape the response\\n- Turn portfolio discussion into a concrete engineering path\\n- Keep the focus on what needs to change in the chosen app\",\"demo_actions\":\"- Show sessions and worktrees\\n- Briefly visit rubber duck and canvas\\n- Use each feature to move from discussion to scoped implementation\"},{\"time\":\"~35s\",\"narrative\":\"- Land on the first functional addition\\n- Identify the Production Planning agent, skill, or Copilot Studio artifact to bring over\\n- Use that as the handoff into local development\",\"demo_actions\":\"- Land on the concrete next step\\n- Show the Production Planning agent, skill, or Copilot Studio artifact\\n- End on the handoff into code and agent development\"}]}",
+            "name": "write_sketch"
+          },
+          "id": "call_8MFk0WResnPrR61D9ousfssT",
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "content": "Set 5 planning rows in D:\\cutready\\start-2026\\developer-demo\\sketch-1-app-triage-in-github-copilot-app.sk",
+      "role": "tool",
+      "tool_call_id": "call_8MFk0WResnPrR61D9ousfssT"
+    },
+    {
+      "content": "Updated **Triage in GitHub Copilot App**.\n\n## What changed\nI shifted the first sketch away from a product tour and toward:\n- an existing **portfolio of internal apps**\n- a **market trigger**\n- a quick **triage decision**\n- selection of the **first agentic update**\n\n## Why this is better\nIt makes GitHub Copilot App the place where the team:\n- assesses the app estate\n- chooses where to act\n- turns that decision into implementation work\n\nSo the sketch now supports the functional story you want, instead of feeling like a navigation walkthrough.\n\n## What I changed in the rows\n- **Row 0** now frames the company as already operating multiple internal apps\n- **Row 1** keeps GitHub Copilot App visible, but positions it as a control surface\n- **Row 2** now focuses on reviewing the app collection and choosing the highest-value insertion point\n- **Row 3** turns the tool features into triage and scoping mechanisms\n- **Row 4** still lands on the Production Planning agent as the handoff into code\n\n## One thing I would refine next\nIf you want this sketch to feel even more concrete, the biggest upgrade would be to name the actual app portfolio in Row 2. For example:\n- demand planning\n- production planning\n- inventory allocation\n- supplier coordination\n- plant scheduling\n\nThat would make the decision point feel much more real.\n\nIf you want, I can do one more pass on Sketch 1 and make the app portfolio more explicit with 3 to 5 named apps.",
+      "role": "assistant"
+    }
+  ],
+  "created_at": "2026-06-09T23:46:11.635Z",
+  "updated_at": "2026-06-09T23:46:11.635Z",
+  "author_name": "Seth Juarez",
+  "author_email": "me@sethjuarez.com"
+}

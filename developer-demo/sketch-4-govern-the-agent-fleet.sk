@@ -1,0 +1,70 @@
+{
+  "title": "Govern the Agent Fleet",
+  "locked": false,
+  "description": "Position the Production Planning agent within the governed fleet, show policy and security touchpoints, and hand off into Protect and Observe.",
+  "rows": [
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~20s",
+      "narrative": "- Shift from building agents to seeing and governing them\n- Open in Agent 365\n- Show the Production Planning agent as part of the broader fleet",
+      "demo_actions": "- Open Agent 365 or A365\n- Show the overview, registry, map, and requests\n- Make the Production Planning agent visible in the broader fleet",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~20s",
+      "narrative": "- Make policy and posture visible\n- Highlight governance state and regulated-business context\n- Keep the healthcare angle as a proof point",
+      "demo_actions": "- Show posture, policy, and governance indicators\n- Highlight any regulated-business context that is visible\n- Keep the healthcare angle brief and concrete",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~20s",
+      "narrative": "- Show security as part of the build and release loop\n- Scan code, validate risky behavior in a sandbox, return findings to developers\n- Fix issues before the agent ships",
+      "demo_actions": "- Show the security loop at a high level\n- Cover code scanning, sandbox validation, and returned findings\n- Tie the loop back to the developer workflow",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~20s",
+      "narrative": "- Hand off to Defender and MDASH for deeper investigation\n- Bridge into the next part of the demo\n- Keep this section focused on build, promotion, and governance handoff",
+      "demo_actions": "- Open or reference Defender and MDASH\n- Use them as the handoff point\n- End on the bridge into Protect and Observe",
+      "screenshot": null
+    }
+  ],
+  "state": "draft",
+  "created_at": "2026-06-09T23:29:21.899410Z",
+  "updated_at": "2026-06-09T23:29:21.899410400Z"
+}

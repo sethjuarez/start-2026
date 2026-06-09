@@ -1,0 +1,85 @@
+{
+  "title": "Improve the Agent",
+  "locked": false,
+  "description": "Show the three practical paths to improve the Production Planning agent after deployment, using traces, data, and real usage signals.",
+  "rows": [
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~20s",
+      "narrative": "- Start from live traces and outcomes\n- Ask how to make the agent better over time\n- Frame three practical improvement paths",
+      "demo_actions": "- Open on traces or quality views\n- Connect directly from the previous sketch\n- Set up the three improvement paths",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~20s",
+      "narrative": "- Path 1: custom code plus custom data\n- Best when tight control matters\n- Shape both logic and grounding directly",
+      "demo_actions": "- Show the custom code plus custom data path\n- Point to the relevant code, data, or config artifacts\n- Position this as the high-control option",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~20s",
+      "narrative": "- Path 2: your data with Foundry support\n- Use strong domain context already inside the business\n- Improve the agent faster with platform help",
+      "demo_actions": "- Show the Foundry-assisted path\n- Focus on enterprise data improving the agent\n- Keep the example tied to production planning",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~20s",
+      "narrative": "- Path 3: M365 feedback and reinforcement loops\n- Learn from real usage, approvals, and outcomes\n- Improve behavior in the flow of work",
+      "demo_actions": "- Show the M365 feedback-driven path\n- Highlight approvals, feedback, or reinforcement signals\n- Keep the emphasis on real usage",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~15s",
+      "narrative": "- Summarize the three paths\n- Reinforce that this is now a managed, improvable agent\n- Bridge to fleet visibility and governance",
+      "demo_actions": "- Summarize the three paths\n- Reinforce that the agent is now managed and improvable\n- Tee up the governance sketch",
+      "screenshot": null
+    }
+  ],
+  "state": "draft",
+  "created_at": "2026-06-09T23:29:13.061106400Z",
+  "updated_at": "2026-06-09T23:29:13.061106900Z"
+}

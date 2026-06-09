@@ -1,5 +1,6 @@
 # Start Demo
 The following is a brainstorm of what I'm thinking we should do for start.
+Total time estimate: 7 - 8m.
 
 Some interesting cross-cutting concerns:
 - IQs (Web IQ, Fabric IQ, Foundry IQ, Work IQ)
@@ -21,22 +22,24 @@ This needs to be couched in an actual app story. "We at [Company X] already had 
 
 ## Sketch 2 - Local Agents to Cloud
 Moving agents to the cloud
-### Part 1 - local agents
+
+*Part 1 - local agents*
 - Start in VSCode with some agent code
   - one local running in windows that we want to promote to the cloud
 - start with local agent working on windows
 - try to do something bad - blocked because of MxC
 
-### Part 2 - Adding Microsoft and Foundry
+*Part 2 - Adding Microsoft and Foundry*
 - toolbox
 - IQ's - walk through all of the iq's available and tastefully add
+- Romance Elijah's demo
 
-### Part 3 - Microsoft Foundry - Custom Agent Factory
+*Part 3 - Microsoft Foundry - Custom Agent Factory*
 - deploy as hosted agent
 - agent works in its own vm in the cloud (maybe mxc crossover?)
 - traces / rubric generation / agent optimizer
 
-### Part 4 - Autopilot Agents
+*Part 4 - Autopilot Agents*
 - Agents in Teams and M365
 
 ## Sketch 3 - Hill Climbing
@@ -45,7 +48,7 @@ What comes after agent optimization? Three levels of Fine Tuning:
 - Ground up with you own data (and Foundry's help)
 - Ground up with M365 RLE
 
-## Sketch 4 - Security and Governance
+## Sketch 5 - Security and Governance
 A taste as a bridge to "Protect and Observe"
 - A365 agentic management (overview, registry, map, requests)
 - Defender + MDASH (handoff)

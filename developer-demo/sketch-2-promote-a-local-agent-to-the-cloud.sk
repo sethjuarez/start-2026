@@ -1,0 +1,115 @@
+{
+  "title": "Promote the Agent to the Cloud",
+  "locked": false,
+  "description": "Take the Production Planning agent from local development in VS Code to hosted cloud execution with grounding, traces, and managed deployment.",
+  "rows": [
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~25s",
+      "narrative": "- Pick up the same Production Planning agent in code\n- Start in VS Code with the first version from the Operations BRD\n- Run it locally before promoting it",
+      "demo_actions": "- Open VS Code with the local Production Planning agent\n- Tie it back to the prior project context\n- Show that it already fits the supply chain scenario",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~30s",
+      "narrative": "- Show the local agent doing useful work\n- Pull together plant, capacity, and materials context\n- Suggest run-order changes with risks visible",
+      "demo_actions": "- Run the local agent\n- Show outputs tied to capacity, materials, and equipment constraints\n- Highlight optimized run-order suggestions",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~25s",
+      "narrative": "- Trigger a risky action\n- Show Windows and MxC containment\n- Make the security boundary visible",
+      "demo_actions": "- Attempt a bad or disallowed action\n- Show the containment or policy boundary\n- Make the Windows, Scout, or MxC guardrail visible",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~35s",
+      "narrative": "- Add toolbox support and IQ grounding\n- Connect internal knowledge and external context\n- Show how the agent gets better business context",
+      "demo_actions": "- Introduce toolbox\n- Add the relevant IQs\n- Tie each addition to better business context for the agent",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~35s",
+      "narrative": "- Move into Foundry\n- Choose the model and connect knowledge\n- Define the production deployment path",
+      "demo_actions": "- Open Foundry\n- Show model selection and knowledge connection\n- Define the hosted deployment path",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~30s",
+      "narrative": "- Deploy as a hosted agent\n- Show traces, rubrics, and optimization hooks\n- Move from local testing to managed cloud execution",
+      "demo_actions": "- Show the hosted deployment result\n- Visit traces, rubrics, and optimizer views\n- Emphasize managed cloud execution",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~30s",
+      "narrative": "- Surface the agent in Teams and M365\n- Keep approvals and human review in place\n- Show the agent in the flow of work",
+      "demo_actions": "- Surface the agent in Teams or M365\n- Show approval or sign-off steps\n- Emphasize the flow of work, not another product tour",
+      "screenshot": null
+    }
+  ],
+  "state": "draft",
+  "created_at": "2026-06-09T23:29:04.074806100Z",
+  "updated_at": "2026-06-09T23:29:04.074806400Z"
+}
