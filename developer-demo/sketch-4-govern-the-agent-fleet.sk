@@ -1,7 +1,7 @@
 {
   "title": "Govern the Agent Fleet",
   "locked": false,
-  "description": "Position the Production Planning agent within the governed fleet, show policy and security touchpoints, and hand off into Protect and Observe.",
+  "description": "Move from a single agent to fleet-wide visibility, policy, and governance, then hand off to deeper security and observability coverage.",
   "rows": [
     {
       "locked": false,
@@ -14,9 +14,9 @@
         "design_plan": false
       },
       "time": "~20s",
-      "narrative": "- Shift from building agents to seeing and governing them\n- Open in Agent 365\n- Show the Production Planning agent as part of the broader fleet",
-      "demo_actions": "- Open Agent 365 or A365\n- Show the overview, registry, map, and requests\n- Make the Production Planning agent visible in the broader fleet",
-      "screenshot": null
+      "narrative": "- Shift from building agents to seeing and governing them\n- Open in Agent 365\n- Show the chosen agent as part of the broader fleet",
+      "demo_actions": "- Open Agent 365 or A365\n- Show the overview, registry, map, and requests\n- Make the chosen agent visible in the broader fleet",
+      "screenshot": ".cutready/screenshots/20260610_010358_002_38.jpg"
     },
     {
       "locked": false,
@@ -29,9 +29,24 @@
         "design_plan": false
       },
       "time": "~20s",
-      "narrative": "- Make policy and posture visible\n- Highlight governance state and regulated-business context\n- Keep the healthcare angle as a proof point",
-      "demo_actions": "- Show posture, policy, and governance indicators\n- Highlight any regulated-business context that is visible\n- Keep the healthcare angle brief and concrete",
-      "screenshot": null
+      "narrative": "- Make policy and posture visible\n- Highlight governance state and regulated-business context\n- Keep the industry angle brief and concrete",
+      "demo_actions": "- Show posture, policy, and governance indicators\n- Highlight any regulated-business context that is visible\n- Keep the industry angle brief and concrete",
+      "screenshot": ".cutready/screenshots/20260610_010326_354_30.jpg"
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~20s",
+      "narrative": "- Go back to the GitHub Copilot App to show MDASH run",
+      "demo_actions": "- Open or reference Defender and MDASH\n- Use them as the handoff point\n- End on the bridge into Protect and Observe",
+      "screenshot": ".cutready/screenshots/20260609_180535_vlcsnap-2026-06-09-18h05m29s252.png"
     },
     {
       "locked": false,
@@ -46,25 +61,12 @@
       "time": "~20s",
       "narrative": "- Show security as part of the build and release loop\n- Scan code, validate risky behavior in a sandbox, return findings to developers\n- Fix issues before the agent ships",
       "demo_actions": "- Show the security loop at a high level\n- Cover code scanning, sandbox validation, and returned findings\n- Tie the loop back to the developer workflow",
-      "screenshot": null
-    },
-    {
-      "locked": false,
-      "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
-      },
-      "time": "~20s",
-      "narrative": "- Hand off to Defender and MDASH for deeper investigation\n- Bridge into the next part of the demo\n- Keep this section focused on build, promotion, and governance handoff",
-      "demo_actions": "- Open or reference Defender and MDASH\n- Use them as the handoff point\n- End on the bridge into Protect and Observe",
-      "screenshot": null
+      "screenshot": null,
+      "visual": ".cutready/visuals/ecc6f60b6a05.json",
+      "design_plan": "Narrative goal: make row 3 feel like a real security gate in the agent release lifecycle, showing that security is not an afterthought but a continuous loop between developers and release. Hero metaphor: a secure release orbit, with Microsoft Defender as the central checkpoint and three surrounding stages feeding back into developer fixes. Main objects: 1) title and subtitle centered at the top, 2) left stage card labeled Code Scan with a few simple code-line marks, 3) center hero shield card labeled Defender Release Gate, 4) right stage card labeled Sandbox Validate with a small isolated test chamber motif, 5) bottom stage pill labeled Findings -> Dev Fixes -> Ship that closes the loop. Layout: use the full 960x540 canvas; title at y about 64 and subtitle at y about 102; left card around x 96 y 198 width 200 height 120; center hero card around x 355 y 168 width 250 height 170; right card around x 664 y 198 width 200 height 120; bottom pill centered around x 300 y 392 width 360 height 70. Add 3 arrows: left to center, center to right, right curving down toward bottom pill, and bottom arrow back toward left to imply the loop. Semantic color tokens: $background on scene, $title and $subtitle for framing text, $surface for all cards, $border for outlines, $accent for the center Defender gate and key arrows, $foreground for labels, $muted for supporting text, optional $warning for tiny risk markers in the findings pill. Motion beats: beat 1 title and subtitle fade in; beat 2 left and right stage cards rise in together; beat 3 center Defender gate scales/fades in as the hero; beat 4 arrows draw in; beat 5 bottom findings pill appears and final loop settles readable on screen."
     }
   ],
   "state": "draft",
   "created_at": "2026-06-09T23:29:21.899410Z",
-  "updated_at": "2026-06-09T23:29:21.899410400Z"
+  "updated_at": "2026-06-10T01:05:35.634754100Z"
 }

@@ -1,7 +1,7 @@
 {
   "title": "Improve the Agent",
   "locked": false,
-  "description": "Show the three practical paths to improve the Production Planning agent after deployment, using traces, data, and real usage signals.",
+  "description": "Show practical ways to improve the chosen agent over time using code, data, platform help, and feedback from real usage.",
   "rows": [
     {
       "locked": false,
@@ -13,10 +13,10 @@
         "visual": false,
         "design_plan": false
       },
-      "time": "~20s",
-      "narrative": "- Start from live traces and outcomes\n- Ask how to make the agent better over time\n- Frame three practical improvement paths",
-      "demo_actions": "- Open on traces or quality views\n- Connect directly from the previous sketch\n- Set up the three improvement paths",
-      "screenshot": null
+      "time": "",
+      "narrative": "- Start in A365 and show costs (more on A365 later)",
+      "demo_actions": "- Show costs and motivate how FT can lessen costs",
+      "screenshot": ".cutready/screenshots/20260609_180824_vlcsnap-2026-06-09-18h07m50s721.png"
     },
     {
       "locked": false,
@@ -31,7 +31,7 @@
       "time": "~20s",
       "narrative": "- Path 1: custom code plus custom data\n- Best when tight control matters\n- Shape both logic and grounding directly",
       "demo_actions": "- Show the custom code plus custom data path\n- Point to the relevant code, data, or config artifacts\n- Position this as the high-control option",
-      "screenshot": null
+      "screenshot": ".cutready/screenshots/20260609_175617_vlcsnap-2026-06-09-17h56m08s196.png"
     },
     {
       "locked": false,
@@ -45,8 +45,8 @@
       },
       "time": "~20s",
       "narrative": "- Path 2: your data with Foundry support\n- Use strong domain context already inside the business\n- Improve the agent faster with platform help",
-      "demo_actions": "- Show the Foundry-assisted path\n- Focus on enterprise data improving the agent\n- Keep the example tied to production planning",
-      "screenshot": null
+      "demo_actions": "- Show the Foundry-assisted path\n- Focus on enterprise data improving the agent\n- Keep the example tied to the chosen app scenario",
+      "screenshot": ".cutready/screenshots/20260609_175442_vlcsnap-2026-06-09-17h54m37s970.png"
     },
     {
       "locked": false,
@@ -61,7 +61,7 @@
       "time": "~20s",
       "narrative": "- Path 3: M365 feedback and reinforcement loops\n- Learn from real usage, approvals, and outcomes\n- Improve behavior in the flow of work",
       "demo_actions": "- Show the M365 feedback-driven path\n- Highlight approvals, feedback, or reinforcement signals\n- Keep the emphasis on real usage",
-      "screenshot": null
+      "screenshot": ".cutready/screenshots/20260609_175643_vlcsnap-2026-06-09-17h56m39s221.png"
     },
     {
       "locked": false,
@@ -76,10 +76,12 @@
       "time": "~15s",
       "narrative": "- Summarize the three paths\n- Reinforce that this is now a managed, improvable agent\n- Bridge to fleet visibility and governance",
       "demo_actions": "- Summarize the three paths\n- Reinforce that the agent is now managed and improvable\n- Tee up the governance sketch",
-      "screenshot": null
+      "screenshot": null,
+      "visual": ".cutready/visuals/b4d7165ea3de.json",
+      "design_plan": "Simple placeholder visual, intentionally minimal. Narrative goal: summarize the three improvement paths, show they converge into one managed agent, and lightly hint at governance next. Hero metaphor: three small source cards feeding one larger managed agent card. Main objects: 1) title centered at top, 2) short subtitle beneath it, 3) three small rounded cards in a row on the left and center labeled Code + Data, Foundry, and M365 Feedback, 4) one larger hero card on the right labeled Managed Agent, 5) one small pill badge below the hero card that hints at Governance next. Layout: use the full 960x540 canvas with lots of breathing room; title around y 70, subtitle around y 105; three small cards around x 70, 250, 430 and y 220; hero card on the right around x 675 y 190; small governance badge below it around y 380. Colors: scene background $background; title in $title; subtitle in $subtitle; cards in $surface with $border; hero card accented with $accent; body labels in $foreground; supporting hint in $muted. Motion beats: very light stagger only -- title/subtitle fade in, then three cards, then simple arrows, then hero card, then governance badge."
     }
   ],
   "state": "draft",
   "created_at": "2026-06-09T23:29:13.061106400Z",
-  "updated_at": "2026-06-09T23:29:13.061106900Z"
+  "updated_at": "2026-06-10T01:08:24.973880700Z"
 }

@@ -1,0 +1,496 @@
+{
+  "defaultStateMachine": "main",
+  "elements": {
+    "agent-card": {
+      "id": "agent-card",
+      "intent": {
+        "importance": "primary",
+        "role": "step"
+      },
+      "props": {
+        "fill": "$surface",
+        "height": 132,
+        "opacity": 0,
+        "rx": 18,
+        "stroke": "$border",
+        "strokeWidth": 2,
+        "type": "rect",
+        "width": 220,
+        "x": 110,
+        "y": 200
+      },
+      "type": "rect"
+    },
+    "agent-label": {
+      "id": "agent-label",
+      "intent": {
+        "importance": "primary",
+        "role": "label"
+      },
+      "props": {
+        "content": "Local agent",
+        "fill": "$foreground",
+        "fontSize": 26,
+        "fontWeight": "800",
+        "opacity": 0,
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 220,
+        "y": 248
+      },
+      "type": "text"
+    },
+    "agent-sub": {
+      "id": "agent-sub",
+      "intent": {
+        "importance": "supporting",
+        "role": "label"
+      },
+      "props": {
+        "content": "attempted action",
+        "fill": "$muted",
+        "fontSize": 18,
+        "fontWeight": "600",
+        "opacity": 0,
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 220,
+        "y": 282
+      },
+      "type": "text"
+    },
+    "attempt-arrow": {
+      "id": "attempt-arrow",
+      "intent": {
+        "importance": "supporting",
+        "role": "connector"
+      },
+      "props": {
+        "headSize": 12,
+        "opacity": 0,
+        "stroke": "$warning",
+        "strokeWidth": 4,
+        "type": "arrow",
+        "x1": 340,
+        "x2": 430,
+        "y1": 266,
+        "y2": 266
+      },
+      "type": "arrow"
+    },
+    "barrier-line": {
+      "id": "barrier-line",
+      "intent": {
+        "importance": "primary",
+        "role": "connector"
+      },
+      "props": {
+        "opacity": 0,
+        "stroke": "$warning",
+        "strokeWidth": 4,
+        "type": "line",
+        "x1": 480,
+        "x2": 480,
+        "y1": 180,
+        "y2": 360
+      },
+      "type": "line"
+    },
+    "guardrail-pill": {
+      "id": "guardrail-pill",
+      "intent": {
+        "importance": "supporting",
+        "role": "container"
+      },
+      "props": {
+        "fill": "$surface",
+        "height": 36,
+        "opacity": 0,
+        "rx": 18,
+        "stroke": "$warning",
+        "strokeWidth": 2,
+        "type": "rect",
+        "width": 120,
+        "x": 420,
+        "y": 378
+      },
+      "type": "rect"
+    },
+    "stop-circle": {
+      "id": "stop-circle",
+      "intent": {
+        "importance": "primary",
+        "role": "hero"
+      },
+      "props": {
+        "cx": 480,
+        "cy": 266,
+        "fill": "$warning",
+        "opacity": 0,
+        "r": 34,
+        "type": "circle"
+      },
+      "type": "circle"
+    },
+    "stop-text": {
+      "id": "stop-text",
+      "intent": {
+        "importance": "primary",
+        "role": "label"
+      },
+      "props": {
+        "content": "STOP",
+        "fill": "$background",
+        "fontSize": 16,
+        "fontWeight": "900",
+        "opacity": 0,
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 480,
+        "y": 273
+      },
+      "type": "text"
+    },
+    "subtitle": {
+      "id": "subtitle",
+      "intent": {
+        "importance": "secondary",
+        "role": "subtitle"
+      },
+      "props": {
+        "content": "Risky action meets containment and guardrails",
+        "fill": "$subtitle",
+        "fontSize": 20,
+        "fontWeight": "600",
+        "opacity": 0,
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 480,
+        "y": 118
+      },
+      "type": "text"
+    },
+    "target-card": {
+      "id": "target-card",
+      "intent": {
+        "importance": "secondary",
+        "role": "step"
+      },
+      "props": {
+        "fill": "$surface",
+        "height": 132,
+        "opacity": 0,
+        "rx": 18,
+        "stroke": "$border",
+        "strokeWidth": 2,
+        "type": "rect",
+        "width": 220,
+        "x": 630,
+        "y": 200
+      },
+      "type": "rect"
+    },
+    "target-label": {
+      "id": "target-label",
+      "intent": {
+        "importance": "secondary",
+        "role": "label"
+      },
+      "props": {
+        "content": "Restricted target",
+        "fill": "$foreground",
+        "fontSize": 24,
+        "fontWeight": "800",
+        "opacity": 0,
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 740,
+        "y": 248
+      },
+      "type": "text"
+    },
+    "target-sub": {
+      "id": "target-sub",
+      "intent": {
+        "importance": "supporting",
+        "role": "label"
+      },
+      "props": {
+        "content": "blocked by boundary",
+        "fill": "$muted",
+        "fontSize": 18,
+        "fontWeight": "600",
+        "opacity": 0,
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 740,
+        "y": 282
+      },
+      "type": "text"
+    },
+    "title": {
+      "id": "title",
+      "intent": {
+        "importance": "primary",
+        "role": "title"
+      },
+      "props": {
+        "content": "Working on visual",
+        "fill": "$title",
+        "fontSize": 40,
+        "fontWeight": "900",
+        "opacity": 0,
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 480,
+        "y": 82
+      },
+      "type": "text"
+    }
+  },
+  "scene": {
+    "background": "$background",
+    "children": [
+      "title",
+      "subtitle",
+      "agent-card",
+      "agent-label",
+      "agent-sub",
+      "attempt-arrow",
+      "barrier-line",
+      "stop-circle",
+      "stop-text",
+      "guardrail-pill",
+      "target-card",
+      "target-label",
+      "target-sub"
+    ],
+    "fps": 30,
+    "height": 540,
+    "type": "player",
+    "width": 960
+  },
+  "stateMachines": {
+    "main": {
+      "entry": "intro",
+      "id": "main",
+      "states": {
+        "intro": {
+          "timeline": "intro"
+        }
+      },
+      "transitions": [
+        {
+          "from": "entry",
+          "id": "entry-start",
+          "to": "intro",
+          "trigger": "onStart"
+        }
+      ]
+    }
+  },
+  "timelines": {
+    "intro": {
+      "duration": 72,
+      "id": "intro",
+      "tracks": [
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 8,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "title"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 4,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 12,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "subtitle"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 10,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 18,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "agent-card"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 12,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 20,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "agent-label"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 14,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 22,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "agent-sub"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 20,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 28,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "attempt-arrow"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 24,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 32,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "barrier-line"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 26,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 34,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "stop-circle"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 28,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 36,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "stop-text"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 30,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 38,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "guardrail-pill"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 34,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 42,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "target-card"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 36,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 44,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "target-label"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 38,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 46,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "target-sub"
+        }
+      ]
+    }
+  },
+  "version": "2.0"
+}

@@ -1,0 +1,981 @@
+{
+  "defaultStateMachine": "main",
+  "elements": {
+    "arrow-center-right": {
+      "id": "arrow-center-right",
+      "intent": {
+        "importance": "supporting",
+        "role": "connector"
+      },
+      "props": {
+        "headSize": 10,
+        "opacity": 0,
+        "stroke": "$accent",
+        "strokeWidth": 3,
+        "type": "arrow",
+        "x1": 605,
+        "x2": 664,
+        "y1": 258,
+        "y2": 258
+      },
+      "type": "arrow"
+    },
+    "arrow-left-center": {
+      "id": "arrow-left-center",
+      "intent": {
+        "importance": "supporting",
+        "role": "connector"
+      },
+      "props": {
+        "headSize": 10,
+        "opacity": 0,
+        "stroke": "$accent",
+        "strokeWidth": 3,
+        "type": "arrow",
+        "x1": 296,
+        "x2": 355,
+        "y1": 258,
+        "y2": 258
+      },
+      "type": "arrow"
+    },
+    "arrow-return": {
+      "id": "arrow-return",
+      "intent": {
+        "importance": "supporting",
+        "role": "connector"
+      },
+      "props": {
+        "headSize": 10,
+        "opacity": 0,
+        "stroke": "$accent",
+        "strokeWidth": 3,
+        "type": "arrow",
+        "x1": 300,
+        "x2": 196,
+        "y1": 427,
+        "y2": 318
+      },
+      "type": "arrow"
+    },
+    "bottom-label": {
+      "id": "bottom-label",
+      "props": {
+        "content": "Findings -> Dev Fixes -> Ship",
+        "fill": "$foreground",
+        "fontSize": 22,
+        "fontWeight": "800",
+        "opacity": 0,
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 480,
+        "y": 420
+      },
+      "type": "text"
+    },
+    "bottom-pill": {
+      "id": "bottom-pill",
+      "intent": {
+        "importance": "secondary",
+        "role": "step"
+      },
+      "props": {
+        "fill": "$surface",
+        "height": 70,
+        "opacity": 0,
+        "rx": 35,
+        "stroke": "$border",
+        "strokeWidth": 2,
+        "type": "rect",
+        "width": 360,
+        "x": 300,
+        "y": 392
+      },
+      "type": "rect"
+    },
+    "bottom-sub": {
+      "id": "bottom-sub",
+      "props": {
+        "content": "issues return before release",
+        "fill": "$muted",
+        "fontSize": 16,
+        "fontWeight": "600",
+        "opacity": 0,
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 480,
+        "y": 444
+      },
+      "type": "text"
+    },
+    "center-card": {
+      "id": "center-card",
+      "intent": {
+        "importance": "primary",
+        "role": "hero"
+      },
+      "props": {
+        "fill": "$surface",
+        "height": 170,
+        "opacity": 0,
+        "rx": 24,
+        "stroke": "$accent",
+        "strokeWidth": 3,
+        "type": "rect",
+        "width": 250,
+        "x": 355,
+        "y": 168
+      },
+      "type": "rect"
+    },
+    "center-label": {
+      "id": "center-label",
+      "props": {
+        "content": "Defender Release Gate",
+        "fill": "$title",
+        "fontSize": 26,
+        "fontWeight": "900",
+        "opacity": 0,
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 480,
+        "y": 238
+      },
+      "type": "text"
+    },
+    "center-sub": {
+      "id": "center-sub",
+      "props": {
+        "content": "policy + behavior checks",
+        "fill": "$muted",
+        "fontSize": 17,
+        "fontWeight": "600",
+        "opacity": 0,
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 480,
+        "y": 318
+      },
+      "type": "text"
+    },
+    "left-card": {
+      "id": "left-card",
+      "intent": {
+        "importance": "secondary",
+        "role": "step"
+      },
+      "props": {
+        "fill": "$surface",
+        "height": 120,
+        "opacity": 0,
+        "rx": 18,
+        "stroke": "$border",
+        "strokeWidth": 2,
+        "type": "rect",
+        "width": 200,
+        "x": 96,
+        "y": 198
+      },
+      "type": "rect"
+    },
+    "left-label": {
+      "id": "left-label",
+      "props": {
+        "content": "Code Scan",
+        "fill": "$foreground",
+        "fontSize": 24,
+        "fontWeight": "800",
+        "opacity": 0,
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 196,
+        "y": 238
+      },
+      "type": "text"
+    },
+    "left-line-1": {
+      "id": "left-line-1",
+      "props": {
+        "opacity": 0,
+        "stroke": "$accent",
+        "strokeWidth": 3,
+        "type": "line",
+        "x1": 138,
+        "x2": 254,
+        "y1": 286,
+        "y2": 286
+      },
+      "type": "line"
+    },
+    "left-line-2": {
+      "id": "left-line-2",
+      "props": {
+        "opacity": 0,
+        "stroke": "$border",
+        "strokeWidth": 3,
+        "type": "line",
+        "x1": 138,
+        "x2": 236,
+        "y1": 297,
+        "y2": 297
+      },
+      "type": "line"
+    },
+    "left-line-3": {
+      "id": "left-line-3",
+      "props": {
+        "opacity": 0,
+        "stroke": "$border",
+        "strokeWidth": 3,
+        "type": "line",
+        "x1": 138,
+        "x2": 246,
+        "y1": 308,
+        "y2": 308
+      },
+      "type": "line"
+    },
+    "left-sub": {
+      "id": "left-sub",
+      "props": {
+        "content": "pre-ship review",
+        "fill": "$muted",
+        "fontSize": 16,
+        "fontWeight": "600",
+        "opacity": 0,
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 196,
+        "y": 267
+      },
+      "type": "text"
+    },
+    "loop-down-1": {
+      "id": "loop-down-1",
+      "props": {
+        "opacity": 0,
+        "stroke": "$accent",
+        "strokeWidth": 3,
+        "type": "line",
+        "x1": 764,
+        "x2": 764,
+        "y1": 318,
+        "y2": 374
+      },
+      "type": "line"
+    },
+    "loop-down-2": {
+      "id": "loop-down-2",
+      "props": {
+        "opacity": 0,
+        "stroke": "$accent",
+        "strokeWidth": 3,
+        "type": "line",
+        "x1": 764,
+        "x2": 660,
+        "y1": 374,
+        "y2": 374
+      },
+      "type": "line"
+    },
+    "right-box": {
+      "id": "right-box",
+      "props": {
+        "fill": "rgba(0,0,0,0)",
+        "height": 26,
+        "opacity": 0,
+        "rx": 8,
+        "stroke": "$accent",
+        "strokeWidth": 2,
+        "type": "rect",
+        "width": 82,
+        "x": 723,
+        "y": 282
+      },
+      "type": "rect"
+    },
+    "right-card": {
+      "id": "right-card",
+      "intent": {
+        "importance": "secondary",
+        "role": "step"
+      },
+      "props": {
+        "fill": "$surface",
+        "height": 120,
+        "opacity": 0,
+        "rx": 18,
+        "stroke": "$border",
+        "strokeWidth": 2,
+        "type": "rect",
+        "width": 200,
+        "x": 664,
+        "y": 198
+      },
+      "type": "rect"
+    },
+    "right-grid-h": {
+      "id": "right-grid-h",
+      "props": {
+        "opacity": 0,
+        "stroke": "$border",
+        "strokeWidth": 2,
+        "type": "line",
+        "x1": 723,
+        "x2": 805,
+        "y1": 295,
+        "y2": 295
+      },
+      "type": "line"
+    },
+    "right-grid-v": {
+      "id": "right-grid-v",
+      "props": {
+        "opacity": 0,
+        "stroke": "$border",
+        "strokeWidth": 2,
+        "type": "line",
+        "x1": 764,
+        "x2": 764,
+        "y1": 282,
+        "y2": 308
+      },
+      "type": "line"
+    },
+    "right-label": {
+      "id": "right-label",
+      "props": {
+        "content": "Sandbox Validate",
+        "fill": "$foreground",
+        "fontSize": 22,
+        "fontWeight": "800",
+        "opacity": 0,
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 764,
+        "y": 238
+      },
+      "type": "text"
+    },
+    "right-sub": {
+      "id": "right-sub",
+      "props": {
+        "content": "risky actions isolated",
+        "fill": "$muted",
+        "fontSize": 16,
+        "fontWeight": "600",
+        "opacity": 0,
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 764,
+        "y": 267
+      },
+      "type": "text"
+    },
+    "shield-inner": {
+      "id": "shield-inner",
+      "props": {
+        "fill": "$background",
+        "opacity": 0,
+        "points": [
+          [
+            480,
+            217
+          ],
+          [
+            516,
+            230
+          ],
+          [
+            510,
+            270
+          ],
+          [
+            480,
+            292
+          ],
+          [
+            450,
+            270
+          ],
+          [
+            444,
+            230
+          ]
+        ],
+        "type": "polygon"
+      },
+      "type": "polygon"
+    },
+    "shield-outer": {
+      "id": "shield-outer",
+      "props": {
+        "fill": "$accent",
+        "opacity": 0,
+        "points": [
+          [
+            480,
+            202
+          ],
+          [
+            530,
+            220
+          ],
+          [
+            522,
+            276
+          ],
+          [
+            480,
+            308
+          ],
+          [
+            438,
+            276
+          ],
+          [
+            430,
+            220
+          ]
+        ],
+        "type": "polygon"
+      },
+      "type": "polygon"
+    },
+    "subtitle": {
+      "id": "subtitle",
+      "intent": {
+        "importance": "secondary",
+        "role": "subtitle"
+      },
+      "props": {
+        "content": "scan code, validate behavior, return findings before ship",
+        "fill": "$subtitle",
+        "fontSize": 20,
+        "fontWeight": "600",
+        "opacity": 0,
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 480,
+        "y": 100
+      },
+      "type": "text"
+    },
+    "title": {
+      "id": "title",
+      "intent": {
+        "importance": "primary",
+        "role": "title"
+      },
+      "props": {
+        "content": "Security in the agent release loop",
+        "fill": "$title",
+        "fontSize": 38,
+        "fontWeight": "900",
+        "opacity": 0,
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 480,
+        "y": 64
+      },
+      "type": "text"
+    },
+    "warning-dot": {
+      "id": "warning-dot",
+      "props": {
+        "cx": 334,
+        "cy": 427,
+        "fill": "$warning",
+        "opacity": 0,
+        "r": 7,
+        "type": "circle"
+      },
+      "type": "circle"
+    }
+  },
+  "scene": {
+    "background": "$background",
+    "children": [
+      "title",
+      "subtitle",
+      "left-card",
+      "left-label",
+      "left-sub",
+      "left-line-1",
+      "left-line-2",
+      "left-line-3",
+      "center-card",
+      "shield-outer",
+      "shield-inner",
+      "center-label",
+      "center-sub",
+      "right-card",
+      "right-label",
+      "right-sub",
+      "right-box",
+      "right-grid-v",
+      "right-grid-h",
+      "arrow-left-center",
+      "arrow-center-right",
+      "loop-down-1",
+      "loop-down-2",
+      "bottom-pill",
+      "bottom-label",
+      "bottom-sub",
+      "warning-dot",
+      "arrow-return"
+    ],
+    "fps": 30,
+    "height": 540,
+    "type": "player",
+    "width": 960
+  },
+  "stateMachines": {
+    "main": {
+      "entry": "intro",
+      "id": "main",
+      "states": {
+        "intro": {
+          "timeline": "intro"
+        }
+      },
+      "transitions": [
+        {
+          "from": "entry",
+          "id": "entry-start",
+          "to": "intro",
+          "trigger": "onStart"
+        }
+      ]
+    }
+  },
+  "timelines": {
+    "intro": {
+      "duration": 96,
+      "id": "intro",
+      "tracks": [
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 8,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "title"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 4,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 14,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "subtitle"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 14,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 24,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "left-card"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 16,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 26,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "left-label"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 18,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 28,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "left-sub"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 20,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 30,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "left-line-1"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 22,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 32,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "left-line-2"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 24,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 34,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "left-line-3"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 14,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 24,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "right-card"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 16,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 26,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "right-label"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 18,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 28,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "right-sub"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 20,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 30,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "right-box"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 22,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 32,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "right-grid-v"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 24,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 34,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "right-grid-h"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 28,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 40,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "center-card"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 30,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 42,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "shield-outer"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 32,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 44,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "shield-inner"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 34,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 46,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "center-label"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 36,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 48,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "center-sub"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 44,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 52,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "arrow-left-center"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 48,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 56,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "arrow-center-right"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 54,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 62,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "loop-down-1"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 58,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 66,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "loop-down-2"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 62,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 72,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "bottom-pill"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 66,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 76,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "bottom-label"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 68,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 78,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "bottom-sub"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 68,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 78,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "warning-dot"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 72,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 84,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "arrow-return"
+        }
+      ]
+    }
+  },
+  "version": "2.0"
+}

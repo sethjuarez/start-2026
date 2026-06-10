@@ -1,7 +1,7 @@
 {
   "title": "Promote the Agent to the Cloud",
   "locked": false,
-  "description": "Take the Production Planning agent from local development in VS Code to hosted cloud execution with grounding, traces, and managed deployment.",
+  "description": "Take the selected agentic component from the app portfolio, run it locally, enrich it with business context, and promote it to managed cloud execution.",
   "rows": [
     {
       "locked": false,
@@ -14,9 +14,9 @@
         "design_plan": false
       },
       "time": "~25s",
-      "narrative": "- Pick up the same Production Planning agent in code\n- Start in VS Code with the first version from the Operations BRD\n- Run it locally before promoting it",
-      "demo_actions": "- Open VS Code with the local Production Planning agent\n- Tie it back to the prior project context\n- Show that it already fits the supply chain scenario",
-      "screenshot": null
+      "narrative": "- Pick up the selected agentic component in code\n- Start in VS Code with the first version chosen in the prior triage\n- Run it locally before promoting it",
+      "demo_actions": "- Open VS Code with the local agent, skill, or app extension\n- Tie it back to the prior portfolio triage\n- Show that this is the first chosen implementation target",
+      "screenshot": ".cutready/screenshots/20260609_174128_vlcsnap-2026-06-09-17h41m16s130.png"
     },
     {
       "locked": false,
@@ -29,9 +29,9 @@
         "design_plan": false
       },
       "time": "~30s",
-      "narrative": "- Show the local agent doing useful work\n- Pull together plant, capacity, and materials context\n- Suggest run-order changes with risks visible",
-      "demo_actions": "- Run the local agent\n- Show outputs tied to capacity, materials, and equipment constraints\n- Highlight optimized run-order suggestions",
-      "screenshot": null
+      "narrative": "- Show the local agent doing useful work\n- Pull together the relevant business and operational context\n- Make the proposed action or recommendation visible",
+      "demo_actions": "- Run the local agent\n- Show outputs tied to the chosen app scenario\n- Highlight the recommendation, action, or decision support it provides",
+      "screenshot": ".cutready/screenshots/20260609_174206_vlcsnap-2026-06-09-17h41m58s763.png"
     },
     {
       "locked": false,
@@ -46,7 +46,24 @@
       "time": "~25s",
       "narrative": "- Trigger a risky action\n- Show Windows and MxC containment\n- Make the security boundary visible",
       "demo_actions": "- Attempt a bad or disallowed action\n- Show the containment or policy boundary\n- Make the Windows, Scout, or MxC guardrail visible",
-      "screenshot": null
+      "screenshot": null,
+      "visual": ".cutready/visuals/f24ed06788cd.json",
+      "design_plan": "Placeholder visual only. Narrative goal: briefly signal that this row is about a risky action being stopped by containment. Hero metaphor: a blocked boundary wall between a local agent box on the left and a restricted zone on the right, with a simple guardrail badge in the middle. Main objects: 1) title at top saying Working on visual, 2) subtitle noting risky action and containment, 3) left local agent card, 4) center boundary/stop marker labeled MxC / Guardrail, 5) right restricted target card. Layout: title and subtitle centered near top; left card around x 140 y 220; center stop/boundary around x 480 y 270; right card around x 650 y 220. Colors: scene background $background, title $title, subtitle $subtitle, cards $surface with $border, key warning accent via $warning, labels $foreground and $muted. Motion beats: quick fade in title, then left card, then center blocked boundary, then right target with a short arrow that appears and stops before crossing the boundary."
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "",
+      "narrative": "- Add toolbox support and IQ grounding\n- Connect internal knowledge and external context",
+      "demo_actions": "- Introduce toolbox\n- Add the relevant IQs",
+      "screenshot": ".cutready/screenshots/20260610_005217_668_27.jpg"
     },
     {
       "locked": false,
@@ -59,24 +76,9 @@
         "design_plan": false
       },
       "time": "~35s",
-      "narrative": "- Add toolbox support and IQ grounding\n- Connect internal knowledge and external context\n- Show how the agent gets better business context",
-      "demo_actions": "- Introduce toolbox\n- Add the relevant IQs\n- Tie each addition to better business context for the agent",
-      "screenshot": null
-    },
-    {
-      "locked": false,
-      "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
-      },
-      "time": "~35s",
-      "narrative": "- Move into Foundry\n- Choose the model and connect knowledge\n- Define the production deployment path",
-      "demo_actions": "- Open Foundry\n- Show model selection and knowledge connection\n- Define the hosted deployment path",
-      "screenshot": null
+      "narrative": "- Show how the agent gets better business context",
+      "demo_actions": "- Tie each addition to better business context for the agent",
+      "screenshot": ".cutready/screenshots/20260609_175250_vlcsnap-2026-06-09-17h52m41s752.png"
     },
     {
       "locked": false,
@@ -91,7 +93,7 @@
       "time": "~30s",
       "narrative": "- Deploy as a hosted agent\n- Show traces, rubrics, and optimization hooks\n- Move from local testing to managed cloud execution",
       "demo_actions": "- Show the hosted deployment result\n- Visit traces, rubrics, and optimizer views\n- Emphasize managed cloud execution",
-      "screenshot": null
+      "screenshot": ".cutready/screenshots/20260609_175355_vlcsnap-2026-06-09-17h53m50s045.png"
     },
     {
       "locked": false,
@@ -106,10 +108,10 @@
       "time": "~30s",
       "narrative": "- Surface the agent in Teams and M365\n- Keep approvals and human review in place\n- Show the agent in the flow of work",
       "demo_actions": "- Surface the agent in Teams or M365\n- Show approval or sign-off steps\n- Emphasize the flow of work, not another product tour",
-      "screenshot": null
+      "screenshot": ".cutready/screenshots/20260609_175413_vlcsnap-2026-06-09-17h54m08s931.png"
     }
   ],
   "state": "draft",
   "created_at": "2026-06-09T23:29:04.074806100Z",
-  "updated_at": "2026-06-09T23:29:04.074806400Z"
+  "updated_at": "2026-06-10T00:54:13.682972600Z"
 }

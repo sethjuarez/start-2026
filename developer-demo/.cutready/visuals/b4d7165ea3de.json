@@ -1,0 +1,643 @@
+{
+  "defaultStateMachine": "main",
+  "elements": {
+    "agent-card": {
+      "id": "agent-card",
+      "intent": {
+        "importance": "primary",
+        "role": "hero"
+      },
+      "layout": {
+        "zIndex": 11
+      },
+      "props": {
+        "fill": "$surface",
+        "height": 150,
+        "rx": 20,
+        "stroke": "$accent",
+        "strokeWidth": 3,
+        "type": "rect",
+        "width": 200,
+        "x": 675,
+        "y": 190
+      },
+      "type": "rect"
+    },
+    "agent-label": {
+      "id": "agent-label",
+      "intent": {
+        "importance": "primary",
+        "role": "label"
+      },
+      "layout": {
+        "zIndex": 12
+      },
+      "props": {
+        "content": "Managed Agent",
+        "fill": "$title",
+        "fontSize": 26,
+        "fontWeight": "900",
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 775,
+        "y": 246
+      },
+      "type": "text"
+    },
+    "agent-sub": {
+      "id": "agent-sub",
+      "intent": {
+        "importance": "supporting",
+        "role": "label"
+      },
+      "layout": {
+        "zIndex": 13
+      },
+      "props": {
+        "content": "ready to govern",
+        "fill": "$muted",
+        "fontSize": 18,
+        "fontWeight": "600",
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 775,
+        "y": 280
+      },
+      "type": "text"
+    },
+    "gov-badge": {
+      "id": "gov-badge",
+      "intent": {
+        "importance": "supporting",
+        "role": "container"
+      },
+      "layout": {
+        "zIndex": 14
+      },
+      "props": {
+        "fill": "$surface",
+        "height": 38,
+        "rx": 19,
+        "stroke": "$border",
+        "strokeWidth": 2,
+        "type": "rect",
+        "width": 120,
+        "x": 715,
+        "y": 378
+      },
+      "type": "rect"
+    },
+    "gov-text": {
+      "id": "gov-text",
+      "intent": {
+        "importance": "supporting",
+        "role": "label"
+      },
+      "layout": {
+        "zIndex": 15
+      },
+      "props": {
+        "content": "Governance next",
+        "fill": "$foreground",
+        "fontSize": 16,
+        "fontWeight": "700",
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 775,
+        "y": 402
+      },
+      "type": "text"
+    },
+    "path-1-card": {
+      "id": "path-1-card",
+      "intent": {
+        "importance": "secondary",
+        "role": "step"
+      },
+      "layout": {
+        "zIndex": 2
+      },
+      "props": {
+        "fill": "$surface",
+        "height": 86,
+        "rx": 16,
+        "stroke": "$border",
+        "strokeWidth": 2,
+        "type": "rect",
+        "width": 150,
+        "x": 70,
+        "y": 220
+      },
+      "type": "rect"
+    },
+    "path-1-label": {
+      "id": "path-1-label",
+      "intent": {
+        "importance": "secondary",
+        "role": "label"
+      },
+      "layout": {
+        "zIndex": 3
+      },
+      "props": {
+        "content": "Code + Data",
+        "fill": "$foreground",
+        "fontSize": 20,
+        "fontWeight": "800",
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 145,
+        "y": 268
+      },
+      "type": "text"
+    },
+    "path-2-card": {
+      "id": "path-2-card",
+      "intent": {
+        "importance": "secondary",
+        "role": "step"
+      },
+      "layout": {
+        "zIndex": 4
+      },
+      "props": {
+        "fill": "$surface",
+        "height": 86,
+        "rx": 16,
+        "stroke": "$border",
+        "strokeWidth": 2,
+        "type": "rect",
+        "width": 150,
+        "x": 250,
+        "y": 220
+      },
+      "type": "rect"
+    },
+    "path-2-label": {
+      "id": "path-2-label",
+      "intent": {
+        "importance": "secondary",
+        "role": "label"
+      },
+      "layout": {
+        "zIndex": 5
+      },
+      "props": {
+        "content": "Foundry",
+        "fill": "$foreground",
+        "fontSize": 20,
+        "fontWeight": "800",
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 325,
+        "y": 268
+      },
+      "type": "text"
+    },
+    "path-3-card": {
+      "id": "path-3-card",
+      "intent": {
+        "importance": "secondary",
+        "role": "step"
+      },
+      "layout": {
+        "zIndex": 6
+      },
+      "props": {
+        "fill": "$surface",
+        "height": 86,
+        "rx": 16,
+        "stroke": "$border",
+        "strokeWidth": 2,
+        "type": "rect",
+        "width": 170,
+        "x": 430,
+        "y": 220
+      },
+      "type": "rect"
+    },
+    "path-3-label": {
+      "id": "path-3-label",
+      "intent": {
+        "importance": "secondary",
+        "role": "label"
+      },
+      "layout": {
+        "zIndex": 7
+      },
+      "props": {
+        "content": "M365 Feedback",
+        "fill": "$foreground",
+        "fontSize": 18,
+        "fontWeight": "800",
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 515,
+        "y": 268
+      },
+      "type": "text"
+    },
+    "subtitle": {
+      "id": "subtitle",
+      "intent": {
+        "importance": "secondary",
+        "role": "subtitle"
+      },
+      "layout": {
+        "zIndex": 1
+      },
+      "props": {
+        "content": "All paths converge on one managed agent",
+        "fill": "$subtitle",
+        "fontSize": 20,
+        "fontWeight": "600",
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 480,
+        "y": 106
+      },
+      "type": "text"
+    },
+    "title": {
+      "id": "title",
+      "intent": {
+        "importance": "primary",
+        "role": "title"
+      },
+      "layout": {
+        "zIndex": 0
+      },
+      "props": {
+        "content": "Three ways to improve the agent",
+        "fill": "$title",
+        "fontSize": 36,
+        "fontWeight": "900",
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 480,
+        "y": 72
+      },
+      "type": "text"
+    },
+    "to-agent-1": {
+      "id": "to-agent-1",
+      "intent": {
+        "importance": "supporting",
+        "role": "connector"
+      },
+      "layout": {
+        "zIndex": 8
+      },
+      "props": {
+        "headSize": 9,
+        "stroke": "$border",
+        "strokeWidth": 2,
+        "type": "arrow",
+        "x1": 220,
+        "x2": 660,
+        "y1": 263,
+        "y2": 254
+      },
+      "type": "arrow"
+    },
+    "to-agent-2": {
+      "id": "to-agent-2",
+      "intent": {
+        "importance": "supporting",
+        "role": "connector"
+      },
+      "layout": {
+        "zIndex": 9
+      },
+      "props": {
+        "headSize": 9,
+        "stroke": "$border",
+        "strokeWidth": 2,
+        "type": "arrow",
+        "x1": 400,
+        "x2": 660,
+        "y1": 263,
+        "y2": 272
+      },
+      "type": "arrow"
+    },
+    "to-agent-3": {
+      "id": "to-agent-3",
+      "intent": {
+        "importance": "supporting",
+        "role": "connector"
+      },
+      "layout": {
+        "zIndex": 10
+      },
+      "props": {
+        "headSize": 9,
+        "stroke": "$accent",
+        "strokeWidth": 2,
+        "type": "arrow",
+        "x1": 600,
+        "x2": 660,
+        "y1": 263,
+        "y2": 290
+      },
+      "type": "arrow"
+    }
+  },
+  "metadata": {
+    "note": "simple placeholder visual",
+    "polishLevel": "refined"
+  },
+  "scene": {
+    "background": "$background",
+    "children": [
+      "title",
+      "subtitle",
+      "path-1-card",
+      "path-1-label",
+      "path-2-card",
+      "path-2-label",
+      "path-3-card",
+      "path-3-label",
+      "to-agent-1",
+      "to-agent-2",
+      "to-agent-3",
+      "agent-card",
+      "agent-label",
+      "agent-sub",
+      "gov-badge",
+      "gov-text"
+    ],
+    "fps": 30,
+    "height": 540,
+    "type": "player",
+    "width": 960
+  },
+  "stateMachines": {
+    "main": {
+      "entry": "intro",
+      "id": "main",
+      "states": {
+        "intro": {
+          "timeline": "intro"
+        }
+      },
+      "transitions": [
+        {
+          "from": "entry",
+          "id": "entry-start",
+          "to": "intro",
+          "trigger": "onStart"
+        }
+      ]
+    }
+  },
+  "timelines": {
+    "intro": {
+      "duration": 78,
+      "id": "intro",
+      "tracks": [
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 8,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "title"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 4,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 12,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "subtitle"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 12,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 20,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "path-1-card"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 14,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 22,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "path-1-label"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 18,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 26,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "path-2-card"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 20,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 28,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "path-2-label"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 24,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 32,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "path-3-card"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 26,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 34,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "path-3-label"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 32,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 38,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "to-agent-1"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 34,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 40,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "to-agent-2"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 36,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 42,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "to-agent-3"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 40,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 50,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "agent-card"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 44,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 54,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "agent-label"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 46,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 56,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "agent-sub"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 54,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 62,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "gov-badge"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 56,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 64,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "gov-text"
+        }
+      ]
+    }
+  },
+  "version": "2.0"
+}

@@ -16,7 +16,7 @@
       "time": "~20s",
       "narrative": "- Competitor launch creates pressure to respond fast\n- Company already has a portfolio of internal apps\n- Goal is to decide where an agentic update will matter most",
       "demo_actions": "- Open with the business trigger\n- Frame the company as already running several internal apps\n- Set up the need to choose the best insertion point for agentic software",
-      "screenshot": null
+      "screenshot": ".cutready/screenshots/20260610_001556_051_2.jpg"
     },
     {
       "locked": false,
@@ -31,7 +31,7 @@
       "time": "~25s",
       "narrative": "- Start in GitHub Copilot App\n- Use home, my work, automations, and quick chats to orient the team\n- Move quickly from broad status to active software work",
       "demo_actions": "- Tour home, my work, automations, and quick chats\n- Keep the pace brisk\n- Use the app as the team control surface, not a feature tour",
-      "screenshot": null
+      "screenshot": ".cutready/screenshots/20260610_001610_115_6.jpg"
     },
     {
       "locked": false,
@@ -46,7 +46,7 @@
       "time": "~30s",
       "narrative": "- Review the active app collection tied to supply chain and operations\n- Compare where delays, manual work, or planning friction show up\n- Narrow to the app or service with the highest upside",
       "demo_actions": "- Open the active project or app collection\n- Show the relevant apps, services, or repos in play\n- Highlight the one area where agent behavior can help first",
-      "screenshot": null
+      "screenshot": ".cutready/screenshots/20260610_002152_134_10.jpg"
     },
     {
       "locked": false,
@@ -61,7 +61,7 @@
       "time": "~30s",
       "narrative": "- Use sessions, worktrees, rubber duck, and canvas to shape the response\n- Turn portfolio discussion into a concrete engineering path\n- Keep the focus on what needs to change in the chosen app",
       "demo_actions": "- Show sessions and worktrees\n- Briefly visit rubber duck and canvas\n- Use each feature to move from discussion to scoped implementation",
-      "screenshot": null
+      "screenshot": ".cutready/screenshots/20260610_003812_573_14.jpg"
     },
     {
       "locked": false,
@@ -74,12 +74,12 @@
         "design_plan": false
       },
       "time": "~35s",
-      "narrative": "- Land on the first functional addition\n- Identify the Production Planning agent, skill, or Copilot Studio artifact to bring over\n- Use that as the handoff into local development",
-      "demo_actions": "- Land on the concrete next step\n- Show the Production Planning agent, skill, or Copilot Studio artifact\n- End on the handoff into code and agent development",
-      "screenshot": null
+      "narrative": "- Land on the first functional addition\n- Identify the first agent, skill, or Copilot Studio artifact to bring into the engineering flow\n- Use that as the handoff into local development",
+      "demo_actions": "- Land on the concrete next step\n- Show the first agent, skill, or Copilot Studio artifact selected from the app portfolio\n- End on the handoff into code and agent development",
+      "screenshot": ".cutready/screenshots/20260610_003833_787_18.jpg"
     }
   ],
   "state": "draft",
   "created_at": "2026-06-09T23:28:50.824794200Z",
-  "updated_at": "2026-06-09T23:28:50.824794700Z"
+  "updated_at": "2026-06-10T00:38:36.610308200Z"
 }

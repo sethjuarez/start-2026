@@ -1,0 +1,25 @@
+{
+  "title": "Build Chapter",
+  "description": "",
+  "locked": false,
+  "items": [
+    {
+      "type": "sketch_ref",
+      "path": "sketch-1-app-triage-in-github-copilot-app.sk"
+    },
+    {
+      "type": "sketch_ref",
+      "path": "sketch-2-promote-a-local-agent-to-the-cloud.sk"
+    },
+    {
+      "type": "sketch_ref",
+      "path": "sketch-3-improve-the-agent.sk"
+    },
+    {
+      "type": "sketch_ref",
+      "path": "sketch-4-govern-the-agent-fleet.sk"
+    }
+  ],
+  "created_at": "2026-06-10T01:08:45.395280700Z",
+  "updated_at": "2026-06-10T01:09:07.013476800Z"
+}
