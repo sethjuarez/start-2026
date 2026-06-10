@@ -3,6 +3,10 @@
     {
       "path": "developer-demo",
       "name": "developer-demo"
+    },
+    {
+      "path": "full-slate",
+      "name": "full-slate"
     }
   ]
 }
