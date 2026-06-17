@@ -16,7 +16,7 @@
       "time": "~20s",
       "narrative": "We start where the business feels the pressure. More CMO activity means more invoices, more terms to check, and more room for payment mistakes. Waypoint is how Pharma Company reviews those invoices against the full operating record before money goes out the door.",
       "demo_actions": "Open the Waypoint invoices tab. Show a list of invoices with visible statuses: matched, variance, and disputed. Pause on the totals and counts at the top.",
-      "screenshot": ".cutready/screenshots/20260617_171306_850_5.jpg"
+      "screenshot": ".cutready/screenshots/20260617_111154_CleanShot 2026-06-17 at 11.11.27@2x.png"
     },
     {
       "locked": false,
@@ -31,7 +31,7 @@
       "time": "~25s",
       "narrative": "Right away, this is about dollars, not just flags. We can see what is ready to pay, what needs review, and where recovery opportunity or compliance risk is starting to build.",
       "demo_actions": "Point to dollar amounts tied to matched, variance, and disputed invoices. Sort or filter to surface the highest-value exceptions.",
-      "screenshot": null
+      "screenshot": ".cutready/screenshots/20260617_111253_CleanShot 2026-06-17 at 11.11.27@2x.png"
     },
     {
       "locked": false,
@@ -46,7 +46,7 @@
       "time": "~35s",
       "narrative": "Let's open one that matched cleanly. The point is not that the invoice arrived. The point is that Waypoint can show why it should be paid, with the exact evidence behind that decision.",
       "demo_actions": "Open a matched invoice. Walk through invoice lines, contract terms, PO or receipt context, batch records, QA release, milestone status, and approval history.",
-      "screenshot": null
+      "screenshot": ".cutready/screenshots/20260617_111259_CleanShot 2026-06-17 at 11.12.21@2x.png"
     },
     {
       "locked": false,
@@ -61,7 +61,7 @@
       "time": "~40s",
       "narrative": "Now compare that with an invoice that does not line up. Here, Waypoint shows the gap clearly and ties it back to the source record, so the team can act on facts instead of email threads and manual checks.",
       "demo_actions": "Open a variance or disputed invoice. Highlight the specific mismatch, such as rate, quantity, milestone, timing, or release status. Show linked evidence and the system's decision rationale.",
-      "screenshot": null
+      "screenshot": ".cutready/screenshots/20260617_111347_CleanShot 2026-06-17 at 11.13.26@2x.png"
     },
     {
       "locked": false,
@@ -76,7 +76,7 @@
       "time": "~30s",
       "narrative": "This also scales beyond one invoice at a time. We can run reconciliation across the full set with the relevant IQs turned on, so every invoice is checked against the same standard and the same evidence chain.",
       "demo_actions": "Kick off a batch reconciliation, or return to a completed run. Show the enabled IQs and the progress or result summary.",
-      "screenshot": null
+      "screenshot": ".cutready/screenshots/20260617_111427_CleanShot 2026-06-17 at 11.14.06@2x.png"
     },
     {
       "locked": false,
@@ -91,10 +91,10 @@
       "time": "~25s",
       "narrative": "The outcome is a stronger internal invoice assurance process. Pharma Company can pay with more confidence, catch leakage earlier, and keep an audit trail for every decision.",
       "demo_actions": "Return to the invoice list or batch results. Highlight final decisions, linked evidence, and any audit or review history.",
-      "screenshot": null
+      "screenshot": ".cutready/screenshots/20260617_111509_CleanShot 2026-06-17 at 11.14.49@2x.png"
     }
   ],
   "state": "draft",
   "created_at": "2026-06-17T16:56:18.856268Z",
-  "updated_at": "2026-06-17T17:13:10.565187900Z"
+  "updated_at": "2026-06-17T18:15:09.571882Z"
 }
