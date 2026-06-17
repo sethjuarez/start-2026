@@ -31,7 +31,9 @@
       "time": "~20s",
       "narrative": "At the top level, the main surfaces are simple. Home, My Work, Automations, and Chat give us the basic places to build, test, and inspect what the agent is doing.",
       "demo_actions": "Click through Home, My Work, Automations, and Chat. Keep each stop brief.",
-      "screenshot": null
+      "screenshot": null,
+      "visual": ".cutready/visuals/c0fc3402f755.json",
+      "design_plan": "Narrative goal: frame the GitHub Copilot app as a simple top-level control bar with four clear surfaces the presenter clicks through quickly. Hero metaphor: a polished navigation runway, where four destination cards sit along a left-to-right path and one active focus glow moves across them. Main objects: (1) title and subtitle centered at top, (2) a thin top navigation rail spanning the upper-middle canvas, (3) four large destination cards labeled Home, My Work, Automations, and Chat arranged horizontally across the center with Home and My Work on the left half and Automations and Chat on the right half, (4) a subtle bottom caption line reading build, test, inspect to reinforce purpose, (5) three slim connector arrows between the cards to suggest brief click-through progression. Use CutReady tokens: $background for scene, $title for title, $subtitle for subtitle, $surface for cards, $border for rail and card outlines, $accent for the active emphasis and arrows, $foreground for main labels, $muted for secondary micro-labels. Motion beats: beat 1 title/subtitle fade in; beat 2 navigation rail and first card appear; beat 3 cards reveal left-to-right with a slight upward translate; beat 4 accent highlight shifts across the four cards in sequence, each card briefly scaling or brightening to imply the presenter clicking through surfaces; hold on all four visible and balanced. Keep it presentation-grade, minimal, and readable with about 12-18 total elements."
     },
     {
       "locked": false,
@@ -46,7 +48,9 @@
       "time": "~30s",
       "narrative": "Inside the project, the working areas are where the POC comes together. Chat helps us steer the task, rubber duck helps us reason through it, actions shows runnable steps, agent merge manages changes, and canvas is where the agent itself takes shape.",
       "demo_actions": "Show the project-level areas: chat, rubber duck, actions, agent merge, and canvas. Briefly point out each pane.",
-      "screenshot": null
+      "screenshot": null,
+      "visual": ".cutready/visuals/999aea5458b4.json",
+      "design_plan": "Narrative goal: show the five internal work areas of the GitHub Copilot project as the build cockpit where the invoice-review POC comes together. Hero metaphor: a central studio workspace with one large canvas panel supported by four surrounding utility panes. Main objects: (1) title and subtitle centered at the top, (2) one dominant center card labeled Canvas as the hero workspace, (3) two smaller support cards on the left stacked vertically for Chat and Rubber Duck, (4) two smaller support cards on the right stacked vertically for Actions and Agent Merge, (5) light connector lines from each support card into the Canvas to imply all roads feed the agent build. Layout: top title block from y 60-110; center hero panel occupying roughly x 330-630 and y 170-390; left stack at x 90-270 with Chat on top and Rubber Duck below; right stack at x 690-870 with Actions on top and Agent Merge below; a short muted footer label under the center reading steer, reason, run, merge, build. Color tokens: scene background $background; title $title; subtitle $subtitle; hero Canvas border/accent glow in $accent; support card fills $surface with $border strokes; labels in $foreground; footer in $muted; one secondary highlight on Rubber Duck using $secondary if needed for contrast. Motion beats: beat 1 title and subtitle fade in; beat 2 Canvas hero panel appears first with slight scale up; beat 3 left support cards reveal top-to-bottom; beat 4 right support cards reveal top-to-bottom; beat 5 connectors draw/fade in and a subtle emphasis pulse lands on Canvas to show these panes converge into the agent workspace. Keep it polished, sparse, and presentation-grade with about 18-24 total elements and minimal copy."
     },
     {
       "locked": false,

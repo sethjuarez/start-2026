@@ -1,0 +1,920 @@
+{
+  "defaultStateMachine": "main",
+  "elements": {
+    "actions-card": {
+      "id": "actions-card",
+      "intent": {
+        "importance": "secondary",
+        "role": "step"
+      },
+      "props": {
+        "fill": "$surface",
+        "height": 92,
+        "rx": 18,
+        "stroke": "$border",
+        "strokeWidth": 2,
+        "type": "rect",
+        "width": 180,
+        "x": 690,
+        "y": 168
+      },
+      "type": "rect"
+    },
+    "actions-label": {
+      "id": "actions-label",
+      "intent": {
+        "importance": "secondary",
+        "role": "label"
+      },
+      "props": {
+        "content": "Actions",
+        "fill": "$foreground",
+        "fontSize": 24,
+        "fontWeight": "800",
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 780,
+        "y": 205
+      },
+      "type": "text"
+    },
+    "actions-sub": {
+      "id": "actions-sub",
+      "props": {
+        "content": "run",
+        "fill": "$muted",
+        "fontSize": 16,
+        "fontWeight": "600",
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 780,
+        "y": 233
+      },
+      "type": "text"
+    },
+    "canvas-card": {
+      "id": "canvas-card",
+      "intent": {
+        "importance": "primary",
+        "role": "hero"
+      },
+      "props": {
+        "fill": "$surface",
+        "height": 220,
+        "rx": 22,
+        "stroke": "$accent",
+        "strokeWidth": 3,
+        "type": "rect",
+        "width": 300,
+        "x": 330,
+        "y": 160
+      },
+      "type": "rect"
+    },
+    "canvas-inner": {
+      "id": "canvas-inner",
+      "intent": {
+        "importance": "supporting",
+        "role": "container"
+      },
+      "props": {
+        "fill": "rgba(255,255,255,0.03)",
+        "height": 136,
+        "rx": 16,
+        "stroke": "$border",
+        "strokeWidth": 1,
+        "type": "rect",
+        "width": 256,
+        "x": 352,
+        "y": 188
+      },
+      "type": "rect"
+    },
+    "canvas-label": {
+      "id": "canvas-label",
+      "intent": {
+        "importance": "primary",
+        "role": "label"
+      },
+      "props": {
+        "content": "Canvas",
+        "fill": "$title",
+        "fontSize": 30,
+        "fontWeight": "900",
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 480,
+        "y": 248
+      },
+      "type": "text"
+    },
+    "canvas-sub": {
+      "id": "canvas-sub",
+      "props": {
+        "content": "agent takes shape",
+        "fill": "$subtitle",
+        "fontSize": 18,
+        "fontWeight": "600",
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 480,
+        "y": 284
+      },
+      "type": "text"
+    },
+    "chat-card": {
+      "id": "chat-card",
+      "intent": {
+        "importance": "secondary",
+        "role": "step"
+      },
+      "props": {
+        "fill": "$surface",
+        "height": 92,
+        "rx": 18,
+        "stroke": "$border",
+        "strokeWidth": 2,
+        "type": "rect",
+        "width": 180,
+        "x": 90,
+        "y": 168
+      },
+      "type": "rect"
+    },
+    "chat-label": {
+      "id": "chat-label",
+      "intent": {
+        "importance": "secondary",
+        "role": "label"
+      },
+      "props": {
+        "content": "Chat",
+        "fill": "$foreground",
+        "fontSize": 24,
+        "fontWeight": "800",
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 180,
+        "y": 205
+      },
+      "type": "text"
+    },
+    "chat-sub": {
+      "id": "chat-sub",
+      "props": {
+        "content": "steer",
+        "fill": "$muted",
+        "fontSize": 16,
+        "fontWeight": "600",
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 180,
+        "y": 233
+      },
+      "type": "text"
+    },
+    "connector-actions": {
+      "id": "connector-actions",
+      "intent": {
+        "importance": "supporting",
+        "role": "connector"
+      },
+      "props": {
+        "stroke": "$accent",
+        "strokeWidth": 3,
+        "type": "line",
+        "x1": 630,
+        "x2": 690,
+        "y1": 214,
+        "y2": 214
+      },
+      "type": "line"
+    },
+    "connector-chat": {
+      "id": "connector-chat",
+      "intent": {
+        "importance": "supporting",
+        "role": "connector"
+      },
+      "props": {
+        "stroke": "$accent",
+        "strokeWidth": 3,
+        "type": "line",
+        "x1": 270,
+        "x2": 330,
+        "y1": 214,
+        "y2": 214
+      },
+      "type": "line"
+    },
+    "connector-duck": {
+      "id": "connector-duck",
+      "intent": {
+        "importance": "supporting",
+        "role": "connector"
+      },
+      "props": {
+        "stroke": "$secondary",
+        "strokeWidth": 3,
+        "type": "line",
+        "x1": 270,
+        "x2": 330,
+        "y1": 346,
+        "y2": 312
+      },
+      "type": "line"
+    },
+    "connector-merge": {
+      "id": "connector-merge",
+      "intent": {
+        "importance": "supporting",
+        "role": "connector"
+      },
+      "props": {
+        "stroke": "$accent",
+        "strokeWidth": 3,
+        "type": "line",
+        "x1": 630,
+        "x2": 690,
+        "y1": 312,
+        "y2": 346
+      },
+      "type": "line"
+    },
+    "duck-card": {
+      "id": "duck-card",
+      "intent": {
+        "importance": "secondary",
+        "role": "step"
+      },
+      "props": {
+        "fill": "$surface",
+        "height": 92,
+        "rx": 18,
+        "stroke": "$secondary",
+        "strokeWidth": 2,
+        "type": "rect",
+        "width": 180,
+        "x": 90,
+        "y": 300
+      },
+      "type": "rect"
+    },
+    "duck-label": {
+      "id": "duck-label",
+      "intent": {
+        "importance": "secondary",
+        "role": "label"
+      },
+      "props": {
+        "content": "Rubber Duck",
+        "fill": "$foreground",
+        "fontSize": 22,
+        "fontWeight": "800",
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 180,
+        "y": 337
+      },
+      "type": "text"
+    },
+    "duck-sub": {
+      "id": "duck-sub",
+      "props": {
+        "content": "reason",
+        "fill": "$muted",
+        "fontSize": 16,
+        "fontWeight": "600",
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 180,
+        "y": 365
+      },
+      "type": "text"
+    },
+    "footer": {
+      "id": "footer",
+      "intent": {
+        "importance": "supporting",
+        "role": "subtitle"
+      },
+      "props": {
+        "content": "steer  -  reason  -  run  -  merge  -  build",
+        "fill": "$muted",
+        "fontSize": 18,
+        "fontWeight": "600",
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 480,
+        "y": 446
+      },
+      "type": "text"
+    },
+    "merge-card": {
+      "id": "merge-card",
+      "intent": {
+        "importance": "secondary",
+        "role": "step"
+      },
+      "props": {
+        "fill": "$surface",
+        "height": 92,
+        "rx": 18,
+        "stroke": "$border",
+        "strokeWidth": 2,
+        "type": "rect",
+        "width": 180,
+        "x": 690,
+        "y": 300
+      },
+      "type": "rect"
+    },
+    "merge-label": {
+      "id": "merge-label",
+      "intent": {
+        "importance": "secondary",
+        "role": "label"
+      },
+      "props": {
+        "content": "Agent Merge",
+        "fill": "$foreground",
+        "fontSize": 22,
+        "fontWeight": "800",
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 780,
+        "y": 337
+      },
+      "type": "text"
+    },
+    "merge-sub": {
+      "id": "merge-sub",
+      "props": {
+        "content": "merge",
+        "fill": "$muted",
+        "fontSize": 16,
+        "fontWeight": "600",
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 780,
+        "y": 365
+      },
+      "type": "text"
+    },
+    "subtitle": {
+      "id": "subtitle",
+      "intent": {
+        "importance": "secondary",
+        "role": "subtitle"
+      },
+      "props": {
+        "content": "five panes that steer the invoice-review POC",
+        "fill": "$subtitle",
+        "fontSize": 20,
+        "fontWeight": "600",
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 480,
+        "y": 100
+      },
+      "type": "text"
+    },
+    "title": {
+      "id": "title",
+      "intent": {
+        "importance": "primary",
+        "role": "title"
+      },
+      "props": {
+        "content": "Project Working Areas",
+        "fill": "$title",
+        "fontSize": 40,
+        "fontWeight": "900",
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 480,
+        "y": 62
+      },
+      "type": "text"
+    }
+  },
+  "scene": {
+    "background": "$background",
+    "children": [
+      "title",
+      "subtitle",
+      "chat-card",
+      "chat-label",
+      "chat-sub",
+      "duck-card",
+      "duck-label",
+      "duck-sub",
+      "canvas-card",
+      "canvas-inner",
+      "canvas-label",
+      "canvas-sub",
+      "actions-card",
+      "actions-label",
+      "actions-sub",
+      "merge-card",
+      "merge-label",
+      "merge-sub",
+      "connector-chat",
+      "connector-duck",
+      "connector-actions",
+      "connector-merge",
+      "footer"
+    ],
+    "fps": 30,
+    "height": 540,
+    "type": "player",
+    "width": 960
+  },
+  "stateMachines": {
+    "main": {
+      "entry": "intro",
+      "id": "main",
+      "states": {
+        "intro": {
+          "timeline": "intro"
+        }
+      },
+      "transitions": [
+        {
+          "from": "entry",
+          "id": "entry-start",
+          "to": "intro",
+          "trigger": "onStart"
+        }
+      ]
+    }
+  },
+  "timelines": {
+    "intro": {
+      "duration": 96,
+      "id": "intro",
+      "tracks": [
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 10,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "title"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 4,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 14,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "subtitle"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 12,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 24,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "canvas-card"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 12,
+              "value": 0.96
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 24,
+              "value": 1
+            }
+          ],
+          "property": "scale",
+          "target": "canvas-card"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 16,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 28,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "canvas-inner"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 18,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 30,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "canvas-label"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 20,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 32,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "canvas-sub"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 28,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 38,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "chat-card"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 28,
+              "value": {
+                "x": -12,
+                "y": 0
+              }
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 38,
+              "value": {
+                "x": 0,
+                "y": 0
+              }
+            }
+          ],
+          "property": "translate",
+          "target": "chat-card"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 30,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 40,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "chat-label"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 32,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 42,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "chat-sub"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 36,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 46,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "duck-card"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 36,
+              "value": {
+                "x": -12,
+                "y": 0
+              }
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 46,
+              "value": {
+                "x": 0,
+                "y": 0
+              }
+            }
+          ],
+          "property": "translate",
+          "target": "duck-card"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 38,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 48,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "duck-label"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 40,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 50,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "duck-sub"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 44,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 54,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "actions-card"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 44,
+              "value": {
+                "x": 12,
+                "y": 0
+              }
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 54,
+              "value": {
+                "x": 0,
+                "y": 0
+              }
+            }
+          ],
+          "property": "translate",
+          "target": "actions-card"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 46,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 56,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "actions-label"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 48,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 58,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "actions-sub"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 52,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 62,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "merge-card"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 52,
+              "value": {
+                "x": 12,
+                "y": 0
+              }
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 62,
+              "value": {
+                "x": 0,
+                "y": 0
+              }
+            }
+          ],
+          "property": "translate",
+          "target": "merge-card"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 54,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 64,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "merge-label"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 56,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 66,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "merge-sub"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 60,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 70,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "connector-chat"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 62,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 72,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "connector-duck"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 64,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 74,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "connector-actions"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 66,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 76,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "connector-merge"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 70,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 84,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "footer"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 76,
+              "value": "$border"
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 88,
+              "value": "$accent"
+            }
+          ],
+          "property": "stroke",
+          "target": "canvas-card"
+        }
+      ]
+    }
+  },
+  "version": "2.0"
+}
