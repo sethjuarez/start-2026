@@ -16,7 +16,7 @@
       "time": "~20s",
       "narrative": "We start where the business feels the pressure. More CMO activity means more invoices, more terms to check, and more room for payment mistakes. Waypoint is how Pharma Company reviews those invoices against the full operating record before money goes out the door.",
       "demo_actions": "Open the Waypoint invoices tab. Show a list of invoices with visible statuses: matched, variance, and disputed. Pause on the totals and counts at the top.",
-      "screenshot": null
+      "screenshot": ".cutready/screenshots/20260617_171306_850_5.jpg"
     },
     {
       "locked": false,
@@ -96,5 +96,5 @@
   ],
   "state": "draft",
   "created_at": "2026-06-17T16:56:18.856268Z",
-  "updated_at": "2026-06-17T16:56:18.856269Z"
+  "updated_at": "2026-06-17T17:13:10.565187900Z"
 }
