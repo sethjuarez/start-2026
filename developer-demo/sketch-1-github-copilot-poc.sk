@@ -1,0 +1,100 @@
+{
+  "title": "GitHub Copilot App - Our First Agent POC",
+  "locked": false,
+  "description": "Show a local proof of concept in the GitHub Copilot app that approximates Waypoint invoice review against local or simulated records.",
+  "rows": [
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~20s",
+      "narrative": "Now we step back from the finished application and show how the agent work started. This is a proof of concept in the GitHub Copilot app, running locally with local or simulated data. It is useful because it lets us test the invoice review task early, before we harden anything for production.",
+      "demo_actions": "Open the GitHub Copilot app. Briefly orient the viewer to the environment and call out that this is a local or simulated POC.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~20s",
+      "narrative": "At the top level, the main surfaces are simple. Home, My Work, Automations, and Chat give us the basic places to build, test, and inspect what the agent is doing.",
+      "demo_actions": "Click through Home, My Work, Automations, and Chat. Keep each stop brief.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~30s",
+      "narrative": "Inside the project, the working areas are where the POC comes together. Chat helps us steer the task, rubber duck helps us reason through it, actions shows runnable steps, agent merge manages changes, and canvas is where the agent itself takes shape.",
+      "demo_actions": "Show the project-level areas: chat, rubber duck, actions, agent merge, and canvas. Briefly point out each pane.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~40s",
+      "narrative": "Here is the first invoice-review agent. It is set up to compare invoice lines with contract language and supporting operating records using a local model and MXC. The job is narrow on purpose: review what was billed against what was contracted, delivered, released, and approved.",
+      "demo_actions": "Open the canvas. Show the agent configuration, model choice, and MXC setup. Point to the task definition or prompt if visible.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~40s",
+      "narrative": "When we run it, the agent can approximate the same reasoning path we want in Waypoint. It checks local or simulated contracts, receipts, batch records, quality status, milestone approvals, and invoice lines, then returns a recommendation with supporting evidence.",
+      "demo_actions": "Run the agent on a sample invoice. Show inputs, tool or record access, and the resulting recommendation with cited evidence.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~25s",
+      "narrative": "So the POC proves the task is viable. The agent can do useful invoice review work. What it does not give us yet is enterprise data access, governance, approvals, or production controls. That is the next step.",
+      "demo_actions": "Pause on the result. Summarize what worked in the local run and what is still missing for enterprise deployment.",
+      "screenshot": null
+    }
+  ],
+  "state": "draft",
+  "created_at": "2026-06-17T16:56:18.857817Z",
+  "updated_at": "2026-06-17T16:56:18.857817Z"
+}

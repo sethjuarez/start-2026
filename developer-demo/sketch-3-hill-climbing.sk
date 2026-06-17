@@ -1,0 +1,145 @@
+{
+  "title": "Hill Climbing",
+  "locked": false,
+  "description": "Show how Pharma Company improves invoice-review quality and lowers operating cost after deployment using Foundry evaluations, optimization, and model hill climbing.",
+  "rows": [
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~20s",
+      "narrative": "Once the agents are working in production, the next question is simple. How do we make them better at the job, and how do we run them more efficiently as volume grows?",
+      "demo_actions": "Open the post-deployment optimization area in Foundry or A365. Frame the goal as quality plus cost.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~30s",
+      "narrative": "We start with quality. Foundry rubric evaluators let us score the agent on the work that actually matters in invoice assurance, using traces from real runs to shape what good looks like.",
+      "demo_actions": "Open Foundry rubric evaluators. Show trace-based rubric generation or the evaluator setup flow.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~35s",
+      "narrative": "Those rubrics stay grounded in the task. Are we reasoning correctly over contract terms? Are we using the right evidence from receipts, batch records, quality status, and milestone approvals? Is the recommendation clear and defensible?",
+      "demo_actions": "Show the generated rubrics. Highlight criteria tied to contract reasoning, evidence use, and recommendation quality.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~30s",
+      "narrative": "Now we can run evaluations against those rubrics and see where the agent is strong and where it still needs work. That gives the team a repeatable way to improve quality instead of relying on anecdotal testing.",
+      "demo_actions": "Run or review evaluation results. Show scores, failures, and examples.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~35s",
+      "narrative": "With that feedback in place, Agent Optimizer can help improve the invoice-review agent. The important point is that we are tuning against the real job, so the agent gets better at making evidence-backed recommendations in the Waypoint context.",
+      "demo_actions": "Open Foundry Agent Optimizer. Show optimization inputs, target rubrics, and an updated result or comparison.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~25s",
+      "narrative": "Quality is only half the story. In production, cost matters too, especially if many invoice reviews are running every day across many suppliers and manufacturing programs.",
+      "demo_actions": "Move to the A365 cost view or cost monitoring surface. Show model or run cost metrics.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~35s",
+      "narrative": "This is where hill climbing comes in. We take what we learned from the stronger model and use it to move toward a smaller model that can carry more of the workload at a lower operating cost.",
+      "demo_actions": "Show the hill-climbing setup or model comparison from larger model to smaller model.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~35s",
+      "narrative": "RLE helps the smaller model close the gap. The goal is not to make every model identical. The goal is to preserve the reasoning quality that matters for invoice review while reducing the cost per run.",
+      "demo_actions": "Show the RLE step, training or adaptation signals, and a before-and-after quality comparison.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~25s",
+      "narrative": "That creates a practical operating model for Pharma Company. Waypoint can scale invoice assurance with governed agents, keep recommendation quality high, and control run cost as review volume grows.",
+      "demo_actions": "Close on the final quality and cost comparison, tied back to daily invoice-review volume and business impact.",
+      "screenshot": null
+    }
+  ],
+  "state": "draft",
+  "created_at": "2026-06-17T16:56:18.859476Z",
+  "updated_at": "2026-06-17T16:56:18.859476Z"
+}
