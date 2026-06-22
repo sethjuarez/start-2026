@@ -7,6 +7,10 @@
     {
       "path": "full-slate",
       "name": "full-slate"
+    },
+    {
+      "path": "kyle-copilot-app",
+      "name": "kyle-copilot-app"
     }
   ]
 }
