@@ -14,7 +14,7 @@
         "design_plan": false
       },
       "time": "~20s",
-      "narrative": "The local proof of concept showed that the task works. Now the agent needs to grow up. We move into an environment that gives Pharma Company the security, governance, and visibility required for production use.",
+      "narrative": "- The local proof of concept showed that the task works.\n- Now the agent needs to grow up.\n- Move into an environment with the security, governance, and visibility required for production use.",
       "demo_actions": "Transition from the local POC to VS Code or the enterprise build environment. Frame this as the move from experiment to production.",
       "screenshot": null
     },
@@ -29,7 +29,7 @@
         "design_plan": false
       },
       "time": "~35s",
-      "narrative": "In VS Code, we connect the agent to the right IQs and make the data access explicit. The POC used simulated records. This version can reach real enterprise evidence, with visible guardrails around what tools the agent can call and when.",
+      "narrative": "- In VS Code, connect the agent to the right IQs.\n- Make the data access explicit.\n- The POC used simulated records.\n- This version can reach real enterprise evidence.\n- Show the guardrails around what tools the agent can call and when.",
       "demo_actions": "Open the agent project in VS Code. Show configuration for IQs, tool access, or policy controls. Point to the guardrails on tool calls.",
       "screenshot": null
     },
@@ -44,7 +44,7 @@
         "design_plan": false
       },
       "time": "~35s",
-      "narrative": "That matters because invoice assurance depends on more than the invoice itself. The agent now has the right toolbox to pull contracts, invoice records, receipts, batch records, quality status, milestone approvals, materials data, and capacity context into one review.",
+      "narrative": "- Invoice assurance depends on more than the invoice itself.\n- The agent now has the right toolbox.\n- It can pull contracts, invoice records, receipts, batch records, quality status, milestone approvals, materials data, and capacity context into one review.",
       "demo_actions": "Open the toolbox or connected data sources. Walk through the evidence sources the agent can access.",
       "screenshot": null
     },
@@ -59,7 +59,7 @@
         "design_plan": false
       },
       "time": "~30s",
-      "narrative": "Once connected, we deploy the agent as a hosted agent in Foundry. This gives us a managed runtime with isolation and a clear execution path we can inspect.",
+      "narrative": "- Once connected, deploy the agent as a hosted agent in Foundry.\n- This gives us a managed runtime with isolation.\n- It also gives us a clear execution path we can inspect.",
       "demo_actions": "Deploy the agent in Foundry. Show hosted agent setup, cloud isolation cues, and a simple execution.",
       "screenshot": null
     },
@@ -74,7 +74,7 @@
         "design_plan": false
       },
       "time": "~30s",
-      "narrative": "From there, the agent becomes easier for the business to use. Instead of asking people to open a builder tool, we can make invoice assurance available where they already work, including Teams through M365 or A365.",
+      "narrative": "- From there, the agent becomes easier for the business to use.\n- People do not have to open a builder tool.\n- Invoice assurance can show up where they already work, including Teams through M365 or A365.",
       "demo_actions": "Move to the M365 or A365 surface. Show the autopilot or agent entry point in Teams.",
       "screenshot": null
     },
@@ -89,7 +89,7 @@
         "design_plan": false
       },
       "time": "~30s",
-      "narrative": "Here is a simple interaction. A user asks about an invoice, and the agent responds with a recommendation grounded in contract and operating evidence, not just a free-form answer.",
+      "narrative": "- Here is a simple interaction.\n- A user asks about an invoice.\n- The agent responds with a recommendation grounded in contract and operating evidence.\n- This is not just a free-form answer.",
       "demo_actions": "Run a short Teams interaction tied to invoice assurance. Ask the agent to review or explain an invoice decision and show the response.",
       "screenshot": null
     },
@@ -104,7 +104,7 @@
         "design_plan": false
       },
       "time": "~30s",
-      "narrative": "And because this is now part of an enterprise environment, governance is visible. We can see approvals, listing, access, and auditability around the agent itself, not just its output.",
+      "narrative": "- Because this is now part of an enterprise environment, governance is visible.\n- Show approvals.\n- Show listing.\n- Show access.\n- Show auditability around the agent itself, not just its output.",
       "demo_actions": "Open the A365 governance view. Show approvals, listing, access controls, and audit trail or activity history.",
       "screenshot": null
     },
@@ -119,7 +119,7 @@
         "design_plan": false
       },
       "time": "~20s",
-      "narrative": "So this is the full progression. We started with a local agent that could approximate the task. Now Pharma Company has a governed agent that can support Waypoint with enterprise evidence and enterprise controls.",
+      "narrative": "- This is the full progression.\n- We started with a local agent that could approximate the task.\n- Now Pharma Company has a governed agent that can support Waypoint with enterprise evidence and enterprise controls.",
       "demo_actions": "Close on a summary view, optionally linking back to an emailed invoice or a Waypoint reconciliation result.",
       "screenshot": null
     }
