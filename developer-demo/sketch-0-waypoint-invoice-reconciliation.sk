@@ -1,7 +1,7 @@
 {
   "title": "Waypoint Invoice Reconciliation",
   "locked": false,
-  "description": "Show the invoice assurance outcome first in Waypoint, with evidence-backed invoice decisions and a batch reconciliation run tied to business impact.",
+  "description": "Reordered to hold the Waypoint invoice assurance outcome and batch reconciliation as the final wow moment, building from the business problem through evidence-backed review to a strong closing reveal.",
   "rows": [
     {
       "locked": false,
@@ -14,7 +14,7 @@
         "design_plan": false
       },
       "time": "~20s",
-      "narrative": "- Start where the business feels the pressure.\n- More CMO activity means more invoices, more terms to check, and more room for payment mistakes.\n- Waypoint is how Pharma Company reviews invoices against the full operating record before money goes out the door.",
+      "narrative": "- Start where the business feels the pressure.\n- More CMO activity means more invoices, more terms to check, and more room for payment mistakes.\n- Before anyone pays, the team needs a clear way to see what is lining up and what is not.",
       "demo_actions": "Open the Waypoint invoices tab. Show a list of invoices with visible statuses: matched, variance, and disputed. Pause on the totals and counts at the top.",
       "screenshot": ".cutready/screenshots/20260617_111154_CleanShot 2026-06-17 at 11.11.27@2x.png"
     },
@@ -29,22 +29,7 @@
         "design_plan": false
       },
       "time": "~25s",
-      "narrative": "- This is about dollars, not just flags.\n- Show what is ready to pay.\n- Show what needs review.\n- Show where recovery opportunity or compliance risk is starting to build.",
-      "demo_actions": "Point to dollar amounts tied to matched, variance, and disputed invoices. Sort or filter to surface the highest-value exceptions.",
-      "screenshot": ".cutready/screenshots/20260617_111253_CleanShot 2026-06-17 at 11.11.27@2x.png"
-    },
-    {
-      "locked": false,
-      "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
-      },
-      "time": "~35s",
-      "narrative": "- Open one that matched cleanly.\n- The point is not that the invoice arrived.\n- The point is that Waypoint can show why it should be paid.\n- Show the exact evidence behind that decision.",
+      "narrative": "- Start with one that matched cleanly.\n- The point is not that the invoice showed up.\n- The point is that Waypoint can show why it should be paid.\n- Bring up the exact evidence behind that decision.",
       "demo_actions": "Open a matched invoice. Walk through invoice lines, contract terms, PO or receipt context, batch records, QA release, milestone status, and approval history.",
       "screenshot": ".cutready/screenshots/20260617_111259_CleanShot 2026-06-17 at 11.12.21@2x.png"
     },
@@ -58,8 +43,8 @@
         "visual": false,
         "design_plan": false
       },
-      "time": "~40s",
-      "narrative": "- Now compare that with an invoice that does not line up.\n- Waypoint shows the gap clearly.\n- It ties the issue back to the source record.\n- The team can act on facts instead of email threads and manual checks.",
+      "time": "~35s",
+      "narrative": "- Then compare that with one that does not line up.\n- Waypoint makes the gap easy to see.\n- It ties the issue back to the source record.\n- Now the team can review the invoice from facts, not email threads and manual checks.",
       "demo_actions": "Open a variance or disputed invoice. Highlight the specific mismatch, such as rate, quantity, milestone, timing, or release status. Show linked evidence and the system's decision rationale.",
       "screenshot": ".cutready/screenshots/20260617_111347_CleanShot 2026-06-17 at 11.13.26@2x.png"
     },
@@ -73,8 +58,23 @@
         "visual": false,
         "design_plan": false
       },
-      "time": "~30s",
-      "narrative": "- This scales beyond one invoice at a time.\n- Run reconciliation across the full set with the relevant IQs turned on.\n- Every invoice is checked against the same standard.\n- Every invoice is checked against the same evidence chain.",
+      "time": "~20s",
+      "narrative": "- Once you have that evidence trail, the rollup matters more.\n- This is about dollars, not just flags.\n- Show what is ready to pay, what needs review, and where risk is starting to build.",
+      "demo_actions": "Return to the invoice list. Point to dollar amounts tied to matched, variance, and disputed invoices. Sort or filter to surface the highest-value exceptions.",
+      "screenshot": ".cutready/screenshots/20260617_111253_CleanShot 2026-06-17 at 11.11.27@2x.png"
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~25s",
+      "narrative": "- And this scales beyond one invoice at a time.\n- Waypoint can run the same checks across the full set.\n- Every invoice is held to the same standard.\n- Every decision is tied back to the same evidence chain.",
       "demo_actions": "Kick off a batch reconciliation, or return to a completed run. Show the enabled IQs and the progress or result summary.",
       "screenshot": ".cutready/screenshots/20260617_111427_CleanShot 2026-06-17 at 11.14.06@2x.png"
     },
@@ -88,9 +88,9 @@
         "visual": false,
         "design_plan": false
       },
-      "time": "~25s",
-      "narrative": "- The outcome is a stronger internal invoice assurance process.\n- Pharma Company can pay with more confidence.\n- It can catch leakage earlier.\n- It keeps an audit trail for every decision.",
-      "demo_actions": "Return to the invoice list or batch results. Highlight final decisions, linked evidence, and any audit or review history.",
+      "time": "~30s",
+      "narrative": "- Here is the payoff.\n- In one place, the business can see what is cleared to pay, what is blocked, and why.\n- That means faster reviews, earlier recovery on invoice leakage, and a clean audit trail behind every decision.\n- This is the invoice assurance view you want before money goes out the door.",
+      "demo_actions": "Return to the invoice list or batch results. Highlight final decisions, linked evidence, and any audit or review history. Land on the strongest summary view and pause there as the close.",
       "screenshot": ".cutready/screenshots/20260617_111509_CleanShot 2026-06-17 at 11.14.49@2x.png"
     }
   ],

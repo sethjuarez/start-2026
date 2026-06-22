@@ -5,10 +5,6 @@
   "items": [
     {
       "type": "sketch_ref",
-      "path": "sketch-0-waypoint-invoice-reconciliation.sk"
-    },
-    {
-      "type": "sketch_ref",
       "path": "sketch-1-github-copilot-poc.sk"
     },
     {
@@ -18,8 +14,12 @@
     {
       "type": "sketch_ref",
       "path": "sketch-3-hill-climbing.sk"
+    },
+    {
+      "type": "sketch_ref",
+      "path": "sketch-0-waypoint-invoice-reconciliation.sk"
     }
   ],
   "created_at": "2026-06-17T16:58:44.943373Z",
-  "updated_at": "2026-06-17T16:59:06.978014Z"
+  "updated_at": "2026-06-22T21:34:43.651565600Z"
 }
