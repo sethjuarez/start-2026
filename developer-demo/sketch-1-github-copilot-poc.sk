@@ -14,7 +14,7 @@
         "design_plan": false
       },
       "time": "~20s",
-      "narrative": "Now we step back from the finished application and show how the agent work started. This is a proof of concept in the GitHub Copilot app, running locally with local or simulated data. It is useful because it lets us test the invoice review task early, before we harden anything for production.",
+      "narrative": "We are starting in the GitHub Copilot app so the rest of the demo has some context. At the top level, you can see the main places people work here: Home, My Work, Automations, and Chat. This is the environment where the first invoice-review proof of concept was built and tested before we moved into the broader flow.",
       "demo_actions": "Open the GitHub Copilot app. Briefly orient the viewer to the environment and call out that this is a local or simulated POC.",
       "screenshot": ".cutready/screenshots/20260617_111553_CleanShot 2026-06-17 at 11.15.31@2x.png"
     },
@@ -29,7 +29,7 @@
         "design_plan": false
       },
       "time": "~20s",
-      "narrative": "At the top level, the main surfaces are simple. Home, My Work, Automations, and Chat give us the basic places to build, test, and inspect what the agent is doing.",
+      "narrative": "Once you are inside the project, the POC becomes more concrete. These areas show how the work is organized: chat to steer the task, actions to run steps, and canvas to shape the agent itself. We are still in a local or simulated setup here, but this is where the invoice-review idea starts to take form.",
       "demo_actions": "Click through Home, My Work, Automations, and Chat. Keep each stop brief.",
       "screenshot": ".cutready/screenshots/20260617_111704_CleanShot 2026-06-17 at 11.16.25@2x.png",
       "design_plan": "Narrative goal: frame the GitHub Copilot app as a simple top-level control bar with four clear surfaces the presenter clicks through quickly. Hero metaphor: a polished navigation runway, where four destination cards sit along a left-to-right path and one active focus glow moves across them. Main objects: (1) title and subtitle centered at top, (2) a thin top navigation rail spanning the upper-middle canvas, (3) four large destination cards labeled Home, My Work, Automations, and Chat arranged horizontally across the center with Home and My Work on the left half and Automations and Chat on the right half, (4) a subtle bottom caption line reading build, test, inspect to reinforce purpose, (5) three slim connector arrows between the cards to suggest brief click-through progression. Use CutReady tokens: $background for scene, $title for title, $subtitle for subtitle, $surface for cards, $border for rail and card outlines, $accent for the active emphasis and arrows, $foreground for main labels, $muted for secondary micro-labels. Motion beats: beat 1 title/subtitle fade in; beat 2 navigation rail and first card appear; beat 3 cards reveal left-to-right with a slight upward translate; beat 4 accent highlight shifts across the four cards in sequence, each card briefly scaling or brightening to imply the presenter clicking through surfaces; hold on all four visible and balanced. Keep it presentation-grade, minimal, and readable with about 12-18 total elements."
@@ -76,7 +76,7 @@
         "design_plan": false
       },
       "time": "~40s",
-      "narrative": "When we run it, the agent can approximate the same reasoning path we want in Waypoint. It checks local or simulated contracts, receipts, batch records, quality status, milestone approvals, and invoice lines, then returns a recommendation with supporting evidence.",
+      "narrative": "When we run it, the agent follows the same reasoning we carry forward into the rest of the demo. It checks local or simulated contracts, receipts, batch records, quality status, milestone approvals, and invoice lines, then returns a recommendation with supporting evidence. That becomes the foundation for what you will see next in Waypoint.",
       "demo_actions": "Run the agent on a sample invoice. Show inputs, tool or record access, and the resulting recommendation with cited evidence.",
       "screenshot": ".cutready/screenshots/20260617_112332_CleanShot 2026-06-17 at 11.20.07@2x.png"
     },
@@ -121,7 +121,7 @@
         "design_plan": false
       },
       "time": "~25s",
-      "narrative": "So the POC proves the task is viable. The agent can do useful invoice review work in a safe and control way locally. What it does not give us yet is enterprise data access, governance, approvals, or production controls at scale. That is the next step.",
+      "narrative": "So the POC proves the task is viable. We can show the core invoice-review logic working locally, with clear evidence and safety controls around it. Next, we move into Waypoint to show how this idea expands into a fuller operating view with enterprise data, approvals, and production-ready controls.",
       "demo_actions": "Pause on the result. Summarize what worked in the local run and what is still missing for enterprise deployment.",
       "screenshot": ".cutready/screenshots/20260617_112345_CleanShot 2026-06-17 at 11.21.34@2x.png"
     }
