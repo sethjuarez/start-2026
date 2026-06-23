@@ -1,0 +1,85 @@
+{
+  "title": "Business Context - Why CMO Invoice Review Got Harder",
+  "locked": false,
+  "description": "Opening chapter that frames the business pressure, invoice complexity, and why Pharma Company needs a more trustworthy invoice assurance process before showing the product or agent stack.",
+  "rows": [
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~20s",
+      "narrative": "- Start with the business problem.\n- Pharma Company is relying more heavily on CMOs.\n- That means more invoices, more contract terms, and more chances for payment mistakes.\n- Before we open the app, frame why invoice review got harder to trust.",
+      "demo_actions": "Open on a simple title or framing slide. Introduce the rise in CMO activity and invoice complexity before showing product screens.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~25s",
+      "narrative": "- The issue is not one bad invoice.\n- It is the growing mix of rates, milestones, batch releases, approvals, and exceptions.\n- Payment teams have to piece together the full story before money goes out.\n- That takes time, and it leaves room for leakage.",
+      "demo_actions": "Use a framing visual or simple supporting graphic that lists the main sources of complexity: contract terms, receipts, batch records, QA release, approvals, and invoice lines.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~20s",
+      "narrative": "- When that review stays manual, the business feels it fast.\n- Decisions slow down.\n- Confidence drops.\n- And disputed or overbilled amounts get harder to catch early.",
+      "demo_actions": "Advance to a concise business-impact view with three outcomes: slower decisions, lower confidence, and payment leakage.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~20s",
+      "narrative": "- This is where Waypoint comes in.\n- Waypoint is Pharma Company's internal invoice assurance application.\n- It checks what was billed against what was contracted, delivered, released, and approved.",
+      "demo_actions": "Introduce Waypoint at a high level without going deep into the product yet. Keep this as a bridge into the rest of the story.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~20s",
+      "narrative": "- The rest of the demo follows a simple path.\n- First, we build the agent system.\n- Then we observe how it behaves in production.\n- Then we tune it for quality and cost.\n- And we end back in Waypoint, where the business sees the result.",
+      "demo_actions": "Show a simple chapter slide or summary visual with Build, Observe, Tune, and Waypoint as the sequence.",
+      "screenshot": null
+    }
+  ],
+  "state": "draft",
+  "created_at": "2026-06-23T17:42:03.430560600Z",
+  "updated_at": "2026-06-23T17:42:03.430560800Z"
+}

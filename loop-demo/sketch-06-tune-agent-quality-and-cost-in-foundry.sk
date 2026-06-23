@@ -1,0 +1,115 @@
+{
+  "title": "Tune - Improve Quality and Lower Cost in Foundry",
+  "locked": false,
+  "description": "Tuning chapter that uses traces and eval signals to improve the invoice-review agent in Foundry, then carries that behavior toward smaller lower-cost models.",
+  "rows": [
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~20s",
+      "narrative": "- Tune starts from what we learned in Observe.\n- Performance is visible.\n- Cost is visible.\n- Now we use that information to make the system better.",
+      "demo_actions": "Open the optimization area in Foundry and frame the goal as better quality at lower cost.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~35s",
+      "narrative": "- Start with the evaluation signals.\n- The team already knows where the invoice-review agent is strong and where it falls short.\n- Those traces and evals become the input for optimization.\n- So we are tuning against the real job, not vague benchmarks.",
+      "demo_actions": "Show how trace and eval outputs feed into the optimization flow.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~35s",
+      "narrative": "- Foundry Agent Optimizer helps improve the agent on the work that matters.\n- The target is better contract reasoning, better evidence use, and clearer recommendations.\n- This keeps the improvements tied to the same invoice-review task the business cares about.",
+      "demo_actions": "Open Foundry Agent Optimizer. Show optimization inputs, target rubrics, and an updated result or comparison.",
+      "screenshot": ".cutready/screenshots/20260622_213153_963_26.jpg"
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~30s",
+      "narrative": "- But quality is only half the story.\n- At scale, run cost matters too.\n- If invoice assurance grows across many suppliers and manufacturing programs, the operating model has to stay efficient.",
+      "demo_actions": "Bring cost back into view as part of the optimization decision.",
+      "screenshot": ".cutready/screenshots/20260622_213045_628_22.jpg"
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~35s",
+      "narrative": "- This is where the model progression comes in.\n- Take what we learned from the stronger model.\n- Carry that behavior toward a smaller model that can handle more of the workload at lower cost.\n- The goal is to preserve the reasoning quality that matters.",
+      "demo_actions": "Show the model comparison or hill-climbing setup from a larger model toward a smaller one.",
+      "screenshot": ".cutready/screenshots/20260622_213254_487_30.jpg"
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~35s",
+      "narrative": "- Fine-tuning and RLE help close the gap.\n- The point is not to make every model identical.\n- The point is to keep the invoice-review behavior the business needs while reducing cost per run.",
+      "demo_actions": "Show the fine-tuning or RLE step, then compare before-and-after quality and cost.",
+      "screenshot": ".cutready/screenshots/20260622_213310_576_34.jpg"
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~20s",
+      "narrative": "- That gives Pharma Company a practical operating model.\n- Governed agents can scale invoice assurance.\n- Recommendation quality stays high where it matters.\n- And run cost stays under control as volume grows.",
+      "demo_actions": "Close on the final quality and cost comparison tied back to invoice-review volume and business impact.",
+      "screenshot": null
+    }
+  ],
+  "state": "draft",
+  "created_at": "2026-06-23T17:42:03.434006200Z",
+  "updated_at": "2026-06-23T17:42:03.434006400Z"
+}
