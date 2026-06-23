@@ -5,12 +5,12 @@
       "name": "developer-demo"
     },
     {
-      "path": "full-slate",
-      "name": "full-slate"
-    },
-    {
       "path": "kyle-copilot-app",
       "name": "kyle-copilot-app"
+    },
+    {
+      "path": "loop-demo",
+      "name": "loop-demo"
     }
   ]
 }
