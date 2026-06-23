@@ -1,0 +1,1099 @@
+{
+  "defaultStateMachine": "main",
+  "elements": {
+    "arrow-1": {
+      "id": "arrow-1",
+      "intent": {
+        "importance": "supporting",
+        "role": "connector"
+      },
+      "props": {
+        "headSize": 10,
+        "stroke": "$accent",
+        "strokeWidth": 3,
+        "type": "arrow",
+        "x1": 258,
+        "x2": 308,
+        "y1": 289,
+        "y2": 289
+      },
+      "type": "arrow"
+    },
+    "arrow-2": {
+      "id": "arrow-2",
+      "intent": {
+        "importance": "supporting",
+        "role": "connector"
+      },
+      "props": {
+        "headSize": 10,
+        "stroke": "$accent",
+        "strokeWidth": 3,
+        "type": "arrow",
+        "x1": 498,
+        "x2": 548,
+        "y1": 289,
+        "y2": 289
+      },
+      "type": "arrow"
+    },
+    "arrow-3": {
+      "id": "arrow-3",
+      "intent": {
+        "importance": "supporting",
+        "role": "connector"
+      },
+      "props": {
+        "headSize": 10,
+        "stroke": "$accent",
+        "strokeWidth": 3,
+        "type": "arrow",
+        "x1": 738,
+        "x2": 788,
+        "y1": 289,
+        "y2": 289
+      },
+      "type": "arrow"
+    },
+    "auto-icon": {
+      "id": "auto-icon",
+      "intent": {
+        "importance": "supporting",
+        "role": "decoration"
+      },
+      "props": {
+        "cx": 628,
+        "cy": 254,
+        "fill": "rgba(0,0,0,0)",
+        "r": 22,
+        "stroke": "$foreground",
+        "strokeWidth": 3,
+        "type": "circle"
+      },
+      "type": "circle"
+    },
+    "auto-label": {
+      "id": "auto-label",
+      "intent": {
+        "importance": "primary",
+        "role": "label"
+      },
+      "props": {
+        "content": "Automations",
+        "fill": "$foreground",
+        "fontSize": 24,
+        "fontWeight": "800",
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 628,
+        "y": 318
+      },
+      "type": "text"
+    },
+    "auto-meta": {
+      "id": "auto-meta",
+      "intent": {
+        "importance": "supporting",
+        "role": "label"
+      },
+      "props": {
+        "content": "test runs",
+        "fill": "$muted",
+        "fontSize": 16,
+        "fontWeight": "600",
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 628,
+        "y": 347
+      },
+      "type": "text"
+    },
+    "caption": {
+      "id": "caption",
+      "intent": {
+        "importance": "supporting",
+        "role": "label"
+      },
+      "props": {
+        "content": "Build -> Test -> Inspect",
+        "fill": "$muted",
+        "fontSize": 20,
+        "fontWeight": "700",
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 480,
+        "y": 456
+      },
+      "type": "text"
+    },
+    "card-auto": {
+      "id": "card-auto",
+      "intent": {
+        "importance": "primary",
+        "role": "step"
+      },
+      "props": {
+        "fill": "$surface",
+        "height": 182,
+        "rx": 20,
+        "stroke": "$border",
+        "strokeWidth": 2,
+        "type": "rect",
+        "width": 184,
+        "x": 536,
+        "y": 198
+      },
+      "type": "rect"
+    },
+    "card-chat": {
+      "id": "card-chat",
+      "intent": {
+        "importance": "primary",
+        "role": "step"
+      },
+      "props": {
+        "fill": "$surface",
+        "height": 182,
+        "rx": 20,
+        "stroke": "$border",
+        "strokeWidth": 2,
+        "type": "rect",
+        "width": 128,
+        "x": 776,
+        "y": 198
+      },
+      "type": "rect"
+    },
+    "card-home": {
+      "id": "card-home",
+      "intent": {
+        "importance": "primary",
+        "role": "step"
+      },
+      "props": {
+        "fill": "$surface",
+        "height": 182,
+        "rx": 20,
+        "stroke": "$accent",
+        "strokeWidth": 3,
+        "type": "rect",
+        "width": 184,
+        "x": 56,
+        "y": 198
+      },
+      "type": "rect"
+    },
+    "card-work": {
+      "id": "card-work",
+      "intent": {
+        "importance": "primary",
+        "role": "step"
+      },
+      "props": {
+        "fill": "$surface",
+        "height": 182,
+        "rx": 20,
+        "stroke": "$border",
+        "strokeWidth": 2,
+        "type": "rect",
+        "width": 184,
+        "x": 296,
+        "y": 198
+      },
+      "type": "rect"
+    },
+    "chat-icon": {
+      "id": "chat-icon",
+      "intent": {
+        "importance": "supporting",
+        "role": "decoration"
+      },
+      "props": {
+        "fill": "rgba(0,0,0,0)",
+        "height": 34,
+        "rx": 10,
+        "stroke": "$foreground",
+        "strokeWidth": 3,
+        "type": "rect",
+        "width": 44,
+        "x": 818,
+        "y": 230
+      },
+      "type": "rect"
+    },
+    "chat-label": {
+      "id": "chat-label",
+      "intent": {
+        "importance": "primary",
+        "role": "label"
+      },
+      "props": {
+        "content": "Chat",
+        "fill": "$foreground",
+        "fontSize": 26,
+        "fontWeight": "800",
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 840,
+        "y": 318
+      },
+      "type": "text"
+    },
+    "chat-meta": {
+      "id": "chat-meta",
+      "intent": {
+        "importance": "supporting",
+        "role": "label"
+      },
+      "props": {
+        "content": "inspect",
+        "fill": "$muted",
+        "fontSize": 16,
+        "fontWeight": "600",
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 840,
+        "y": 347
+      },
+      "type": "text"
+    },
+    "home-icon": {
+      "id": "home-icon",
+      "intent": {
+        "importance": "supporting",
+        "role": "decoration"
+      },
+      "props": {
+        "fill": "rgba(0,0,0,0)",
+        "points": [
+          [
+            148,
+            228
+          ],
+          [
+            176,
+            252
+          ],
+          [
+            166,
+            252
+          ],
+          [
+            166,
+            286
+          ],
+          [
+            130,
+            286
+          ],
+          [
+            130,
+            252
+          ],
+          [
+            120,
+            252
+          ]
+        ],
+        "stroke": "$accent",
+        "strokeWidth": 3,
+        "type": "polygon"
+      },
+      "type": "polygon"
+    },
+    "home-label": {
+      "id": "home-label",
+      "intent": {
+        "importance": "primary",
+        "role": "label"
+      },
+      "props": {
+        "content": "Home",
+        "fill": "$foreground",
+        "fontSize": 28,
+        "fontWeight": "800",
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 148,
+        "y": 318
+      },
+      "type": "text"
+    },
+    "home-meta": {
+      "id": "home-meta",
+      "intent": {
+        "importance": "supporting",
+        "role": "label"
+      },
+      "props": {
+        "content": "start here",
+        "fill": "$muted",
+        "fontSize": 16,
+        "fontWeight": "600",
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 148,
+        "y": 347
+      },
+      "type": "text"
+    },
+    "nav-rail": {
+      "id": "nav-rail",
+      "intent": {
+        "importance": "supporting",
+        "role": "decoration"
+      },
+      "props": {
+        "stroke": "$border",
+        "strokeWidth": 2,
+        "type": "line",
+        "x1": 92,
+        "x2": 868,
+        "y1": 168,
+        "y2": 168
+      },
+      "type": "line"
+    },
+    "subtitle": {
+      "id": "subtitle",
+      "intent": {
+        "importance": "secondary",
+        "role": "subtitle"
+      },
+      "props": {
+        "content": "Home, My Work, Automations, and Chat frame the top-level POC workflow",
+        "fill": "$subtitle",
+        "fontSize": 20,
+        "fontWeight": "600",
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 480,
+        "y": 100
+      },
+      "type": "text"
+    },
+    "title": {
+      "id": "title",
+      "intent": {
+        "importance": "primary",
+        "role": "title"
+      },
+      "props": {
+        "content": "Four Simple Surfaces",
+        "fill": "$title",
+        "fontSize": 40,
+        "fontWeight": "900",
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 480,
+        "y": 62
+      },
+      "type": "text"
+    },
+    "work-icon": {
+      "id": "work-icon",
+      "intent": {
+        "importance": "supporting",
+        "role": "decoration"
+      },
+      "props": {
+        "fill": "rgba(0,0,0,0)",
+        "height": 44,
+        "rx": 10,
+        "stroke": "$foreground",
+        "strokeWidth": 3,
+        "type": "rect",
+        "width": 44,
+        "x": 366,
+        "y": 232
+      },
+      "type": "rect"
+    },
+    "work-label": {
+      "id": "work-label",
+      "intent": {
+        "importance": "primary",
+        "role": "label"
+      },
+      "props": {
+        "content": "My Work",
+        "fill": "$foreground",
+        "fontSize": 28,
+        "fontWeight": "800",
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 388,
+        "y": 318
+      },
+      "type": "text"
+    },
+    "work-meta": {
+      "id": "work-meta",
+      "intent": {
+        "importance": "supporting",
+        "role": "label"
+      },
+      "props": {
+        "content": "build tasks",
+        "fill": "$muted",
+        "fontSize": 16,
+        "fontWeight": "600",
+        "textAnchor": "middle",
+        "type": "text",
+        "x": 388,
+        "y": 347
+      },
+      "type": "text"
+    }
+  },
+  "scene": {
+    "background": "$background",
+    "children": [
+      "title",
+      "subtitle",
+      "nav-rail",
+      "card-home",
+      "home-icon",
+      "home-label",
+      "home-meta",
+      "arrow-1",
+      "card-work",
+      "work-icon",
+      "work-label",
+      "work-meta",
+      "arrow-2",
+      "card-auto",
+      "auto-icon",
+      "auto-label",
+      "auto-meta",
+      "arrow-3",
+      "card-chat",
+      "chat-icon",
+      "chat-label",
+      "chat-meta",
+      "caption"
+    ],
+    "fps": 30,
+    "height": 540,
+    "type": "player",
+    "width": 960
+  },
+  "stateMachines": {
+    "main": {
+      "entry": "intro",
+      "id": "main",
+      "states": {
+        "intro": {
+          "timeline": "intro"
+        }
+      },
+      "transitions": [
+        {
+          "from": "entry",
+          "id": "entry-start",
+          "to": "intro",
+          "trigger": "onStart"
+        }
+      ]
+    }
+  },
+  "timelines": {
+    "intro": {
+      "duration": 96,
+      "id": "intro",
+      "tracks": [
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 10,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "title"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 4,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 14,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "subtitle"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 8,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 18,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "nav-rail"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 12,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 22,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "card-home"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 12,
+              "value": 0.94
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 22,
+              "value": 1
+            },
+            {
+              "frame": 24,
+              "value": 1
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 32,
+              "value": 1.03
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 38,
+              "value": 1
+            }
+          ],
+          "property": "scale",
+          "target": "card-home"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 12,
+              "value": [
+                0,
+                18
+              ]
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 22,
+              "value": [
+                0,
+                0
+              ]
+            }
+          ],
+          "property": "translate",
+          "target": "card-home"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 14,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 24,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "home-icon"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 14,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 24,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "home-label"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 16,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 26,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "home-meta"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 22,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 28,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "arrow-1"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 18,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 28,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "card-work"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 18,
+              "value": [
+                0,
+                18
+              ]
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 28,
+              "value": [
+                0,
+                0
+              ]
+            }
+          ],
+          "property": "translate",
+          "target": "card-work"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 20,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 30,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "work-icon"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 20,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 30,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "work-label"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 22,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 32,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "work-meta"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 34,
+              "value": 1
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 42,
+              "value": 1.03
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 48,
+              "value": 1
+            }
+          ],
+          "property": "scale",
+          "target": "card-work"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "value": "$border"
+            },
+            {
+              "frame": 34,
+              "value": "$border"
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 42,
+              "value": "$accent"
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 48,
+              "value": "$border"
+            }
+          ],
+          "property": "stroke",
+          "target": "card-work"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 30,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 36,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "arrow-2"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 24,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 34,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "card-auto"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 24,
+              "value": [
+                0,
+                18
+              ]
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 34,
+              "value": [
+                0,
+                0
+              ]
+            }
+          ],
+          "property": "translate",
+          "target": "card-auto"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 26,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 36,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "auto-icon"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 26,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 36,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "auto-label"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 28,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 38,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "auto-meta"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 50,
+              "value": 1
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 58,
+              "value": 1.03
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 64,
+              "value": 1
+            }
+          ],
+          "property": "scale",
+          "target": "card-auto"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "value": "$border"
+            },
+            {
+              "frame": 50,
+              "value": "$border"
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 58,
+              "value": "$accent"
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 64,
+              "value": "$border"
+            }
+          ],
+          "property": "stroke",
+          "target": "card-auto"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 36,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 42,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "arrow-3"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 30,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 40,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "card-chat"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 30,
+              "value": [
+                0,
+                18
+              ]
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 40,
+              "value": [
+                0,
+                0
+              ]
+            }
+          ],
+          "property": "translate",
+          "target": "card-chat"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 32,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 42,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "chat-icon"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 32,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 42,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "chat-label"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 34,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 44,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "chat-meta"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 66,
+              "value": 1
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 74,
+              "value": 1.03
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 80,
+              "value": 1
+            }
+          ],
+          "property": "scale",
+          "target": "card-chat"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 0,
+              "value": "$border"
+            },
+            {
+              "frame": 66,
+              "value": "$border"
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 74,
+              "value": "$accent"
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 80,
+              "value": "$border"
+            }
+          ],
+          "property": "stroke",
+          "target": "card-chat"
+        },
+        {
+          "keyframes": [
+            {
+              "frame": 42,
+              "value": 0
+            },
+            {
+              "easing": "easeOutCubic",
+              "frame": 54,
+              "value": 1
+            }
+          ],
+          "property": "opacity",
+          "target": "caption"
+        }
+      ]
+    }
+  },
+  "version": "2.0"
+}
