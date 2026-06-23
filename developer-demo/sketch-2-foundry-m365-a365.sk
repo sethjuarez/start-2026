@@ -1,0 +1,130 @@
+{
+  "title": "Microsoft Foundry, M365, and A365 - Our Agents Grow Up",
+  "locked": false,
+  "description": "Show how the invoice-review agent moves from a local proof of concept into an enterprise-ready deployment with data connections, hosting, Teams access, and governance.",
+  "rows": [
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~20s",
+      "narrative": "- The local proof of concept showed that the task works.\n- Now the agent needs to grow up.\n- Move into an environment with the security, governance, and visibility required for production use.",
+      "demo_actions": "Transition from the local POC to VS Code or the enterprise build environment. Frame this as the move from experiment to production.",
+      "screenshot": ".cutready/screenshots/20260622_142419_vlcsnap-2026-06-22-14h24m13s620.png"
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~35s",
+      "narrative": "- In VS Code, connect the agent to the right IQs.\n- Make the data access explicit.\n- The POC used simulated records.\n- This version can reach real enterprise evidence.\n- Show the guardrails around what tools the agent can call and when.",
+      "demo_actions": "Open the agent project in VS Code. Show configuration for IQs, tool access, or policy controls. Point to the guardrails on tool calls.",
+      "screenshot": ".cutready/screenshots/20260622_142540_vlcsnap-2026-06-22-14h25m35s396.png"
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~35s",
+      "narrative": "- Invoice assurance depends on more than the invoice itself.\n- The agent now has the right toolbox.\n- It can pull contracts, invoice records, receipts, batch records, quality status, milestone approvals, materials data, and capacity context into one review.",
+      "demo_actions": "Open the toolbox or connected data sources. Walk through the evidence sources the agent can access.",
+      "screenshot": ".cutready/screenshots/20260622_142437_vlcsnap-2026-06-22-14h24m33s324.png"
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~30s",
+      "narrative": "- Once connected, deploy the agent as a hosted agent in Foundry.\n- This gives us a managed runtime with isolation.\n- It also gives us a clear execution path we can inspect.\n- Just like MXC but in the cloud",
+      "demo_actions": "Deploy the agent in Foundry. Show hosted agent setup, cloud isolation cues, and a simple execution.",
+      "screenshot": ".cutready/screenshots/20260622_142605_vlcsnap-2026-06-22-14h25m58s345.png"
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~30s",
+      "narrative": "- From there, the agent becomes easier for the business to use.\n- People do not have to open a builder tool.\n- Invoice assurance can show up where they already work, including Teams through M365 or A365.",
+      "demo_actions": "Move to the M365 or A365 surface. Show the autopilot or agent entry point in Teams.",
+      "screenshot": ".cutready/screenshots/20260622_212932_145_14.jpg"
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~30s",
+      "narrative": "- Here is a simple interaction.\n- A user asks about an invoice.\n- The agent responds with a recommendation grounded in contract and operating evidence.\n- This is not just a free-form answer.",
+      "demo_actions": "Run a short Teams interaction tied to invoice assurance. Ask the agent to review or explain an invoice decision and show the response.",
+      "screenshot": ".cutready/screenshots/20260622_212825_082_6.jpg"
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~30s",
+      "narrative": "- Because this is now part of an enterprise environment, governance is visible.\n- Show approvals.\n- Show listing.\n- Show access.\n- Show auditability around the agent itself, not just its output.",
+      "demo_actions": "Open the A365 governance view. Show approvals, listing, access controls, and audit trail or activity history.",
+      "screenshot": ".cutready/screenshots/20260622_212853_621_10.jpg"
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~20s",
+      "narrative": "- This is the full progression.\n- We started with a local agent that could approximate the task.\n- Now Pharma Company has a governed agent that can support Waypoint with enterprise evidence and enterprise controls.",
+      "demo_actions": "Close on a summary view, optionally linking back to an emailed invoice or a Waypoint reconciliation result.",
+      "screenshot": ".cutready/screenshots/20260622_213021_196_19.jpg"
+    }
+  ],
+  "state": "draft",
+  "created_at": "2026-06-17T16:56:18.858720Z",
+  "updated_at": "2026-06-22T21:30:26.684479300Z"
+}
