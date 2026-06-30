@@ -40,10 +40,10 @@
       "title": "End in Waypoint",
       "description": "Close in the app and land on the business outcome. Return to Waypoint to show invoice decisions, supporting evidence, run history, traceability, and dollars at risk so the audience sees what the full Build, Observe, and Tune loop delivers inside the business.",
       "sketches": [
-        "sketch-07-waypoint-invoice-assurance-business-outcome.sk"
+        "sketch-07-waypoint-invoice-assurance-outcomes.sk"
       ]
     }
   ],
   "created_at": "2026-06-23T17:45:45.940925600Z",
-  "updated_at": "2026-06-30T06:04:19.124032300Z"
+  "updated_at": "2026-06-30T08:10:01.464290600Z"
 }

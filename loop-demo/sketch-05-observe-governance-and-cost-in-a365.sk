@@ -16,7 +16,7 @@
       "time": "~20s",
       "narrative": "- Observe is not only about one run inside Foundry.\n- It also means understanding how the full agent fleet is governed once it is deployed across the business.",
       "demo_actions": "Transition from Foundry to the broader operating view in A365.",
-      "screenshot": null
+      "screenshot": ".cutready/screenshots/20260630_074108_831_22.jpg"
     },
     {
       "locked": false,
@@ -29,9 +29,9 @@
         "design_plan": false
       },
       "time": "~25s",
-      "narrative": "- Start with the list view.\n- Show all agents in one place.\n- This is the operating view the team uses to understand what exists, what is active, and what is available to the business.",
+      "narrative": "- Start with the agent registry in the Microsoft 365 admin center.\n- This is where IT can see the agents people can request, approve what is allowed, and manage what stays available to the business.\n- It gives the team one place to monitor the full inventory as adoption grows.",
       "demo_actions": "Open the A365 list view and show the broader inventory of agents.",
-      "screenshot": ".cutready/screenshots/20260622_213021_196_19.jpg"
+      "screenshot": ".cutready/screenshots/20260630_074125_546_26.jpg"
     },
     {
       "locked": false,
@@ -44,9 +44,9 @@
         "design_plan": false
       },
       "time": "~25s",
-      "narrative": "- Then show approvals and access.\n- Who can use an agent?\n- Who can publish changes?\n- What controls are in place before something reaches users?",
-      "demo_actions": "Open approvals and access controls. Point out how publishing and use are governed.",
-      "screenshot": ".cutready/screenshots/20260622_212853_621_10.jpg"
+      "narrative": "- Then show approvals and access.\n- In the Microsoft 365 admin center, admins can review the full agent registry in one place.\n- That includes agents published by the organization, shared by creators, Microsoft agents, partner agents, and Frontier agents.\n- From here, the team can decide what is available to users and manage the lifecycle with controls like enable, disable, assign, block, or remove.",
+      "demo_actions": "Open the Agents page in the Microsoft 365 admin center. Show the agent inventory or registry view, then filter or scan across agent types like organization-published, creator-shared, Microsoft, partner, and Frontier agents. Open one agent to show its details, then highlight the admin controls to enable, disable, assign, block, or remove it.",
+      "screenshot": ".cutready/screenshots/20260630_074206_429_30.jpg"
     },
     {
       "locked": false,
@@ -59,9 +59,9 @@
         "design_plan": false
       },
       "time": "~25s",
-      "narrative": "- Auditability matters too.\n- The business needs to know what changed, who approved it, and how the agent was used over time.\n- That is part of trust in production.",
-      "demo_actions": "Show activity history, audit trail, or change tracking around the agent itself.",
-      "screenshot": ".cutready/screenshots/20260622_212853_621_10.jpg"
+      "narrative": "- Part of observability is understanding Shadow AI.\n- In A365, admins get a dedicated view to discover unmanaged AI agents that show up outside the approved fleet.\n- That includes things like local agents, AI coding assistants, browser extensions, and agentic CLIs.\n- From here, the team can turn on continuous detection for managed Windows devices, see which devices were found, and block an agent when it crosses the line.",
+      "demo_actions": "Open the Shadow AI page in A365. Show the list of unmanaged agents, then open one agent detail view. Point out the security policies tab, turn on continuous detection for managed Windows devices, show the detected devices list, and highlight the option to block the agent.",
+      "screenshot": ".cutready/screenshots/20260630_074420_915_34.jpg"
     },
     {
       "locked": false,
@@ -74,9 +74,9 @@
         "design_plan": false
       },
       "time": "~25s",
-      "narrative": "- And then there is cost.\n- Once invoice reviews are running every day across many suppliers and programs, cost becomes an operating question, not a technical footnote.",
-      "demo_actions": "Move to the A365 cost view or cost monitoring surface.",
-      "screenshot": ".cutready/screenshots/20260622_213045_628_22.jpg"
+      "narrative": "- Cost is part of the operating picture too.\n- In A365, admins can see usage and spend across the agent fleet instead of guessing where consumption is coming from.\n- That makes it easier to spot which agents are active, which ones are driving cost, and where to tighten controls as adoption grows.",
+      "demo_actions": "Open the A365 cost or usage view. Show spend or consumption across agents, then point out which agents are active and which ones are driving the highest usage or cost.",
+      "screenshot": ".cutready/screenshots/20260630_075409_540_38.jpg"
     },
     {
       "locked": false,
@@ -96,5 +96,5 @@
   ],
   "state": "draft",
   "created_at": "2026-06-23T17:42:03.433388100Z",
-  "updated_at": "2026-06-23T17:42:03.433388200Z"
+  "updated_at": "2026-06-30T07:54:15.103290700Z"
 }
