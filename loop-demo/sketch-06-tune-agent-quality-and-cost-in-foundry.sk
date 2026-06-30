@@ -1,17 +1,17 @@
 {
   "title": "Tune - Use RFT to Move to a Smaller Model",
-  "locked": false,
+  "locked": true,
   "description": "Shows how reinforcement fine-tuning in Azure AI Foundry can improve agent decisions enough to shift work from a larger model to a smaller one. Walks through the reward function, scenario-based training data, and evaluation results that demonstrate whether the tuned smaller model preserves quality while reducing cost.",
   "rows": [
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~20s",
       "narrative": "- Up to this point, we have a working agent.\n- But it depends on a larger model to make the right calls.\n- The goal here is to keep the decision quality and lower the cost.\n- This is where reinforcement fine-tuning comes in.",
@@ -19,14 +19,14 @@
       "screenshot": ".cutready/screenshots/20260630_081728_325_42.jpg"
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~30s",
       "narrative": "- Before we tune anything, it helps to place RFT in the bigger fine-tuning picture.\n- Foundry supports SFT, DPO, and RFT.\n- Microsoft says most teams should start with SFT.\n- But when the task is about making the right decision, and we can score that clearly, RFT is a strong fit.",
@@ -34,14 +34,14 @@
       "screenshot": ".cutready/screenshots/20260630_012438_tuning-options.png"
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~30s",
       "narrative": "- This is the reward function step.\n- This is where we define what a good decision looks like in code.\n- The model is not being rewarded for sounding polished.\n- It is being rewarded for choosing the correct action.",
@@ -49,14 +49,14 @@
       "screenshot": ".cutready/screenshots/20260630_081852_660_50.jpg"
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~30s",
       "narrative": "- In this repo, the grader acts like an automated judge.\n- It checks whether the agent picked the right decision, used the right tools, and followed the right order.\n- If there is a refund or credit involved, it can also verify the exact amount.\n- That gives us a concrete target for training.",
@@ -64,14 +64,14 @@
       "screenshot": ".cutready/screenshots/20260630_081852_660_50.jpg"
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~25s",
       "narrative": "- Next is the training data.\n- These JSONL rows are not generic conversations.\n- They are work scenarios that show the model what kinds of requests it needs to handle.\n- This is how we teach the smaller model the operating patterns of the business.",
@@ -79,14 +79,14 @@
       "screenshot": ".cutready/screenshots/20260630_082004_088_54.jpg"
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~25s",
       "narrative": "- Then we test whether the tradeoff works.\n- The leaderboard compares the larger model, the smaller base model, and the tuned smaller model on the same held-out set.\n- If the tuned model closes the quality gap enough, we can shift work to it and spend less.\n- This is the proof point for the whole exercise.",
@@ -95,14 +95,14 @@
       "visual": ".cutready/visuals/ca609d0308fa.json"
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~20s",
       "narrative": "- So the point of this chapter is simple.\n- We use RFT to train a smaller model against real business judgment.\n- Then we measure whether it can take on more of the work without a big drop in quality.\n- If it can, we save money.",
@@ -113,5 +113,5 @@
   ],
   "state": "draft",
   "created_at": "2026-06-23T17:42:03.434006200Z",
-  "updated_at": "2026-06-30T08:27:35.470778Z"
+  "updated_at": "2026-06-30T08:33:29.681713700Z"
 }
