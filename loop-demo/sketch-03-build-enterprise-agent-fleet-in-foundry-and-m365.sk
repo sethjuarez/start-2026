@@ -1,7 +1,7 @@
 {
   "title": "Build - Enterprise Agent Fleet in Foundry and M365",
   "locked": false,
-  "description": "Enterprise build chapter that moves from the local POC into VS Code, connected IQs, hosted deployment in Foundry, and business access through M365 and Teams.",
+  "description": "Enterprise build chapter that moves the local invoice review proof of concept into Foundry, connects agents to enterprise knowledge sources, validates behavior inside VS Code, and publishes the result into Microsoft Teams for everyday use.",
   "rows": [
     {
       "locked": false,
@@ -13,9 +13,9 @@
         "visual": false,
         "design_plan": false
       },
-      "time": "~20s",
-      "narrative": "- The local proof of concept showed that the task works.\n- Now the agent needs to grow up.\n- Move into an environment with the security, governance, and visibility required for production use.",
-      "demo_actions": "Transition from the local POC to VS Code or the enterprise build environment. Frame this as the move from experiment to production.",
+      "time": "~25s",
+      "narrative": "- Now that we've validated our idea locally, the next step is moving it into Foundry so it can become a production-ready agent or fleet of agents.",
+      "demo_actions": "Transition from the local proof of concept to the enterprise build environment. Frame this as the move from local validation into a production-ready deployment path.",
       "screenshot": ".cutready/screenshots/20260622_142419_vlcsnap-2026-06-22-14h24m13s620.png"
     },
     {
@@ -28,9 +28,9 @@
         "visual": false,
         "design_plan": false
       },
-      "time": "~35s",
-      "narrative": "- In VS Code, connect the agent to the right IQs.\n- The local proof of concept used simulated records.\n- This version can reach real enterprise evidence with visible guardrails on tool calls.\n- That is the difference between a good demo and a system the business can trust.",
-      "demo_actions": "Open the agent project in VS Code. Show configuration for IQs, tool access, and policy controls.",
+      "time": "~30s",
+      "narrative": "- One of my favorite features of the GitHub Copilot app is that I can hand my work directly into my preferred editor.\n- With a single click, I can open the entire project in Visual Studio Code and continue building without losing any context.",
+      "demo_actions": "Show the handoff from GitHub Copilot into Visual Studio Code. Open the full project and briefly orient the viewer to the editor with the inherited project context.",
       "screenshot": ".cutready/screenshots/20260622_142540_vlcsnap-2026-06-22-14h25m35s396.png"
     },
     {
@@ -43,9 +43,24 @@
         "visual": false,
         "design_plan": false
       },
-      "time": "~40s",
-      "narrative": "- Name the sources clearly.\n- Work IQ brings in email and Microsoft 365 context.\n- Foundry IQ brings indexed contracts.\n- Fabric IQ brings structured invoice data.\n- Web IQ can add current outside financial context when needed.",
-      "demo_actions": "Open the toolbox or connected data sources and point out the key IQs that support invoice assurance.",
+      "time": "~10s",
+      "narrative": "- Thanks to the magic of demo editing, I've already completed some of that work.",
+      "demo_actions": "Use a quick jump cut into the prepared VS Code project state so the demo can move straight into the key implementation details.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~35s",
+      "narrative": "- Here we're looking at the code that connects our application to Foundry.\n- The setup is intentionally straightforward.\n- We establish a connection to our Foundry project, authenticate using our credentials, choose the model we want to use, and we're ready to start building agents.",
+      "demo_actions": "Open the relevant code and configuration files in VS Code. Point out the Foundry project connection, authentication, model selection, and the minimal setup required to start building agents.",
       "screenshot": ".cutready/screenshots/20260622_142437_vlcsnap-2026-06-22-14h24m33s324.png"
     },
     {
@@ -58,9 +73,24 @@
         "visual": false,
         "design_plan": false
       },
-      "time": "~30s",
-      "narrative": "- Once those connections are in place, deploy the agent as a hosted agent in Foundry.\n- Now we have a managed runtime with isolation and a clear execution path we can inspect.\n- The idea is the same as the local build.\n- The operating model is now enterprise-ready.",
-      "demo_actions": "Deploy the agent in Foundry. Show hosted agent setup, cloud isolation cues, and a simple execution.",
+      "time": "~15s",
+      "narrative": "- The real power comes from extending those agents with enterprise knowledge.",
+      "demo_actions": "Set up the transition from base model wiring into connected enterprise data and tools.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~40s",
+      "narrative": "- Rather than relying only on the language model, we can connect to services like WorkIQ, FabricIQ, SharePoint, and Microsoft Teams.\n- Those integrations allow the agent to retrieve organizational knowledge and incorporate it into its reasoning, resulting in recommendations that are grounded in your business data rather than just the model's training.",
+      "demo_actions": "Show the configured enterprise connections and tool access in VS Code. Call out WorkIQ, FabricIQ, SharePoint, and Teams as knowledge sources the agent can use during reasoning.",
       "screenshot": ".cutready/screenshots/20260622_142605_vlcsnap-2026-06-22-14h25m58s345.png"
     },
     {
@@ -73,9 +103,54 @@
         "visual": false,
         "design_plan": false
       },
-      "time": "~30s",
-      "narrative": "- From there, the agent becomes easier for the business to use.\n- People do not need to open a builder tool.\n- Invoice assurance can show up where they already work, including Teams through M365.",
-      "demo_actions": "Move to the M365 or Teams surface. Show the autopilot or agent entry point in Teams.",
+      "time": "~15s",
+      "narrative": "- As we're building, we don't have to leave Visual Studio Code to test any of this.",
+      "demo_actions": "Transition from configuration into testing and inspection inside the editor.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~40s",
+      "narrative": "- The Foundry Toolkit gives us direct access to our hosted models, playgrounds, session history, traces, and evaluations.\n- I can interact with the agent, inspect how it's reasoning, review execution traces, and evaluate its performance, all from within the editor.",
+      "demo_actions": "Open the Foundry Toolkit panels in VS Code. Show hosted models, playground access, session history, traces, and evaluations, then run a quick interaction and inspect the result.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~20s",
+      "narrative": "- Once we're happy with the results, publishing the agent is straightforward.",
+      "demo_actions": "Set up the publish step and show the path from tested agent to hosted deployment.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~25s",
+      "narrative": "- Because it's hosted in Foundry, we can make it available through Microsoft Teams, allowing people to interact with it from a tool they already use every day.",
+      "demo_actions": "Show the deployment target and the connection into Microsoft Teams. Frame this as the move from builder tooling into an everyday work surface.",
       "screenshot": ".cutready/screenshots/20260622_212932_145_14.jpg"
     },
     {
@@ -89,9 +164,24 @@
         "design_plan": false
       },
       "time": "~30s",
-      "narrative": "- Here is a simple interaction.\n- A user asks about an invoice.\n- The agent responds with a recommendation grounded in contract and operating evidence.\n- So the system has moved from one local build to an enterprise agent people can actually use.",
-      "demo_actions": "Run a short Teams interaction tied to invoice assurance. Ask the agent to review or explain an invoice decision and show the response.",
+      "narrative": "- Here's our invoice analysis agent running inside Teams.\n- I can mention the agent, ask it questions about an invoice, or request an analysis, and it responds with the same reasoning and capabilities we built throughout this workflow.",
+      "demo_actions": "Open Teams and run a short interaction with the invoice analysis agent. Mention the agent, ask an invoice question, and show the response.",
       "screenshot": ".cutready/screenshots/20260622_212825_082_6.jpg"
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~30s",
+      "narrative": "- What started as a local prototype in the GitHub Copilot app has now become an enterprise-ready agent that securely connects to organizational data, runs in Foundry, and is available directly inside the collaboration tools your users already rely on.",
+      "demo_actions": "Pause on the final Teams experience and summarize the journey from local prototype to enterprise-ready agent in Foundry and Microsoft 365.",
+      "screenshot": null
     }
   ],
   "state": "draft",
