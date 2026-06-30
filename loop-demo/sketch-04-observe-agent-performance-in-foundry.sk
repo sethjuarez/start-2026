@@ -1,17 +1,17 @@
 {
   "title": "Observe - Agent Performance in Foundry",
-  "locked": false,
+  "locked": true,
   "description": "Performance inspection chapter in Foundry that focuses on traces, rubrics, and evals for the invoice-review job.",
   "rows": [
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~20s",
       "narrative": "- Once the agents are running, the next question is simple.\n- Are they doing the job the right way?\n- This section stays close to the invoice-review task and shows how we inspect quality in Foundry.",
@@ -19,14 +19,14 @@
       "screenshot": ".cutready/screenshots/20260630_073751_057_2.jpg"
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~30s",
       "narrative": "- Start with tracing.\n- The point is to see the path through the evidence.\n- Which records did the agent read?\n- Which steps did it take before making a recommendation?\n- That gives the team a concrete view into each run.",
@@ -34,14 +34,14 @@
       "screenshot": ".cutready/screenshots/20260630_073811_074_6.jpg"
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~30s",
       "narrative": "- Then move into rubrics.\n- Keep them grounded in the real job.\n- Are we reasoning correctly over contract terms?\n- Are we using the right evidence?\n- Is the recommendation clear and defensible?",
@@ -49,14 +49,14 @@
       "screenshot": ".cutready/screenshots/20260630_073849_749_10.jpg"
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~30s",
       "narrative": "- Once the rubric is defined, run evaluations against it.\n- Now we can see where the agent is strong and where it still needs work.\n- This is much better than relying on anecdotal testing or one-off examples.",
@@ -64,14 +64,14 @@
       "screenshot": ".cutready/screenshots/20260630_073922_018_14.jpg"
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~20s",
       "narrative": "- So this is the close-up view of Observe.\n- Foundry shows whether the invoice-review agent is reasoning well, using the right evidence, and producing recommendations the team can defend.",
@@ -81,5 +81,5 @@
   ],
   "state": "draft",
   "created_at": "2026-06-23T17:42:03.432829600Z",
-  "updated_at": "2026-06-30T07:39:46.058501600Z"
+  "updated_at": "2026-06-30T08:37:57.441584400Z"
 }

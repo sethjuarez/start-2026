@@ -1,0 +1,130 @@
+{
+  "title": "Tune - Agent Tuning",
+  "locked": false,
+  "description": "Continues from Observe by taking the eval dataset and rubric we already trust and using Agent Optimizer to improve the agent setup. Shows the loop from baseline scoring to candidate generation, ranking, and apply, all without changing the model.",
+  "rows": [
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~20s",
+      "narrative": "- In Observe, we found where the agent slips.\n- Now we use that same eval setup to tune the agent.\n- Same model. Better behavior.",
+      "demo_actions": "Bridge directly from the Observe chapter. Frame this as the next step after tracing and evals: we know where the agent is weak, and now we use Agent Optimizer to improve the configuration before changing models.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~30s",
+      "narrative": "- Agent Optimizer takes that eval set and runs the loop.\n- It scores the baseline, tests candidates, and ranks the results.",
+      "demo_actions": "Open the Agent Optimizer overview or Optimize tab. Connect it to the prior chapter by explaining that the evals from Observe now become the basis for optimization.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~30s",
+      "narrative": "- It tunes instructions, skills, and tools.\n- We are not changing the model.\n- We are tuning the setup.",
+      "demo_actions": "Show the optimization targets in the docs. Highlight instruction tuning, skill improvement, and tool optimization. Note that model selection exists, but it is out of scope for this sketch.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~25s",
+      "narrative": "- It starts with the dataset and rubric we already trust.\n- The agent runs real tasks and gets scored.\n- That gives us a baseline.",
+      "demo_actions": "Open eval.yaml or the dataset generation flow. Emphasize that this is the same kind of grounded evaluation setup introduced in Observe, now used to drive tuning.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~30s",
+      "narrative": "- Then it creates candidates.\n- One may tighten instructions.\n- Another may improve a skill.\n- Another may clean up tool descriptions.",
+      "demo_actions": "Show candidate concepts in the docs or portal results. Explain that each candidate is a different configuration mutation, such as system prompt updates, skill edits, or tool description refinements.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~30s",
+      "narrative": "- After the run, you compare baseline and candidates.\n- Higher scores rise to the top.\n- Foundry marks the recommended config.",
+      "demo_actions": "Show the results table from the docs or portal. Call out baseline, candidate rows, composite score, strategy, and the starred winner.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~25s",
+      "narrative": "- Then you apply the winner and deploy.\n- Same model.\n- Better setup.",
+      "demo_actions": "Show the CLI flow with azd ai agent optimize apply followed by azd deploy. Briefly explain config resolution and that the optimized config becomes part of the agent's normal startup path.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~20s",
+      "narrative": "- So this is the next move after Observe.\n- First, measure where the agent misses.\n- Then tune the agent before you tune the model.",
+      "demo_actions": "Close by linking the chapters: Observe shows where performance breaks down, and Tune uses that signal to improve the agent through baseline scoring, candidate generation, ranking, and apply.",
+      "screenshot": null
+    }
+  ],
+  "state": "draft",
+  "created_at": "2026-06-30T08:34:24.054124500Z",
+  "updated_at": "2026-06-30T08:34:24.054126300Z"
+}
