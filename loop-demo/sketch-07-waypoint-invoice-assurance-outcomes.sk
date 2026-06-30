@@ -1,17 +1,17 @@
 {
   "title": "Waypoint - Invoice Assurance Outcomes",
-  "locked": false,
+  "locked": true,
   "description": "Waypoint outcomes chapter showing the published invoice assurance application in action, including approved and recovery recommendations, side-by-side run comparison, traceable run history, operational telemetry, and the full arc from local prototype to production-ready business workflow.",
   "rows": [
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~20s",
       "narrative": "- Now let's look at the application we've built and published.\n- This is where everything we've been working on comes together.",
@@ -19,14 +19,14 @@
       "screenshot": ".cutready/screenshots/20260617_111154_CleanShot 2026-06-17 at 11.11.27@2x.png"
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~20s",
       "narrative": "- Here we're looking at our invoices.\n- The agents have already analyzed each one and categorized them based on the evidence they found.",
@@ -34,14 +34,14 @@
       "screenshot": ".cutready/screenshots/20260617_111253_CleanShot 2026-06-17 at 11.11.27@2x.png"
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~15s",
       "narrative": "- Let's start with an invoice that was approved.",
@@ -49,14 +49,14 @@
       "screenshot": ".cutready/screenshots/20260617_111259_CleanShot 2026-06-17 at 11.12.21@2x.png"
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~35s",
       "narrative": "- At a glance, we can see the agent's decision, the confidence behind it, and, most importantly, the evidence that supports that decision.\n- We can drill into the supporting documents, review the evidence trail, and even see every tool the agent used to reach its conclusion.",
@@ -64,14 +64,14 @@
       "screenshot": null
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~20s",
       "narrative": "- That evidence trail is really the key.\n- Instead of asking us to simply trust the AI, the application shows exactly why it believes this invoice should be paid.",
@@ -79,14 +79,14 @@
       "screenshot": null
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~15s",
       "narrative": "- Now let's compare that to a recovery recommendation.",
@@ -94,14 +94,14 @@
       "screenshot": ".cutready/screenshots/20260617_111347_CleanShot 2026-06-17 at 11.13.26@2x.png"
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~30s",
       "narrative": "- Here, the agent determined the invoice shouldn't be paid as submitted.\n- Once again, we can inspect the supporting documents, review the evidence that led to the recommendation, and follow the complete reasoning behind the decision.",
@@ -109,14 +109,14 @@
       "screenshot": null
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~30s",
       "narrative": "- One capability I particularly like is that we aren't limited to a single agent run.\n- As we're experimenting with different models or prompts, we can compare multiple runs side by side to understand how different approaches affect the outcome.",
@@ -124,14 +124,14 @@
       "screenshot": null
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~20s",
       "narrative": "- In this case, the application has even generated a reviewer draft that helps prepare a response for disputing the invoice, giving the reviewer a strong starting point instead of beginning from scratch.",
@@ -139,14 +139,14 @@
       "screenshot": null
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~15s",
       "narrative": "- Now let's switch over to the run history.",
@@ -154,14 +154,14 @@
       "screenshot": ".cutready/screenshots/20260617_111427_CleanShot 2026-06-17 at 11.14.06@2x.png"
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~30s",
       "narrative": "- Here we can see every execution across the system.\n- We can filter by date range, decision type, confidence level, or even sort by the amount of money at risk to quickly identify the highest priority cases.",
@@ -169,14 +169,14 @@
       "screenshot": null
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~35s",
       "narrative": "- If we open one of these runs, we get a complete view of how that decision was made.\n- In this example, the invoice represents $920 of potential risk.\n- We can see each service involved in the workflow, including FoundryIQ and FabricIQ, along with an aggregator agent that combines those results into a single recommendation that our Waypoint application ultimately presents to the reviewer.",
@@ -184,14 +184,14 @@
       "screenshot": null
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~20s",
       "narrative": "- Because every step is captured, the entire process is fully traceable from the original documents all the way to the final recommendation.",
@@ -199,14 +199,14 @@
       "screenshot": null
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~15s",
       "narrative": "- We also have operational telemetry built into the application.",
@@ -214,14 +214,14 @@
       "screenshot": ".cutready/screenshots/20260617_111509_CleanShot 2026-06-17 at 11.14.49@2x.png"
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~35s",
       "narrative": "- On the right, we can monitor expert and tool usage, understand which capabilities are contributing the most value, and even measure how much money each one has helped recover.\n- We can also track trends over time, such as whether overall financial risk is increasing or decreasing.",
@@ -229,14 +229,14 @@
       "screenshot": null
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~20s",
       "narrative": "- What I like about this entire workflow is how naturally it evolves.",
@@ -244,14 +244,14 @@
       "screenshot": null
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~35s",
       "narrative": "- We started with an idea running locally in the GitHub Copilot app.\n- We refined it inside Visual Studio Code, published the agents into Foundry, connected them through Teams, and ultimately delivered a web application that anyone in the organization can use.",
@@ -259,14 +259,14 @@
       "screenshot": null
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~20s",
       "narrative": "- The same idea that started as a local proof of concept is now a production-ready workflow that provides transparency, governance, and measurable business value.",
@@ -276,5 +276,5 @@
   ],
   "state": "draft",
   "created_at": "2026-06-23T17:42:03.434592200Z",
-  "updated_at": "2026-06-23T17:42:03.434592300Z"
+  "updated_at": "2026-06-30T08:40:06.394140Z"
 }

@@ -1,17 +1,17 @@
 {
   "title": "Observe - Governance and Cost in A365",
-  "locked": false,
+  "locked": true,
   "description": "Broader operating chapter in A365 that widens the view from one agent run to the full governed fleet, including approvals, access, auditability, and cost.",
   "rows": [
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~20s",
       "narrative": "- Observe is not only about one run inside Foundry.\n- It also means understanding how the full agent fleet is governed once it is deployed across the business.",
@@ -19,14 +19,14 @@
       "screenshot": ".cutready/screenshots/20260630_074108_831_22.jpg"
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~25s",
       "narrative": "- Start with the agent registry in the Microsoft 365 admin center.\n- This is where IT can see the agents people can request, approve what is allowed, and manage what stays available to the business.\n- It gives the team one place to monitor the full inventory as adoption grows.",
@@ -34,14 +34,14 @@
       "screenshot": ".cutready/screenshots/20260630_074125_546_26.jpg"
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~25s",
       "narrative": "- Then show approvals and access.\n- In the Microsoft 365 admin center, admins can review the full agent registry in one place.\n- That includes agents published by the organization, shared by creators, Microsoft agents, partner agents, and Frontier agents.\n- From here, the team can decide what is available to users and manage the lifecycle with controls like enable, disable, assign, block, or remove.",
@@ -49,14 +49,14 @@
       "screenshot": ".cutready/screenshots/20260630_074206_429_30.jpg"
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~25s",
       "narrative": "- Part of observability is understanding Shadow AI.\n- In A365, admins get a dedicated view to discover unmanaged AI agents that show up outside the approved fleet.\n- That includes things like local agents, AI coding assistants, browser extensions, and agentic CLIs.\n- From here, the team can turn on continuous detection for managed Windows devices, see which devices were found, and block an agent when it crosses the line.",
@@ -64,14 +64,14 @@
       "screenshot": ".cutready/screenshots/20260630_074420_915_34.jpg"
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~25s",
       "narrative": "- Cost is part of the operating picture too.\n- In A365, admins can see usage and spend across the agent fleet instead of guessing where consumption is coming from.\n- That makes it easier to spot which agents are active, which ones are driving cost, and where to tighten controls as adoption grows.",
@@ -79,14 +79,14 @@
       "screenshot": ".cutready/screenshots/20260630_075409_540_38.jpg"
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~20s",
       "narrative": "- So the wider Observe story is clear.\n- We can inspect quality in Foundry.\n- And we can inspect governance, access, auditability, and cost across the fleet in A365.",
@@ -96,5 +96,5 @@
   ],
   "state": "draft",
   "created_at": "2026-06-23T17:42:03.433388100Z",
-  "updated_at": "2026-06-30T07:54:15.103290700Z"
+  "updated_at": "2026-06-30T08:37:54.295780400Z"
 }

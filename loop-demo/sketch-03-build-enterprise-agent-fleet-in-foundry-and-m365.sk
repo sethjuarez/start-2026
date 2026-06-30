@@ -1,17 +1,17 @@
 {
   "title": "Build - Enterprise Agent Fleet in Foundry and M365",
-  "locked": false,
+  "locked": true,
   "description": "Enterprise build chapter that moves the local invoice review proof of concept into Foundry, connects agents to enterprise knowledge sources, validates behavior inside VS Code, and publishes the result into Microsoft Teams for everyday use.",
   "rows": [
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~25s",
       "narrative": "- Now that we've validated our idea locally, the next step is moving it into Foundry so it can become a production-ready agent or fleet of agents.",
@@ -19,14 +19,14 @@
       "screenshot": ".cutready/screenshots/20260622_142419_vlcsnap-2026-06-22-14h24m13s620.png"
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~30s",
       "narrative": "- One of my favorite features of the GitHub Copilot app is that I can hand my work directly into my preferred editor.\n- With a single click, I can open the entire project in Visual Studio Code and continue building without losing any context.",
@@ -34,14 +34,14 @@
       "screenshot": ".cutready/screenshots/20260622_142540_vlcsnap-2026-06-22-14h25m35s396.png"
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~10s",
       "narrative": "- Thanks to the magic of demo editing, I've already completed some of that work.",
@@ -49,14 +49,14 @@
       "screenshot": null
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~35s",
       "narrative": "- Here we're looking at the code that connects our application to Foundry.\n- The setup is intentionally straightforward.\n- We establish a connection to our Foundry project, authenticate using our credentials, choose the model we want to use, and we're ready to start building agents.",
@@ -64,14 +64,14 @@
       "screenshot": ".cutready/screenshots/20260622_142437_vlcsnap-2026-06-22-14h24m33s324.png"
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~15s",
       "narrative": "- The real power comes from extending those agents with enterprise knowledge.",
@@ -79,14 +79,14 @@
       "screenshot": null
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~40s",
       "narrative": "- Rather than relying only on the language model, we can connect to services like WorkIQ, FabricIQ, SharePoint, and Microsoft Teams.\n- Those integrations allow the agent to retrieve organizational knowledge and incorporate it into its reasoning, resulting in recommendations that are grounded in your business data rather than just the model's training.",
@@ -94,14 +94,14 @@
       "screenshot": ".cutready/screenshots/20260622_142605_vlcsnap-2026-06-22-14h25m58s345.png"
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~15s",
       "narrative": "- As we're building, we don't have to leave Visual Studio Code to test any of this.",
@@ -109,14 +109,14 @@
       "screenshot": null
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~40s",
       "narrative": "- The Foundry Toolkit gives us direct access to our hosted models, playgrounds, session history, traces, and evaluations.\n- I can interact with the agent, inspect how it's reasoning, review execution traces, and evaluate its performance, all from within the editor.",
@@ -124,14 +124,14 @@
       "screenshot": null
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~20s",
       "narrative": "- Once we're happy with the results, publishing the agent is straightforward.",
@@ -139,14 +139,14 @@
       "screenshot": null
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~25s",
       "narrative": "- Because it's hosted in Foundry, we can make it available through Microsoft Teams, allowing people to interact with it from a tool they already use every day.",
@@ -154,14 +154,14 @@
       "screenshot": ".cutready/screenshots/20260622_212932_145_14.jpg"
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~30s",
       "narrative": "- Here's our invoice analysis agent running inside Teams.\n- I can mention the agent, ask it questions about an invoice, or request an analysis, and it responds with the same reasoning and capabilities we built throughout this workflow.",
@@ -169,14 +169,14 @@
       "screenshot": ".cutready/screenshots/20260622_212825_082_6.jpg"
     },
     {
-      "locked": false,
+      "locked": true,
       "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
+        "time": true,
+        "narrative": true,
+        "demo_actions": true,
+        "screenshot": true,
+        "visual": true,
+        "design_plan": true
       },
       "time": "~30s",
       "narrative": "- What started as a local prototype in the GitHub Copilot app has now become an enterprise-ready agent that securely connects to organizational data, runs in Foundry, and is available directly inside the collaboration tools your users already rely on.",
@@ -186,5 +186,5 @@
   ],
   "state": "draft",
   "created_at": "2026-06-23T17:42:03.432034600Z",
-  "updated_at": "2026-06-23T17:42:03.432034800Z"
+  "updated_at": "2026-06-30T08:38:05.258137500Z"
 }
