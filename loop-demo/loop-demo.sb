@@ -1,11 +1,13 @@
 {
   "title": "Loop Demo",
-  "description": "Loop Demo follows Pharma Company's invoice assurance story from business pressure to business outcome. It starts with why CMO invoice review has become harder to trust, then shows how agents are built, observed, and tuned across GitHub Copilot, Foundry, M365, and A365 before landing in Waypoint with clear invoice decisions, evidence, and dollars at risk.",
+  "description": "Loop Demo follows Caldova's invoice assurance story from business pressure to business outcome. It starts with why CMO invoice review has become harder to trust, then shows how agents are built, observed, and tuned across GitHub Copilot, Foundry, M365, and A365 before landing in Waypoint with clear invoice decisions, evidence, and dollars at risk.",
   "locked": false,
   "items": [
     {
-      "type": "sketch_ref",
-      "path": "sketch-01-business-context-cmo-invoice-pressure.sk"
+      "type": "section",
+      "title": "Intro",
+      "description": "Caldova is under pressure to move faster while relying more heavily on contract manufacturing organizations, or CMOs. That increases the volume and complexity of CMO invoices. More suppliers, more contract terms, more milestone logic, and more approval context make payment decisions harder to trust. This opening frames Waypoint as Caldova's internal invoice assurance application and sets up the story that follows: Build, Observe, Tune, and the business outcome in Waypoint.",
+      "sketches": []
     },
     {
       "type": "section",
@@ -26,14 +28,22 @@
       ]
     },
     {
-      "type": "sketch_ref",
-      "path": "sketch-06-tune-agent-quality-and-cost-in-foundry.sk"
+      "type": "section",
+      "title": "Tune",
+      "description": "The Tune section starts from what was learned in Observe. Performance is visible in Foundry, and governance and cost are visible in A365. That information is then used to improve the system.",
+      "sketches": [
+        "sketch-06-tune-agent-quality-and-cost-in-foundry.sk"
+      ]
     },
     {
-      "type": "sketch_ref",
-      "path": "sketch-07-waypoint-invoice-assurance-outcomes.sk"
+      "type": "section",
+      "title": "End in Waypoint",
+      "description": "Close in the app and land on the business outcome. Return to Waypoint to show invoice decisions, supporting evidence, run history, traceability, and dollars at risk so the audience sees what the full Build, Observe, and Tune loop delivers inside the business.",
+      "sketches": [
+        "sketch-07-waypoint-invoice-assurance-business-outcome.sk"
+      ]
     }
   ],
   "created_at": "2026-06-23T17:45:45.940925600Z",
-  "updated_at": "2026-06-23T17:50:29.320714100Z"
+  "updated_at": "2026-06-30T06:04:19.124032300Z"
 }
