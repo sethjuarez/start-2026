@@ -1,7 +1,7 @@
 {
   "title": "Waypoint - Invoice Assurance Outcomes",
   "locked": false,
-  "description": "Closing chapter in Waypoint that lands the story on business outcomes, with invoice statuses, dollars at risk, linked evidence, and batch reconciliation results.",
+  "description": "Waypoint outcomes chapter showing the published invoice assurance application in action, including approved and recovery recommendations, side-by-side run comparison, traceable run history, operational telemetry, and the full arc from local prototype to production-ready business workflow.",
   "rows": [
     {
       "locked": false,
@@ -14,8 +14,8 @@
         "design_plan": false
       },
       "time": "~20s",
-      "narrative": "- Now return to the application.\n- This is where all of that work shows up for the business.\n- Start in Waypoint with invoices already classified as matched, variance, and disputed.",
-      "demo_actions": "Open the Waypoint invoices tab. Show a list of invoices with visible statuses and totals at the top.",
+      "narrative": "- Now let's look at the application we've built and published.\n- This is where everything we've been working on comes together.",
+      "demo_actions": "Open the published Waypoint application and land on the main invoice view. Frame this as the point where the full workflow becomes visible to the business.",
       "screenshot": ".cutready/screenshots/20260617_111154_CleanShot 2026-06-17 at 11.11.27@2x.png"
     },
     {
@@ -28,39 +28,9 @@
         "visual": false,
         "design_plan": false
       },
-      "time": "~25s",
-      "narrative": "- Start with one that matched cleanly.\n- The point is not just that it was approved.\n- The point is that Waypoint can show why it should be paid.\n- Bring up the evidence behind that decision.",
-      "demo_actions": "Open a matched invoice. Walk through invoice lines, contract terms, receipt context, batch records, QA release, milestone status, and approval history.",
-      "screenshot": ".cutready/screenshots/20260617_111259_CleanShot 2026-06-17 at 11.12.21@2x.png"
-    },
-    {
-      "locked": false,
-      "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
-      },
-      "time": "~30s",
-      "narrative": "- Then compare that with one that does not line up.\n- Waypoint makes the gap easy to see.\n- It ties the issue back to the source record.\n- Now the team can review the invoice from facts instead of email threads and manual checks.",
-      "demo_actions": "Open a variance or disputed invoice. Highlight the mismatch and the linked evidence behind the decision.",
-      "screenshot": ".cutready/screenshots/20260617_111347_CleanShot 2026-06-17 at 11.13.26@2x.png"
-    },
-    {
-      "locked": false,
-      "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
-      },
       "time": "~20s",
-      "narrative": "- Once you have that evidence trail, the rollup matters more.\n- This is about dollars, not just flags.\n- Show what is ready to pay, what needs review, and where risk is building.",
-      "demo_actions": "Return to the invoice list. Point to dollar amounts tied to matched, variance, and disputed invoices. Sort or filter to surface high-value exceptions.",
+      "narrative": "- Here we're looking at our invoices.\n- The agents have already analyzed each one and categorized them based on the evidence they found.",
+      "demo_actions": "Show the invoice list with visible categories and statuses so the viewer can see that analysis has already been completed across the set.",
       "screenshot": ".cutready/screenshots/20260617_111253_CleanShot 2026-06-17 at 11.11.27@2x.png"
     },
     {
@@ -73,9 +43,114 @@
         "visual": false,
         "design_plan": false
       },
-      "time": "~25s",
-      "narrative": "- And this scales beyond one invoice at a time.\n- Waypoint can run the same checks across the full set.\n- Every invoice is held to the same standard.\n- Every decision is tied back to the same evidence chain.",
-      "demo_actions": "Kick off a batch reconciliation or return to a completed run. Show the enabled IQs and the progress or result summary.",
+      "time": "~15s",
+      "narrative": "- Let's start with an invoice that was approved.",
+      "demo_actions": "Open an approved invoice from the list and transition into the detail view.",
+      "screenshot": ".cutready/screenshots/20260617_111259_CleanShot 2026-06-17 at 11.12.21@2x.png"
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~35s",
+      "narrative": "- At a glance, we can see the agent's decision, the confidence behind it, and, most importantly, the evidence that supports that decision.\n- We can drill into the supporting documents, review the evidence trail, and even see every tool the agent used to reach its conclusion.",
+      "demo_actions": "In the approved invoice detail view, point out the decision, confidence, linked documents, evidence trail, and tool usage history.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~20s",
+      "narrative": "- That evidence trail is really the key.\n- Instead of asking us to simply trust the AI, the application shows exactly why it believes this invoice should be paid.",
+      "demo_actions": "Pause on the evidence trail and emphasize how the reasoning is exposed through traceable supporting details.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~15s",
+      "narrative": "- Now let's compare that to a recovery recommendation.",
+      "demo_actions": "Switch from the approved invoice to an invoice marked for recovery or dispute.",
+      "screenshot": ".cutready/screenshots/20260617_111347_CleanShot 2026-06-17 at 11.13.26@2x.png"
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~30s",
+      "narrative": "- Here, the agent determined the invoice shouldn't be paid as submitted.\n- Once again, we can inspect the supporting documents, review the evidence that led to the recommendation, and follow the complete reasoning behind the decision.",
+      "demo_actions": "Walk through the recovery recommendation details, including supporting documents, evidence, and the chain of reasoning that led to the decision.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~30s",
+      "narrative": "- One capability I particularly like is that we aren't limited to a single agent run.\n- As we're experimenting with different models or prompts, we can compare multiple runs side by side to understand how different approaches affect the outcome.",
+      "demo_actions": "Open the side-by-side run comparison view and show how different model or prompt runs can be reviewed together.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~20s",
+      "narrative": "- In this case, the application has even generated a reviewer draft that helps prepare a response for disputing the invoice, giving the reviewer a strong starting point instead of beginning from scratch.",
+      "demo_actions": "Show the generated reviewer draft and explain how it helps the reviewer prepare a dispute response faster.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~15s",
+      "narrative": "- Now let's switch over to the run history.",
+      "demo_actions": "Move from the invoice detail view into the run history page or panel.",
       "screenshot": ".cutready/screenshots/20260617_111427_CleanShot 2026-06-17 at 11.14.06@2x.png"
     },
     {
@@ -88,10 +163,115 @@
         "visual": false,
         "design_plan": false
       },
-      "time": "~25s",
-      "narrative": "- Here is the payoff.\n- In one place, the business can see what is cleared to pay, what is blocked, and why.\n- That means faster reviews, earlier recovery on invoice leakage, and a clean audit trail behind every decision.\n- This is the outcome of the full Build, Observe, and Tune loop.",
-      "demo_actions": "Return to the strongest summary view in Waypoint and pause there as the close.",
+      "time": "~30s",
+      "narrative": "- Here we can see every execution across the system.\n- We can filter by date range, decision type, confidence level, or even sort by the amount of money at risk to quickly identify the highest priority cases.",
+      "demo_actions": "In run history, show the full list of executions and demonstrate filters for date range, decision type, confidence, and financial risk.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~35s",
+      "narrative": "- If we open one of these runs, we get a complete view of how that decision was made.\n- In this example, the invoice represents $920 of potential risk.\n- We can see each service involved in the workflow, including FoundryIQ and FabricIQ, along with an aggregator agent that combines those results into a single recommendation that our Waypoint application ultimately presents to the reviewer.",
+      "demo_actions": "Open a specific run and walk through the detailed trace. Point out FoundryIQ, FabricIQ, and the aggregator agent that produces the final recommendation.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~20s",
+      "narrative": "- Because every step is captured, the entire process is fully traceable from the original documents all the way to the final recommendation.",
+      "demo_actions": "Pause on the trace view and reinforce the end-to-end traceability from source material to recommendation.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~15s",
+      "narrative": "- We also have operational telemetry built into the application.",
+      "demo_actions": "Transition from run traceability into the telemetry or analytics view.",
       "screenshot": ".cutready/screenshots/20260617_111509_CleanShot 2026-06-17 at 11.14.49@2x.png"
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~35s",
+      "narrative": "- On the right, we can monitor expert and tool usage, understand which capabilities are contributing the most value, and even measure how much money each one has helped recover.\n- We can also track trends over time, such as whether overall financial risk is increasing or decreasing.",
+      "demo_actions": "Show the telemetry panel and call out expert usage, tool contribution, recovery value, and risk trends over time.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~20s",
+      "narrative": "- What I like about this entire workflow is how naturally it evolves.",
+      "demo_actions": "Set up the closing summary while staying on the strongest summary or telemetry view.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~35s",
+      "narrative": "- We started with an idea running locally in the GitHub Copilot app.\n- We refined it inside Visual Studio Code, published the agents into Foundry, connected them through Teams, and ultimately delivered a web application that anyone in the organization can use.",
+      "demo_actions": "Summarize the end-to-end journey from local prototype to published business application while staying on the application overview.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~20s",
+      "narrative": "- The same idea that started as a local proof of concept is now a production-ready workflow that provides transparency, governance, and measurable business value.",
+      "demo_actions": "Hold on the final Waypoint outcomes view as the closing statement lands.",
+      "screenshot": null
     }
   ],
   "state": "draft",
