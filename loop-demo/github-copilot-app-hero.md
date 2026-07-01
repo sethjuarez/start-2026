@@ -1,6 +1,7 @@
 # Framing all in GitHub Copilot App
 I want to talk to an agent to talk  about my contracts / policies. 
-Open with the request.
+Open with the request. All in the GH Copilot App.
+One line where we have the copilot app - you may have heard about *the others. They all use the same.... we have collapsed (almost) all of the things into the SDK (and they build on the same thing).
 
 ## Definition of Agent
 An agent is a combination of:
