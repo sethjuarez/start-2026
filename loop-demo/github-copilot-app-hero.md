@@ -1,5 +1,6 @@
 # Framing all in GitHub Copilot App
 I want to talk to an agent to talk  about my contracts / policies. 
+Open with the request.
 
 ## Definition of Agent
 An agent is a combination of:
