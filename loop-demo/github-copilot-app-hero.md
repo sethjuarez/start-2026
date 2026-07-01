@@ -23,8 +23,9 @@ Get it to work
 Get it working in Foundry with IQs. Now that I have a local thing working - lets move the _intelligence_ to the cloud (IQs + Agents)
 1. Add IQs
 2. Test
-3. Deploy with IQs
+3. Deploy with IQs (implied Teams deploy as well)
 4. Test
+5. Deploy to Teams
 
 ## Process
 1. Build a local agent (local model) with a file inside
