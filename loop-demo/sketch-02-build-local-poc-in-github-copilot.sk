@@ -1,17 +1,17 @@
 {
   "title": "Build - Local Invoice Review POC in GitHub Copilot",
-  "locked": true,
+  "locked": false,
   "description": "Local proof of concept chapter in GitHub Copilot that shows the first invoice-review agent taking shape, running with local or simulated data, comparing local and cloud execution, and demonstrating sandbox protection before the Foundry handoff.",
   "rows": [
     {
-      "locked": true,
+      "locked": false,
       "locks": {
-        "time": true,
-        "narrative": true,
-        "demo_actions": true,
-        "screenshot": true,
-        "visual": true,
-        "design_plan": true
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
       },
       "time": "~35s",
       "narrative": "- Let's take a look at the GitHub Copilot app.\n- This is where I can work with Copilot without juggling multiple CLI sessions or SDKs.\n- If I decide to go deeper, I can hand any of these sessions directly into VS Code and continue developing there.\n- Everything starts from the home screen.\n- I get a high level view of active work, open issues, pending reviews, and any automations I've configured.\n- It is essentially my Copilot command center, and it is where I start every morning.",
@@ -19,14 +19,14 @@
       "screenshot": ".cutready/screenshots/20260617_111553_CleanShot 2026-06-17 at 11.15.31@2x.png"
     },
     {
-      "locked": true,
+      "locked": false,
       "locks": {
-        "time": true,
-        "narrative": true,
-        "demo_actions": true,
-        "screenshot": true,
-        "visual": true,
-        "design_plan": true
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
       },
       "time": "~40s",
       "narrative": "- Let me show you how I kicked off a proof of concept for our internal project, Pharma Shield.\n- All I need to do is enter a prompt: \"Start the contract reconciliation proof of concept.\"\n- From there, the Copilot app takes care of the setup.\n- The first thing you see is that it creates a worktree.\n- That gives me an isolated workspace so I can experiment freely without affecting my main branch or anyone else's work.",
@@ -34,14 +34,14 @@
       "screenshot": ".cutready/screenshots/20260617_111801_CleanShot 2026-06-17 at 11.17.40@2x.png"
     },
     {
-      "locked": true,
+      "locked": false,
       "locks": {
-        "time": true,
-        "narrative": true,
-        "demo_actions": true,
-        "screenshot": true,
-        "visual": true,
-        "design_plan": true
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
       },
       "time": "~35s",
       "narrative": "- Next, it loads a custom skill I created specifically for this contract reconciliation scenario.\n- That skill carries the domain knowledge and the workflow, so every session starts with the same context instead of me rebuilding it each time.\n- Before anything runs, the app performs a quick preflight check of the local language model using Ollama.",
@@ -49,14 +49,14 @@
       "screenshot": ".cutready/screenshots/20260617_112228_CleanShot 2026-06-17 at 11.18.47@2x.png"
     },
     {
-      "locked": true,
+      "locked": false,
       "locks": {
-        "time": true,
-        "narrative": true,
-        "demo_actions": true,
-        "screenshot": true,
-        "visual": true,
-        "design_plan": true
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
       },
       "time": "~40s",
       "narrative": "- Once everything is ready, here is the application.\n- On the left is the Copilot session that's driving the work.\n- On the right is the Canvas, which gives me an interactive view of the application I'm building and testing.\n- Right now I'm using my local model, although I can switch to a cloud model at any time.",
@@ -64,14 +64,14 @@
       "screenshot": ".cutready/screenshots/20260617_112324_CleanShot 2026-06-17 at 11.20.38@2x.png"
     },
     {
-      "locked": true,
+      "locked": false,
       "locks": {
-        "time": true,
-        "narrative": true,
-        "demo_actions": true,
-        "screenshot": true,
-        "visual": true,
-        "design_plan": true
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
       },
       "time": "~40s",
       "narrative": "- That local setup matters because there are plenty of situations where I do not want to rely on cloud connectivity.\n- Maybe I'm on an airplane, working from a coffee shop, or handling sensitive customer data.\n- Running locally gives me lower latency, lets me work offline, and helps ensure that my data stays on the device during development and testing.\n- As soon as I submit the prompt, notice the live network monitor.\n- Every request is staying on the local machine, and there is no outbound traffic.",
@@ -79,14 +79,14 @@
       "screenshot": ".cutready/screenshots/20260617_112332_CleanShot 2026-06-17 at 11.20.07@2x.png"
     },
     {
-      "locked": true,
+      "locked": false,
       "locks": {
-        "time": true,
-        "narrative": true,
-        "demo_actions": true,
-        "screenshot": true,
-        "visual": true,
-        "design_plan": true
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
       },
       "time": "~35s",
       "narrative": "- From there, I can keep working through the proof of concept.\n- I can review flagged invoices, inspect the evidence trail behind each recommendation, approve recoveries, place items on hold, or escalate them for governance review.\n- This is the first proof that the invoice review flow is workable in a local proof of concept.",
@@ -94,14 +94,14 @@
       "screenshot": ".cutready/screenshots/20260617_112345_CleanShot 2026-06-17 at 11.21.34@2x.png"
     },
     {
-      "locked": true,
+      "locked": false,
       "locks": {
-        "time": true,
-        "narrative": true,
-        "demo_actions": true,
-        "screenshot": true,
-        "visual": true,
-        "design_plan": true
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
       },
       "time": "~30s",
       "narrative": "- Now let's compare that to using a cloud model.\n- I'll switch models, reload the Canvas, and run the exact same prompt.",
@@ -109,14 +109,14 @@
       "screenshot": null
     },
     {
-      "locked": true,
+      "locked": false,
       "locks": {
-        "time": true,
-        "narrative": true,
-        "demo_actions": true,
-        "screenshot": true,
-        "visual": true,
-        "design_plan": true
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
       },
       "time": "~35s",
       "narrative": "- This time, the network monitor tells a very different story.\n- We can see traffic leaving the device, along with which model was used, how many documents were sent, and how much data crossed the boundary.\n- That visibility makes it much easier to understand and audit what information is leaving the local environment.",
@@ -124,14 +124,14 @@
       "screenshot": null
     },
     {
-      "locked": true,
+      "locked": false,
       "locks": {
-        "time": true,
-        "narrative": true,
-        "demo_actions": true,
-        "screenshot": true,
-        "visual": true,
-        "design_plan": true
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
       },
       "time": "~30s",
       "narrative": "- One final capability I want to highlight is sandboxing.\n- Everything in this proof of concept is running inside an isolated execution environment called Microsoft MXC.",
@@ -139,14 +139,14 @@
       "screenshot": null
     },
     {
-      "locked": true,
+      "locked": false,
       "locks": {
-        "time": true,
-        "narrative": true,
-        "demo_actions": true,
-        "screenshot": true,
-        "visual": true,
-        "design_plan": true
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
       },
       "time": "~35s",
       "narrative": "- To show why that matters, let's simulate a poisoned invoice containing a prompt injection attack that tries to access proprietary data, like a master batch record.\n- With the MXC sandbox enabled, the attack is blocked.\n- The Canvas explains exactly what happened.\n- Outbound network access is denied, file access is restricted, and the malicious prompt never reaches sensitive data.",
@@ -154,14 +154,14 @@
       "screenshot": null
     },
     {
-      "locked": true,
+      "locked": false,
       "locks": {
-        "time": true,
-        "narrative": true,
-        "demo_actions": true,
-        "screenshot": true,
-        "visual": true,
-        "design_plan": true
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
       },
       "time": "~35s",
       "narrative": "- Now let's disable the sandbox and run the same attack again.\n- This time, the trade secret is successfully exfiltrated.\n- The Canvas immediately identifies what happened, explains the impact, and the Copilot app automatically creates a GitHub issue documenting the incident.",
@@ -169,14 +169,14 @@
       "screenshot": null
     },
     {
-      "locked": true,
+      "locked": false,
       "locks": {
-        "time": true,
-        "narrative": true,
-        "demo_actions": true,
-        "screenshot": true,
-        "visual": true,
-        "design_plan": true
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
       },
       "time": "~20s",
       "narrative": "- I can open that issue immediately, assign it to the right engineer, or begin remediation myself.\n- Instead of just detecting the problem, the workflow moves directly into action.",
@@ -184,14 +184,14 @@
       "screenshot": null
     },
     {
-      "locked": true,
+      "locked": false,
       "locks": {
-        "time": true,
-        "narrative": true,
-        "demo_actions": true,
-        "screenshot": true,
-        "visual": true,
-        "design_plan": true
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
       },
       "time": "~20s",
       "narrative": "- At this point, we've proven that the idea works.\n- The next step is scaling it beyond a local proof of concept so the rest of the team can use it.\n- That's where cloud infrastructure comes in.\n- In the next demo, we'll take this same application and move it into Microsoft Foundry.",
@@ -201,5 +201,5 @@
   ],
   "state": "draft",
   "created_at": "2026-06-23T17:42:03.431179900Z",
-  "updated_at": "2026-06-30T08:38:09.961875Z"
+  "updated_at": "2026-07-01T19:52:22.292195200Z"
 }
