@@ -19,7 +19,7 @@
     },
     {
       "type": "section",
-      "title": "Observe",
+      "title": "Observe Part A",
       "description": "Observe keeps the same chapter shape as Build, with one close-up view and one operating view.",
       "sketches": [
         "sketch-04-observe-agent-performance-in-foundry.sk",
@@ -45,5 +45,5 @@
     }
   ],
   "created_at": "2026-06-23T17:45:45.940925600Z",
-  "updated_at": "2026-07-02T21:25:24.963229Z"
+  "updated_at": "2026-07-02T21:29:47.881746Z"
 }
