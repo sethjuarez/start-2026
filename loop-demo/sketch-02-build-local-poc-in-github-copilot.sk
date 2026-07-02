@@ -29,7 +29,7 @@
         "design_plan": false
       },
       "time": "~40s",
-      "narrative": "- Let me show you how I kicked off a proof of concept for our internal project, Pharma Shield.\n- All I need to do is enter a prompt: \"Start the contract reconciliation proof of concept.\"\n- From there, the Copilot app takes care of the setup.\n- The first thing you see is that it creates a worktree.\n- That gives me an isolated workspace so I can experiment freely without affecting my main branch or anyone else's work.",
+      "narrative": "- Let me show you how I kicked off a proof of concept for our internal project, Pharma Shield.\n- All I need to do is enter a prompt: \"Start the contract reconciliation proof of concept.\"\n- From there, the Copilot app takes care of the setup.\n- The first thing you see is that it creates a worktree.\n- That gives me an isolated workspace so I can experiment freely without affecting my main branch or anyone else’s work. Mike ",
       "demo_actions": "Move into the working area and enter the prompt to start the proof of concept. Show the setup beginning and briefly point out that a new worktree is being created.",
       "screenshot": ".cutready/screenshots/20260617_111801_CleanShot 2026-06-17 at 11.17.40@2x.png"
     },
@@ -201,5 +201,5 @@
   ],
   "state": "draft",
   "created_at": "2026-06-23T17:42:03.431179900Z",
-  "updated_at": "2026-07-01T19:52:22.292195200Z"
+  "updated_at": "2026-07-02T20:38:56.705117Z"
 }
