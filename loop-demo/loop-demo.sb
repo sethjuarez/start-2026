@@ -6,7 +6,7 @@
     {
       "type": "section",
       "title": "Intro",
-      "description": "Caldova is under pressure to move faster while relying more heavily on contract manufacturing organizations, or CMOs. That increases the volume and complexity of CMO invoices. More suppliers, more contract terms, more milestone logic, and more approval context make payment decisions harder to trust. This opening frames Waypoint as Caldova's internal invoice assurance application and sets up the story that follows: Build, Observe, Tune, and the business outcome in Waypoint.",
+      "description": "Set the stage: \n>Transition to chapter 2 with pre-recorded interstitial video. \nAmy Hood as Caldova CFO, outlining needs to address invoicing, CMO risks\nExec mandate drives motivation to develop invoicing agent\nVideo ends with action pushing to Dev team (Jessica Deen)\n\n>Transition to Jessica Deen as developer persona. \n\nYou just saw how at Caldova, we’ve made a critical business decision: meet the prescription surge by bringing on new contract manufacturers. This critical step to drive growth also introduced risk. Caldova is under pressure to move faster while relying more heavily on contract manufacturing organizations, (CMOs). This environment increases the volume and complexity of CMO invoices. More suppliers, more contract terms, more milestone logic, and more approval all compound to make payment decisions harder to trust. \n\nWe need to mitigate this risk and help our teams operate at the scale they need to reach their new business target. To meet our CFO’s mandate, we need to build a new, intelligent invoice assurance app. But I need more than a generic agent. I need to make sure this agent is enriched with Caldova’s unique context and IQ of the organization and the market, that it’s integrated into our enterprise systems and that it can be used by our teams directly in the flow of work. I’ll start with the core requirements of this agent, to guide Caldova on what to pay, what to hold, and exactly why, tuned to the precise performance and cost needs of the business, and most importantly, delivering real business impact. To do that, we’ll walk through a clear, Build – Observe – Tune model to bring this app to production. \n",
       "sketches": []
     },
     {
@@ -45,5 +45,5 @@
     }
   ],
   "created_at": "2026-06-23T17:45:45.940925600Z",
-  "updated_at": "2026-07-02T21:24:18.032592Z"
+  "updated_at": "2026-07-02T21:25:04.454310Z"
 }
