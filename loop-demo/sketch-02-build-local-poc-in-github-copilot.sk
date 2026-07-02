@@ -1,23 +1,8 @@
 {
   "title": "Build - Local Invoice Review POC in GitHub Copilot",
   "locked": false,
-  "description": "Local proof of concept chapter in GitHub Copilot that shows the first invoice-review agent taking shape, running with local or simulated data, comparing local and cloud execution, and demonstrating sandbox protection before the Foundry handoff.",
+  "description": "Build Introduction\n\nThe Build section showcases the best innovation from Microsoft for bringing agents to life. Developers love working with our developer solutions. And with GitHub Copilot App, we’re setting the standard for how developer can rapidly build cutting edge agents that deliver real business impact.\n\nOn-Stage Demo Lead: Jessica Deen\n\nBuild Part A - Local Invoice Review POC in GitHub Copilot\n\nWe begin by building a local proof of concept in GitHub Copilot app, demonstrating how the invoice-review agent takes shape, running with local or simulated data, comparing local and cloud execution, and demonstrating sandbox protection before handing off to Foundry and moving to production.",
   "rows": [
-    {
-      "locked": false,
-      "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
-      },
-      "time": "",
-      "narrative": "Build Introduction\n\nThe Build section showcases the best innovation from Microsoft for bringing agents to life. Developers love working with our developer solutions. And with GitHub Copilot App, we’re setting the standard for how developer can rapidly build cutting edge agents that deliver real business impact.\n\nOn-Stage Demo Lead: Jessica Deen\n\nBuild Part A - Local Invoice Review POC in GitHub Copilot\n\nWe begin by building a local proof of concept in GitHub Copilot app, demonstrating how the invoice-review agent takes shape, running with local or simulated data, comparing local and cloud execution, and demonstrating sandbox protection before handing off to Foundry and moving to production.",
-      "demo_actions": "",
-      "screenshot": null
-    },
     {
       "locked": false,
       "locks": {
@@ -126,5 +111,5 @@
   ],
   "state": "draft",
   "created_at": "2026-06-23T17:42:03.431179900Z",
-  "updated_at": "2026-07-02T20:53:24.920764Z"
+  "updated_at": "2026-07-02T21:23:16.358471Z"
 }
