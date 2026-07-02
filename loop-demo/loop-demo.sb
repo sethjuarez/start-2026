@@ -1,6 +1,6 @@
 {
   "title": "Loop Demo",
-  "description": "Loop Demo follows Caldova's invoice assurance story from business pressure to business outcome. It starts with why CMO invoice review has become harder to trust, then shows how agents are built, observed, and tuned across GitHub Copilot, Foundry, M365, and A365 before landing in Waypoint with clear invoice decisions, evidence, and dollars at risk.",
+  "description": "The Build – Observe – Tune chapter follows Caldova's invoice assurance story from business pressure to business outcome. It starts with why CMO invoice review has become harder to trust, then shows how agents are built, observed, and tuned across GitHub Copilot, Foundry, M365, and A365 before landing in Waypoint with clear invoice decisions, evidence, and dollars at risk.",
   "locked": false,
   "items": [
     {
@@ -45,5 +45,5 @@
     }
   ],
   "created_at": "2026-06-23T17:45:45.940925600Z",
-  "updated_at": "2026-07-02T21:25:04.454310Z"
+  "updated_at": "2026-07-02T21:25:24.963229Z"
 }
