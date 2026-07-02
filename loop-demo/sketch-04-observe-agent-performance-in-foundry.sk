@@ -1,7 +1,7 @@
 {
   "title": "Observe - Agent Performance in Foundry",
   "locked": false,
-  "description": "",
+  "description": "Evaluating Agent Performance in Foundry\nAn agent is only as good as it’s performance and results. Now that we are in production, we need to inspect agent performance through Foundry, focusing on traces, rubrics, and evals for the invoice-review job.\n\nOn stage Demo Lead: Elijiah\n\nThe loop's second move at two altitudes, first observe close-up on one agent's performance in Foundry, then fleet-wide governance in Agent 365. \n",
   "rows": [
     {
       "locked": false,
@@ -96,5 +96,5 @@
   ],
   "state": "draft",
   "created_at": "2026-06-23T17:42:03.432829600Z",
-  "updated_at": "2026-07-02T21:30:05.738684Z"
+  "updated_at": "2026-07-02T21:30:21.917252Z"
 }
