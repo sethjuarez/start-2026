@@ -1,23 +1,8 @@
 {
-  "title": "Build - Enterprise Agent Fleet in Foundry and M365",
+  "title": "Build Part B- Enterprise Agent Fleet in Foundry and M365",
   "locked": false,
-  "description": "Enterprise build chapter that moves the local invoice review proof of concept into Foundry, connects agents to enterprise knowledge sources, validates behavior inside VS Code, and publishes the result into Microsoft Teams for everyday use.",
+  "description": "\n\nTo move to production, the local invoice review proof of concept is brought into Foundry, connected to enterprise knowledge sources, with validated behavior inside VS Code, and distributed through M365 to bring agentic services into the everyday flow of Caldova’s team.\n\nProving it locally was step one of the loop. Now we make it enterprise-ready: hosted, grounded in Caldova's data, and available where people already work.\n",
   "rows": [
-    {
-      "locked": false,
-      "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
-      },
-      "time": "",
-      "narrative": "Build Part B Introduction - Enterprise Agent Fleet in Foundry and M365\n\nTo move to production, the local invoice review proof of concept is brought into Foundry, connected to enterprise knowledge sources, with validated behavior inside VS Code, and distributed through M365 to bring agentic services into the everyday flow of Caldova’s team.\n\nProving it locally was step one of the loop. Now we make it enterprise-ready: hosted, grounded in Caldova's data, and available where people already work.\n",
-      "demo_actions": "",
-      "screenshot": null
-    },
     {
       "locked": false,
       "locks": {
@@ -186,5 +171,5 @@
   ],
   "state": "draft",
   "created_at": "2026-06-23T17:42:03.432034600Z",
-  "updated_at": "2026-07-02T21:03:53.571445Z"
+  "updated_at": "2026-07-02T21:28:01.795204Z"
 }
