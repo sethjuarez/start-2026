@@ -43,9 +43,9 @@
         "visual": false,
         "design_plan": false
       },
-      "time": "",
-      "narrative": "Note for Seth: Add Monitor",
-      "demo_actions": "",
+      "time": "~25s",
+      "narrative": "From there, I step up one level into Monitor. Instead of a single run, now I can see the health of this agent over time: token usage, latency, success rate, and evaluation trends for production traffic.\n\nThis gives me a fast read on whether the invoice-review agent is stable before I drill into why.",
+      "demo_actions": "Open the agent's Monitor tab in Foundry. Show the summary cards first, then scan the charts for token usage, latency, run success rate, and evaluation metrics over the selected time range.",
       "screenshot": null
     },
     {
