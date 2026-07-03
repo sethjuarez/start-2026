@@ -14,7 +14,7 @@
         "design_plan": false
       },
       "time": "~20s",
-      "narrative": "Observe isn't only about one agent in Foundry. It's also understanding how the whole fleet is governed once it's running across the business. \n\nThat's Agent 365 — and this is where observability lands. \n",
+      "narrative": "Observe isn't only about one agent in Foundry. It's also about understanding how the whole fleet is governed once it's running across the business.\n\nThat's Agent 365, and this is where observability lands.",
       "demo_actions": "Transition from Foundry to the broader operating view in A365.",
       "screenshot": ".cutready/screenshots/20260630_074108_831_22.jpg"
     },
@@ -29,7 +29,7 @@
         "design_plan": false
       },
       "time": "~25s",
-      "narrative": "Start with the registry in the Microsoft 365 admin center. \n\nIt's one place to see the agents people can request, approve what's \nallowed, and manage what stays available — a single inventory of all of my agents, giving me insights as we scale and as adoption grows. \n\nYou can see the agent we just built alongside my entire fleet of agents. \n",
+      "narrative": "Start with the registry in the Microsoft 365 admin center.\n\nIt's one place to see the agents people can request, approve what's allowed, and manage what stays available - a single inventory of all my agents that gives me insight as we scale and adoption grows.\n\nYou can see some of the agents we've built alongside our broader fleet of agents.",
       "demo_actions": "Open the A365 list view and show the broader inventory of agents.",
       "screenshot": ".cutready/screenshots/20260630_074125_546_26.jpg"
     },
@@ -44,7 +44,7 @@
         "design_plan": false
       },
       "time": "~25s",
-      "narrative": "And I can also control approvals and access. \n\nAs an administrator, I see the full registry in one view — agents that Caldova published, agents that our creators shared, Microsoft agents, partner agents, Frontier agents — and decide what's available, with controls to enable, disable, assign, block, or remove. ",
+      "narrative": "And I can also control approvals and access.\n\nAs an administrator, I see the full registry in one view - agents that Caldova published, agents our creators shared, Microsoft agents, partner agents, Frontier agents - and decide what's available, with controls to enable, disable, assign, block, or remove them.",
       "demo_actions": "Open the Agents page in the Microsoft 365 admin center. Show the agent inventory or registry view, then filter or scan across agent types like organization-published, creator-shared, Microsoft, partner, and Frontier agents. Open one agent to show its details, then highlight the admin controls to enable, disable, assign, block, or remove it.",
       "screenshot": ".cutready/screenshots/20260630_074206_429_30.jpg"
     },
@@ -59,7 +59,7 @@
         "design_plan": false
       },
       "time": "~25s",
-      "narrative": "True governance also means seeing what you didn't sanction. \n\nAgent 365 has a dedicated view for Shadow AI — unmanaged agents outside the approved fleet: local agents, coding assistants, browser extensions, agentic CLIs. \n\nI can even turn on continuous detection for managed Windows devices, see where they surfaced, and block one the moment it crosses the line. \n",
+      "narrative": "True governance also means seeing what you didn't sanction.\n\nAgent 365 has a dedicated view for Shadow AI - unmanaged agents outside the approved fleet: local agents, coding assistants, browser extensions, and agentic CLIs.\n\nI can even turn on continuous detection for managed Windows devices, see where they surfaced, and block one the moment it crosses the line.",
       "demo_actions": "Open the Shadow AI page in A365. Show the list of unmanaged agents, then open one agent detail view. Point out the security policies tab, turn on continuous detection for managed Windows devices, show the detected devices list, and highlight the option to block the agent.",
       "screenshot": ".cutready/screenshots/20260630_074420_915_34.jpg"
     },
@@ -74,7 +74,7 @@
         "design_plan": false
       },
       "time": "~25s",
-      "narrative": "And cost is a critical part of the operating picture. At Caldova, we want our agents to perform extremely well. But we need to ensure our costs don’t go unmanaged. \n\nAgent 365 shows usage and spend across the fleet through the Agent Ledger. \n\nInstead of guessing, I’m now able to sees which agents are active, which are driving cost, and where to tighten as adoption scales. \n",
+      "narrative": "Of course, cost is also a critical part of the operating picture. At Caldova, we want our agents to perform extremely well, but we also need to make sure costs don't go unmanaged.\n\nAgent 365 shows usage and spend across the fleet through the Agent Ledger.\n\nInstead of guessing, I'm now able to see which agents are active, which ones are driving cost, and where to tighten as adoption scales.",
       "demo_actions": "Open the A365 cost or usage view. Show spend or consumption across agents, then point out which agents are active and which ones are driving the highest usage or cost.",
       "screenshot": ".cutready/screenshots/20260630_075409_540_38.jpg"
     },
@@ -89,12 +89,12 @@
         "design_plan": false
       },
       "time": "~20s",
-      "narrative": "So the full Observe story is clear: performance in Foundry, and governance, access, auditability, and cost across the fleet in Agent 365. \n\nWe can see the quality, and we can see the bill. That sets up the next move. How can we make all of this run even better, and in turn, deliver even greater impact. \n",
+      "narrative": "So the full Observe story is clear: performance in Foundry, and governance, access, auditability, and cost across the fleet in Agent 365.\n\nWe can see the quality, and we can see the bill. That sets up the next move: how can we make all of this run even better and, in turn, deliver even greater impact?",
       "demo_actions": "Pause on the governance and cost view and summarize the operating perspective.",
       "screenshot": null
     }
   ],
   "state": "draft",
   "created_at": "2026-06-23T17:42:03.433388100Z",
-  "updated_at": "2026-07-02T21:12:39.443581Z"
+  "updated_at": "2026-07-02T23:52:01.586535800Z"
 }
