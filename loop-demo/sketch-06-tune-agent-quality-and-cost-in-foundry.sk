@@ -59,7 +59,7 @@
         "design_plan": false
       },
       "time": "~30s",
-      "narrative": "The grader is an automated judge: did the agent pick the right decision, use the right tools, in the right order — and if there's a refund or credit, the exact amount? \n\nThat gives us a concrete target to train against. \n",
+      "narrative": "Essentially, this grader measures whether the cheaper model preserves the optimized expert behavior: grounded, cited contract-policy evidence with the right decision boundaries, rather than fluent but unsupported answers. \n",
       "demo_actions": "Scroll through the grader file and point out the business criteria it scores: correct decision, correct amount, correct tools, and correct workflow. Explain that this creates a measurable standard the smaller model can be trained against.",
       "screenshot": ".cutready/screenshots/20260630_081852_660_50.jpg"
     },
@@ -89,10 +89,9 @@
         "design_plan": false
       },
       "time": "~25s",
-      "narrative": "Then we test the trade. The leaderboard puts the large model, the small base model, and the tuned small model on the same held-out set.\n\n\nIf the tuned model closes the quality gap, we can shift work to it and spend less.\n",
+      "narrative": "Once the reinforcement fine tuning job starts, we can monitor progress, see if its improving, and generally ensure that the process is proceeding well.\n",
       "demo_actions": "Show the console, eval output, or leaderboard. Compare a larger frontier model, a smaller untuned base model, and the fine-tuned smaller specialist on the same held-out set. Call out quality, tool use, task success, and cost.",
-      "screenshot": null,
-      "visual": ".cutready/visuals/ca609d0308fa.json"
+      "screenshot": ".cutready/screenshots/20260703_124340_447_1.jpg"
     },
     {
       "locked": false,
@@ -105,13 +104,12 @@
         "design_plan": false
       },
       "time": "~20s",
-      "narrative": "So the point is simple: train a smaller model against real business judgment, prove it can carry more of the work, and lower the cost of every decision.\nThe right model for the right work.\n",
+      "narrative": "So the payoff here is simple: we didn’t trade quality for cost. The smaller RFT model preserved the optimized contract-policy expert behavior across the baseline evaluation suite, with a 0.944 grader score, while reducing estimated inference cost by roughly 82%.\nNot bad!\n",
       "demo_actions": "Close on the full loop: reward function, training scenarios, and evaluation results. Summarize RFT in Foundry as a way to move work from a larger expensive model to a smaller cheaper one, while holding onto acceptable decision quality.",
-      "screenshot": null,
-      "visual": ".cutready/visuals/ca609d0308fa.json"
+      "screenshot": ".cutready/screenshots/20260703_124654_711_6.jpg"
     }
   ],
   "state": "draft",
   "created_at": "2026-06-23T17:42:03.434006200Z",
-  "updated_at": "2026-07-02T21:19:27.025189Z"
+  "updated_at": "2026-07-03T12:48:54.021663200Z"
 }
