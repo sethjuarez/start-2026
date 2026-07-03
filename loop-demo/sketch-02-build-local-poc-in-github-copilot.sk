@@ -14,9 +14,9 @@
         "design_plan": false
       },
       "time": "~35s",
-      "narrative": "Before we get started, I want to build a proof of concept to understand that the business workflow can be automated safely and usefully. \n\nI have a lot of choices in where I build. But I want to use the GitHub Copilot app, the only desktop experience for agent-driven development built natively on GitHub. This gives me one command center for everything I have in flight — active work, open issues, pending reviews, the automations I've set up. This is where I start every morning. And if I want to go deeper, any session hands straight into VS Code — no juggling CLIs or SDKs. ",
+      "narrative": "Before I promise anyone anything, I want a proof of concept — something that shows me this can be automated safely and usefully.\n\nI have a lot of choices in where I build. But I want to use the GitHub Copilot app, the only desktop experience for agent-driven development built natively on GitHub. This gives me one command center for everything I have in flight — active work, open issues, pending reviews, the automations I've set up. This is where I start every morning. And if I want to go deeper, any session hands straight into VS Code — no juggling CLIs or SDKs. ",
       "demo_actions": "Open the GitHub Copilot app. Briefly orient the viewer to the home screen and top-level navigation. Pause long enough to call out active work, issues, reviews, and automations.",
-      "screenshot": ".cutready/screenshots/20260617_111553_CleanShot 2026-06-17 at 11.15.31@2x.png"
+      "screenshot": ""
     },
     {
       "locked": false,
@@ -29,9 +29,24 @@
         "design_plan": false
       },
       "time": "~40s",
-      "narrative": "Let me prove Caldova's idea. One prompt — “start the contract reconciliation proof of concept” — and the app handles the setup. \n\nFirst, it spins up an isolated worktree: my own workspace to experiment freely, with nothing touching the main branch or anyone else's work. ",
+      "narrative": "Let me prove Caldova's idea. One prompt — \"help me check our invoices for overbilling\" — and the app handles the setup.\n\nFirst, it spins up an isolated worktree: my own workspace to experiment freely, with nothing touching the main branch or anyone else's work.",
       "demo_actions": "Move into the working area and enter the prompt to start the proof of concept. Show the setup beginning and briefly point out that a new worktree is being created.",
-      "screenshot": ".cutready/screenshots/20260617_111801_CleanShot 2026-06-17 at 11.17.40@2x.png"
+      "screenshot": ""
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "",
+      "narrative": "Then it loads a custom skill I built for this exact reconciliation workflow. That carries the domain knowledge and the steps, so every session starts with Caldova's context instead of me rebuilding it. That's the difference between a prompt and a skill: a prompt is a one-off, but a skill is repeatable and shareable — I can hand it to a teammate, check it into a repo, and they get the exact same starting point I do.\n\nAnd before anything runs, it checks the local model with a quick preflight.",
+      "demo_actions": "Stay in the setup flow as the session loads the custom invoice-review skill. Briefly open the skill definition or referenced files to show that the workflow comes from reusable project context, not a one-off prompt. Then show the quick local-model preflight check before the agent starts.",
+      "screenshot": null
     },
     {
       "locked": false,
@@ -44,9 +59,9 @@
         "design_plan": false
       },
       "time": "~35s",
-      "narrative": "Then it loads a custom skill I built for this exact reconciliation workflow. That carries the domain knowledge and the steps, so every session starts with Caldova's context instead of me rebuilding it. \n\nAnd before anything runs, it checks the local model with a quick preflight. ",
-      "demo_actions": "Show the skill loading and the preflight check. Call out the custom skill for the scenario and the Ollama validation step.",
-      "screenshot": ".cutready/screenshots/20260617_112228_CleanShot 2026-06-17 at 11.18.47@2x.png"
+      "narrative": "Here's the app. On the left, the Copilot session driving the work. On the right, the Canvas — a live, interactive view of the agent I'm building.\n\nThis is the part to watch. I'm not just chatting with an agent. I can click inside the Canvas, trigger a step, and the Canvas talks back to the agent. Think of it as a modern, shareable version of local-host development — something I can check into a repo or hand to a teammate.",
+      "demo_actions": "Show the app fully loaded. Orient the viewer to the Copilot session on the left and the Canvas on the right. Click into the Canvas, trigger an action, and show that the Canvas sends input back to the agent and updates live.",
+      "screenshot": ""
     },
     {
       "locked": false,
@@ -59,9 +74,9 @@
         "design_plan": false
       },
       "time": "~40s",
-      "narrative": "Here's the app. On the left, the Copilot session driving the work. On the right, the Canvas — a live, interactive view of the app I'm building. \n\nThis is the part to watch. I'm not just chatting with an agent. I can click inside the Canvas, trigger a step, and the Canvas talks back to the agent. Think of it as a modern, shareable version of local-host development — something I can check into a repo or hand to a teammate. \n\nRight now I'm on my local model, and I can switch to cloud at any time. ",
-      "demo_actions": "Open the Canvas and orient the viewer to the layout. Point out the Copilot session on the left, the interactive Canvas on the right, and the current model selection.",
-      "screenshot": ".cutready/screenshots/20260617_112324_CleanShot 2026-06-17 at 11.20.38@2x.png"
+      "narrative": "And to be clear — this isn't a model. It's an agent: a model, plus instructions, plus context. Right now it’s using a local model, on-device — which means lower latency, the ability to work offline, and the assurance that my data stays put. So even on an airplane, I can keep working.",
+      "demo_actions": "Call out that this is an agent made of model, instructions, and context. Keep the local model visible in the current configuration and frame the benefits plainly: on-device response, offline use, and data staying on the laptop.",
+      "screenshot": ""
     },
     {
       "locked": false,
@@ -74,9 +89,9 @@
         "design_plan": false
       },
       "time": "~40s",
-      "narrative": "This means that no matter where I am, even on an airplane, I can keep working and be productive. \n\nAnd running on-device gives me lower latency, the ability to work offline, and the assurance that my data stays put. ",
-      "demo_actions": "Submit a simple invoice question while the local model is selected. Keep the network monitor visible and show that requests stay on the device with no outbound traffic.",
-      "screenshot": ".cutready/screenshots/20260617_112332_CleanShot 2026-06-17 at 11.20.07@2x.png"
+      "narrative": "Now let me give it the context. I'll drop in the Aster Ridge invoice.\n\nAnd Ledger goes to work — locally. It catches a duplicate release fee billed twice, and a ten-thousand-dollar gap between the line items and the stated total. Real problems, found on my laptop, with no cloud, no setup, no data leaving the room.\n\nThat's the first proof: the invoice review flow works, right here, locally.",
+      "demo_actions": "Drop the Aster Ridge invoice into the Canvas and run the invoice review flow locally. Show Ledger identifying the duplicate release fee and the mismatch between line items and the stated total. Keep the moment focused on local execution with no cloud dependency.",
+      "screenshot": ""
     },
     {
       "locked": false,
@@ -89,9 +104,9 @@
         "design_plan": false
       },
       "time": "~35s",
-      "narrative": "Now I can see the agent operate and review how it works. \n\nI can review a flagged invoice, open the evidence trail behind every recommendation, and act — approve a recovery, place it on hold, or escalate for governance. \n\nThat's the first proof: the invoice review flow works, right here, locally. ",
-      "demo_actions": "Walk through the invoice result in the Canvas. Show the recommendation, supporting evidence, and the available actions such as approve, hold, or escalate.",
-      "screenshot": ".cutready/screenshots/20260617_112345_CleanShot 2026-06-17 at 11.21.34@2x.png"
+      "narrative": "But before I trust this in front of my CFO, I want a second opinion — not from me. So I ask for one.\n\nAnd the duck keeps me honest: Ledger is right about the math and the duplicate, but everything contract-dependent — the unit rate, whether that packaging was even authorized — it can't confirm. It has no contract. Calling those \"overcharges\" right now would be guessing.",
+      "demo_actions": "Run /rubberduck on the findings and ask where the agent may be overclaiming. Pause on the response that confirms the math issues but calls out the missing contract context for unit rates and packaging authorization.",
+      "screenshot": ""
     },
     {
       "locked": false,
@@ -104,12 +119,27 @@
         "design_plan": false
       },
       "time": "~20s",
-      "narrative": "The next step is scaling it beyond a local proof of concept so the rest of the team can use it.\nIn the next demo, we'll take this same application and move it into Microsoft Foundry.",
-      "demo_actions": "Pause on the completed flow and summarize what the local proof of concept established. Transition verbally to the next demo in Foundry.",
+      "narrative": "And that's exactly the point. On the plane, I proved the idea works. But two things are still missing before Caldova can actually run this: it needs our real contracts — so it stops guessing at rates and starts citing the number we actually agreed to. And it can't just live on my laptop — it has to run for the whole finance team: governed, always-on, same answer every time.",
+      "demo_actions": "Hold on the completed local result and summarize the two gaps: no access to real contracts, and no team-ready hosted deployment. Use this beat to tee up the move from local proof to Foundry.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "",
+      "narrative": "Same agent. Same instructions. Same job. I'm not rebuilding it — I'm changing where it runs and giving it one new tool: our contracts.\n\nThat's Part 2. Let me promote this to Azure AI Foundry and ground it with Foundry IQ.",
+      "demo_actions": "Set up the handoff to Part 2 by framing this as the same agent and same instructions, now moving to Foundry and adding contract grounding through Foundry IQ.",
       "screenshot": null
     }
   ],
   "state": "draft",
   "created_at": "2026-06-23T17:42:03.431179900Z",
-  "updated_at": "2026-07-02T21:27:06.595907Z"
+  "updated_at": "2026-07-03T03:32:45.983246Z"
 }
