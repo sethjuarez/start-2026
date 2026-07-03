@@ -14,9 +14,21 @@
         "design_plan": false
       },
       "time": "~20s",
-      "narrative": "In Observe we found where the agent slips. Now we use that same evaluation setup to fix it. \n\nWe have two goals: \n\n\n1)\tMake our agent more accurate\n\n2) Improve our cost of operating at the same level of accuracy",
+      "narrative": "In Observe section we found some opportunities for growth. \nEssentially We have two goals: \n\n1. Make our agent more accurate\n2.  Improve our cost of operating at the same level of accuracy",
       "demo_actions": "Bridge directly from the Observe chapter. Frame this as the next step after tracing and evals: we know where the agent is weak, and now we use Agent Optimizer to improve the configuration before changing models.",
-      "screenshot": null
+      "screenshot": ".cutready/screenshots/20260703_122844_886_6.jpg",
+      "narration": {
+        "path": ".cutready/narration/row-1-9b1f9e831310.webm",
+        "source_text": "In Observe section we found some opportunities for growth. \nEssentially We have two goals: \n\n1. Make our agent more accurate\n2.  Improve our cost of operating at the same level of accuracy",
+        "source_text_hash": "42a8a20bcacf1ebe13cc57c05e2348e54c0ab92441adb1a1ca1355e36d408603",
+        "mime_type": "audio/webm;codecs=opus",
+        "duration_ms": 11679,
+        "leading_silence_ms": 740,
+        "trailing_silence_ms": 510,
+        "silence_threshold_db": -45.0,
+        "byte_size": 187700,
+        "recorded_at": "2026-07-03T12:32:55.306259900Z"
+      }
     },
     {
       "locked": false,
@@ -31,7 +43,19 @@
       "time": "~30s",
       "narrative": "Agent Optimizer takes the evaluation set from Observe and runs the loop: it scores the baseline, tests candidates, and ranks the results. \n",
       "demo_actions": "Open the Agent Optimizer overview or Optimize tab. Connect it to the prior chapter by explaining that the evals from Observe now become the basis for optimization.",
-      "screenshot": null
+      "screenshot": ".cutready/screenshots/20260703_122857_212_10.jpg",
+      "narration": {
+        "path": ".cutready/narration/row-2-7e37917b39b7.webm",
+        "source_text": "Agent Optimizer takes the evaluation set from Observe and runs the loop: it scores the baseline, tests candidates, and ranks the results. \n",
+        "source_text_hash": "8b9a4bb1d426f5b5c0c2c57f22baf1d780da35926d482a0f4e6e316b9d216b61",
+        "mime_type": "audio/webm;codecs=opus",
+        "duration_ms": 9446,
+        "leading_silence_ms": 510,
+        "trailing_silence_ms": 510,
+        "silence_threshold_db": -45.0,
+        "byte_size": 151958,
+        "recorded_at": "2026-07-03T12:33:10.272073300Z"
+      }
     },
     {
       "locked": false,
@@ -46,7 +70,19 @@
       "time": "~30s",
       "narrative": "What it tunes is the setup — the instructions, the skills, and the tools. We are not swapping the model. We are making the configuration around it work better. ",
       "demo_actions": "Show the optimization targets in the docs. Highlight instruction tuning, skill improvement, and tool optimization. Note that model selection exists, but it is out of scope for this sketch.",
-      "screenshot": null
+      "screenshot": ".cutready/screenshots/20260703_122747_998_2.jpg",
+      "narration": {
+        "path": ".cutready/narration/row-3-9d18847c06d9.webm",
+        "source_text": "What it tunes is the setup — the instructions, the skills, and the tools. We are not swapping the model. We are making the configuration around it work better. ",
+        "source_text_hash": "49becd234d7d7a3d04cdd3e6ddabe117534bb9912f62ae4d78fd713fd13f92ed",
+        "mime_type": "audio/webm;codecs=opus",
+        "duration_ms": 11862,
+        "leading_silence_ms": 1050,
+        "trailing_silence_ms": 1150,
+        "silence_threshold_db": -45.0,
+        "byte_size": 190598,
+        "recorded_at": "2026-07-03T12:33:26.250632700Z"
+      }
     },
     {
       "locked": false,
@@ -59,9 +95,21 @@
         "design_plan": false
       },
       "time": "~25s",
-      "narrative": "It starts from the dataset and rubric we already trust. The agent runs real tasks, gets scored, and that gives us a clean baseline. ",
+      "narrative": "It starts from the dataset and rubric we automatically defined earlie. The agent runs real tasks, gets scored, and that gives us a clean baseline. ",
       "demo_actions": "Open eval.yaml or the dataset generation flow. Emphasize that this is the same kind of grounded evaluation setup introduced in Observe, now used to drive tuning.",
-      "screenshot": null
+      "screenshot": ".cutready/screenshots/20260703_121758_649_2.jpg",
+      "narration": {
+        "path": ".cutready/narration/row-4-2f2258e37d37.webm",
+        "source_text": "It starts from the dataset and rubric we automatically defined earlie. The agent runs real tasks, gets scored, and that gives us a clean baseline. ",
+        "source_text_hash": "0aa218079d8490a1b2236b8b9e81df6ca948fbb93645f7e4b4b6894c70c91809",
+        "mime_type": "audio/webm;codecs=opus",
+        "duration_ms": 12764,
+        "leading_silence_ms": 1670,
+        "trailing_silence_ms": 350,
+        "silence_threshold_db": -45.0,
+        "byte_size": 205088,
+        "recorded_at": "2026-07-03T12:33:57.312777400Z"
+      }
     },
     {
       "locked": false,
@@ -76,7 +124,19 @@
       "time": "~30s",
       "narrative": "Then it generates candidates — one tightens the instructions, one improves a skill, one cleans up the tool descriptions. Each is a different, testable version of the setup. ",
       "demo_actions": "Show candidate concepts in the docs or portal results. Explain that each candidate is a different configuration mutation, such as system prompt updates, skill edits, or tool description refinements.",
-      "screenshot": null
+      "screenshot": ".cutready/screenshots/20260703_122908_365_12.jpg",
+      "narration": {
+        "path": ".cutready/narration/row-5-a38ef733d22e.webm",
+        "source_text": "Then it generates candidates — one tightens the instructions, one improves a skill, one cleans up the tool descriptions. Each is a different, testable version of the setup. ",
+        "source_text_hash": "24e0dbcaa41093cedf23319072b5f0c35ed370cc9c30b78447982cf996d66e57",
+        "mime_type": "audio/webm;codecs=opus",
+        "duration_ms": 10759,
+        "leading_silence_ms": 760,
+        "trailing_silence_ms": 590,
+        "silence_threshold_db": -45.0,
+        "byte_size": 173210,
+        "recorded_at": "2026-07-03T12:34:13.914125600Z"
+      }
     },
     {
       "locked": false,
@@ -89,9 +149,21 @@
         "design_plan": false
       },
       "time": "~30s",
-      "narrative": "After the run, we compare baseline to candidates. The higher scores rise, and Foundry marks the recommended configuration. ",
+      "narrative": "After the run, we compare baseline to candidates. Scores rise, and Foundry marks the recommended configuration. ",
       "demo_actions": "Show the results table from the docs or portal. Call out baseline, candidate rows, composite score, strategy, and the starred winner.",
-      "screenshot": null
+      "screenshot": ".cutready/screenshots/20260703_122932_620_18.jpg",
+      "narration": {
+        "path": ".cutready/narration/row-6-e0dd3507b383.webm",
+        "source_text": "After the run, we compare baseline to candidates. Scores rise, and Foundry marks the recommended configuration. ",
+        "source_text_hash": "257d3f801cdc27c56fb0fffeed4eaae0df714f9b98718fc02c1195349258db39",
+        "mime_type": "audio/webm;codecs=opus",
+        "duration_ms": 8596,
+        "leading_silence_ms": 440,
+        "trailing_silence_ms": 630,
+        "silence_threshold_db": -45.0,
+        "byte_size": 138434,
+        "recorded_at": "2026-07-03T12:35:06.820627400Z"
+      }
     },
     {
       "locked": false,
@@ -106,7 +178,19 @@
       "time": "~25s",
       "narrative": "Then we apply the winner and deploy. Same model, better setup — now part of the agent's normal startup. ",
       "demo_actions": "Show the CLI flow with azd ai agent optimize apply followed by azd deploy. Briefly explain config resolution and that the optimized config becomes part of the agent's normal startup path.",
-      "screenshot": null
+      "screenshot": ".cutready/screenshots/20260703_053013_tune.png",
+      "narration": {
+        "path": ".cutready/narration/row-7-2d6dc76da632.webm",
+        "source_text": "Then we apply the winner and deploy. Same model, better setup — now part of the agent's normal startup. ",
+        "source_text_hash": "0c5d5a25bd24650d91e3933cd0bafb8456db1c2b4619fcd1c1455a2bbe1558c4",
+        "mime_type": "audio/webm;codecs=opus",
+        "duration_ms": 8960,
+        "leading_silence_ms": 820,
+        "trailing_silence_ms": 920,
+        "silence_threshold_db": -45.0,
+        "byte_size": 144230,
+        "recorded_at": "2026-07-03T12:35:21.133410100Z"
+      }
     },
     {
       "locked": false,
@@ -119,12 +203,24 @@
         "design_plan": false
       },
       "time": "~20s",
-      "narrative": "So the first move after is to measure where the agent misses, then tune the agent before you touch the model. ",
+      "narrative": "This is how we can increase agentic accuracy without touching the model. ",
       "demo_actions": "Close by linking the chapters: Observe shows where performance breaks down, and Tune uses that signal to improve the agent through baseline scoring, candidate generation, ranking, and apply.",
-      "screenshot": null
+      "screenshot": ".cutready/screenshots/20260703_123209_972_22.jpg",
+      "narration": {
+        "path": ".cutready/narration/row-8-a6043da24ec6.webm",
+        "source_text": "This is how we can increase agentic accuracy without touching the model. ",
+        "source_text_hash": "ef1ae9e7bfdc191d4059ed5fca9971f3f290d4b907f317cf3e28eec5fee4ae1d",
+        "mime_type": "audio/webm;codecs=opus",
+        "duration_ms": 6608,
+        "leading_silence_ms": 950,
+        "trailing_silence_ms": 950,
+        "silence_threshold_db": -45.0,
+        "byte_size": 105590,
+        "recorded_at": "2026-07-03T12:35:43.980172600Z"
+      }
     }
   ],
   "state": "draft",
   "created_at": "2026-06-30T08:34:24.054124500Z",
-  "updated_at": "2026-07-02T21:16:02.499709Z"
+  "updated_at": "2026-07-03T12:35:52.055585300Z"
 }
