@@ -1,7 +1,7 @@
 {
   "title": "Tune - Agent Tuning",
   "locked": false,
-  "description": "Tune Part A – Agent behavior\n\nNow we get to build on what we learned in Observe. Performance is visible in Foundry, and governance and cost are visible in A365. That information is then used to improve the system. We’ll take the eval dataset and rubric we already trust and use Agent Optimizer to improve the agent setup. Shows the loop from baseline scoring to candidate generation, ranking, and apply, all without changing the model.\n",
+  "description": "Now we get to build on what we learned in Observe. Performance is visible in Foundry, and governance and cost are visible in A365. That information is then used to improve the system. We’ll take the eval dataset and rubric we already trust and use Agent Optimizer to improve the agent setup. \n\n>Shows the loop from baseline scoring to candidate generation, ranking, and apply, all without changing the model.\n",
   "rows": [
     {
       "locked": false,
@@ -222,5 +222,5 @@
   ],
   "state": "draft",
   "created_at": "2026-06-30T08:34:24.054124500Z",
-  "updated_at": "2026-07-03T12:36:50.499402Z"
+  "updated_at": "2026-07-04T08:20:08.560360100Z"
 }

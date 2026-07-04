@@ -16,7 +16,7 @@
       "time": "~20s",
       "narrative": "Observe isn't only about one agent in Foundry. It's also about understanding how the whole fleet is governed once it's running across the business.\n\nThat's Agent 365, and this is where observability lands.",
       "demo_actions": "Transition from Foundry to the broader operating view in A365.",
-      "screenshot": ".cutready/screenshots/20260630_074108_831_22.jpg",
+      "screenshot": ".cutready/screenshots/20260704_073214_086_2.jpg",
       "narration": {
         "path": ".cutready/narration/row-1-2c175afae373.webm",
         "source_text": "Observe isn't only about one agent in Foundry. It's also about understanding how the whole fleet is governed once it's running across the business.\n\nThat's Agent 365, and this is where observability lands.",
@@ -43,7 +43,7 @@
       "time": "~25s",
       "narrative": "Start with the registry in the Microsoft 365 admin center.\n\nIt's one place to see the agents people can request, approve what's allowed, and manage what stays available - a single inventory of all my agents that gives me insight as we scale and adoption grows.\n\nYou can see some of the agents we've built alongside our broader fleet of agents.",
       "demo_actions": "Open the A365 list view and show the broader inventory of agents.",
-      "screenshot": ".cutready/screenshots/20260630_074125_546_26.jpg",
+      "screenshot": ".cutready/screenshots/20260704_073230_196_6.jpg",
       "narration": {
         "path": ".cutready/narration/row-2-f13c1bf5f38f.webm",
         "source_text": "Start with the registry in the Microsoft 365 admin center.\n\nIt's one place to see the agents people can request, approve what's allowed, and manage what stays available - a single inventory of all my agents that gives me insight as we scale and adoption grows.\n\nYou can see some of the agents we've built alongside our broader fleet of agents.",
@@ -70,7 +70,7 @@
       "time": "~25s",
       "narrative": "And I can also control approvals and access.\n\nAs an administrator, I see all requests - agents that Caldova published, agents our creators shared, Microsoft agents, partner agents, Frontier agents - and decide what's available, with controls to enable, disable, assign, block, or remove them.",
       "demo_actions": "Open the Agents page in the Microsoft 365 admin center. Show the agent inventory or registry view, then filter or scan across agent types like organization-published, creator-shared, Microsoft, partner, and Frontier agents. Open one agent to show its details, then highlight the admin controls to enable, disable, assign, block, or remove it.",
-      "screenshot": ".cutready/screenshots/20260630_074206_429_30.jpg",
+      "screenshot": ".cutready/screenshots/20260704_073250_276_9.jpg",
       "narration": {
         "path": ".cutready/narration/row-3-51f9d4577386.webm",
         "source_text": "And I can also control approvals and access.\n\nAs an administrator, I see all requests - agents that Caldova published, agents our creators shared, Microsoft agents, partner agents, Frontier agents - and decide what's available, with controls to enable, disable, assign, block, or remove them.",
@@ -97,7 +97,7 @@
       "time": "~25s",
       "narrative": "True governance also means seeing what you didn't sanction.\n\nAgent 365 has a dedicated view for Shadow AI - unmanaged agents outside the approved fleet: local agents, coding assistants, browser extensions, and agentic CLIs.\n\nI can even turn on continuous detection for managed Windows devices, see where they surfaced, and block one the moment it crosses the line.",
       "demo_actions": "Open the Shadow AI page in A365. Show the list of unmanaged agents, then open one agent detail view. Point out the security policies tab, turn on continuous detection for managed Windows devices, show the detected devices list, and highlight the option to block the agent.",
-      "screenshot": ".cutready/screenshots/20260630_074420_915_34.jpg",
+      "screenshot": ".cutready/screenshots/20260704_073303_496_14.jpg",
       "narration": {
         "path": ".cutready/narration/row-4-eabff46b717c.webm",
         "source_text": "True governance also means seeing what you didn't sanction.\n\nAgent 365 has a dedicated view for Shadow AI - unmanaged agents outside the approved fleet: local agents, coding assistants, browser extensions, and agentic CLIs.\n\nI can even turn on continuous detection for managed Windows devices, see where they surfaced, and block one the moment it crosses the line.",
@@ -124,7 +124,7 @@
       "time": "~25s",
       "narrative": "Of course, cost is also a critical part of the operating picture. At Caldova, we want our agents to perform extremely well, but we also need to make sure costs don't go unmanaged.\n\nAgent 365 shows usage and spend across the fleet through the Agent Ledger.\n\nInstead of guessing, I'm now able to see which agents are active, which ones are driving cost, and where to tighten as adoption scales.",
       "demo_actions": "Open the A365 cost or usage view. Show spend or consumption across agents, then point out which agents are active and which ones are driving the highest usage or cost.",
-      "screenshot": ".cutready/screenshots/20260630_075409_540_38.jpg",
+      "screenshot": ".cutready/screenshots/20260704_073320_941_18.jpg",
       "narration": {
         "path": ".cutready/narration/row-5-abc61a71ad55.webm",
         "source_text": "Of course, cost is also a critical part of the operating picture. At Caldova, we want our agents to perform extremely well, but we also need to make sure costs don't go unmanaged.\n\nAgent 365 shows usage and spend across the fleet through the Agent Ledger.\n\nInstead of guessing, I'm now able to see which agents are active, which ones are driving cost, and where to tighten as adoption scales.",
@@ -151,7 +151,7 @@
       "time": "~20s",
       "narrative": "So the full Observe story is clear: performance in Foundry, and governance, access, auditability, and cost across the fleet in Agent 365.\n\nWe can see the quality, and we can see the bill. That sets up the next move: how can we make all of this run even better and, in turn, deliver even greater impact?",
       "demo_actions": "Pause on the governance and cost view and summarize the operating perspective.",
-      "screenshot": ".cutready/screenshots/20260703_110619_627_2.jpg",
+      "screenshot": ".cutready/screenshots/20260704_073342_407_22.jpg",
       "narration": {
         "path": ".cutready/narration/row-6-003d8792ea12.webm",
         "source_text": "So the full Observe story is clear: performance in Foundry, and governance, access, auditability, and cost across the fleet in Agent 365.\n\nWe can see the quality, and we can see the bill. That sets up the next move: how can we make all of this run even better and, in turn, deliver even greater impact?",
@@ -168,5 +168,5 @@
   ],
   "state": "draft",
   "created_at": "2026-06-23T17:42:03.433388100Z",
-  "updated_at": "2026-07-03T11:22:05.208914700Z"
+  "updated_at": "2026-07-04T07:33:46.999532300Z"
 }
