@@ -1,7 +1,7 @@
 {
   "title": "Observe - Agent Performance in Foundry",
   "locked": false,
-  "description": "Evaluating Agent Performance in Foundry\nAn agent is only as good as it’s performance and results. Now that we are in production, we need to inspect agent performance through Foundry, focusing on traces, rubrics, and evals for the invoice-review job.\n\nOn stage Demo Lead: Elijiah\n\nThe loop's second move at two altitudes, first observe close-up on one agent's performance in Foundry, then fleet-wide governance in Agent 365. \n",
+  "description": "An agent is only as good as it’s performance and results. Now that we are in production, we need to inspect agent performance through Foundry, focusing on traces, rubrics, and evals for the invoice-review job.\n\n>On stage Demo Lead: Elijiah\n>The loop's second move at two altitudes, first observe close-up on one agent's performance in Foundry, then fleet-wide governance in Agent 365. \n",
   "rows": [
     {
       "locked": false,
@@ -168,5 +168,5 @@
   ],
   "state": "draft",
   "created_at": "2026-06-23T17:42:03.432829600Z",
-  "updated_at": "2026-07-03T10:58:56.604228100Z"
+  "updated_at": "2026-07-04T06:40:25.515590900Z"
 }
