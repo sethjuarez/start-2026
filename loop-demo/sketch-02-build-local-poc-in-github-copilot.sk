@@ -14,7 +14,7 @@
         "design_plan": false
       },
       "time": "~35s",
-      "narrative": "Before I promise anyone anything, I want a proof of concept — something that shows me this can be automated safely and usefully.\n\nI have a lot of choices in where I build, but I start in the GitHub Copilot app. It's where I manage the work already in flight, from issues and reviews to my active coding sessions.",
+      "narrative": "You heard what Amy needs. I need to get an agent to production fast to make sure our payments are in line with our contracts, but before I promise anyone anything, I want a proof of concept — something that shows me this can be automated safely and usefully.\n\nI have a lot of choices in where I build, but I start in the GitHub Copilot app. What sets it apart is that it brings agent-driven development natively on GitHub, with the enterprise trust only Microsoft can deliver. It's become the place where I manage everything already in flight, from issues and reviews to my active coding sessions.",
       "demo_actions": "Open the GitHub Copilot app. Briefly orient the viewer to the home screen and top-level navigation. Pause long enough to call out active work, issues, reviews, and automations.",
       "screenshot": ""
     },
@@ -156,5 +156,5 @@
   ],
   "state": "draft",
   "created_at": "2026-06-23T17:42:03.431179900Z",
-  "updated_at": "2026-07-05T18:46:20.372421Z"
+  "updated_at": "2026-07-06T01:09:46.099391Z"
 }
