@@ -1,7 +1,7 @@
 {
   "title": "Tune - Agent Tuning",
   "locked": false,
-  "description": "Continues from Observe by taking the eval dataset and rubric we already trust and using Agent Optimizer to improve the agent setup. Shows the loop from baseline scoring to candidate generation, ranking, and apply, all without changing the model.",
+  "description": "Tune Part A – Agent behavior\n\nNow we get to build on what we learned in Observe. Performance is visible in Foundry, and governance and cost are visible in A365. That information is then used to improve the system. We’ll take the eval dataset and rubric we already trust and use Agent Optimizer to improve the agent setup. Shows the loop from baseline scoring to candidate generation, ranking, and apply, all without changing the model.\n",
   "rows": [
     {
       "locked": false,
@@ -14,7 +14,7 @@
         "design_plan": false
       },
       "time": "~20s",
-      "narrative": "- In Observe, we found where the agent slips.\n- Now we use that same eval setup to tune the agent.\n- Same model. Better behavior.",
+      "narrative": "In Observe we found where the agent slips. Now we use that same evaluation setup to fix it. \n\nWe have two goals: \n\n\n1)\tMake our agent more accurate\n\n2) Improve our cost of operating at the same level of accuracy",
       "demo_actions": "Bridge directly from the Observe chapter. Frame this as the next step after tracing and evals: we know where the agent is weak, and now we use Agent Optimizer to improve the configuration before changing models.",
       "screenshot": null
     },
@@ -29,7 +29,7 @@
         "design_plan": false
       },
       "time": "~30s",
-      "narrative": "- Agent Optimizer takes that eval set and runs the loop.\n- It scores the baseline, tests candidates, and ranks the results.",
+      "narrative": "Agent Optimizer takes the evaluation set from Observe and runs the loop: it scores the baseline, tests candidates, and ranks the results. \n",
       "demo_actions": "Open the Agent Optimizer overview or Optimize tab. Connect it to the prior chapter by explaining that the evals from Observe now become the basis for optimization.",
       "screenshot": null
     },
@@ -44,7 +44,7 @@
         "design_plan": false
       },
       "time": "~30s",
-      "narrative": "- It tunes instructions, skills, and tools.\n- We are not changing the model.\n- We are tuning the setup.",
+      "narrative": "What it tunes is the setup — the instructions, the skills, and the tools. We are not swapping the model. We are making the configuration around it work better. ",
       "demo_actions": "Show the optimization targets in the docs. Highlight instruction tuning, skill improvement, and tool optimization. Note that model selection exists, but it is out of scope for this sketch.",
       "screenshot": null
     },
@@ -59,7 +59,7 @@
         "design_plan": false
       },
       "time": "~25s",
-      "narrative": "- It starts with the dataset and rubric we already trust.\n- The agent runs real tasks and gets scored.\n- That gives us a baseline.",
+      "narrative": "It starts from the dataset and rubric we already trust. The agent runs real tasks, gets scored, and that gives us a clean baseline. ",
       "demo_actions": "Open eval.yaml or the dataset generation flow. Emphasize that this is the same kind of grounded evaluation setup introduced in Observe, now used to drive tuning.",
       "screenshot": null
     },
@@ -74,7 +74,7 @@
         "design_plan": false
       },
       "time": "~30s",
-      "narrative": "- Then it creates candidates.\n- One may tighten instructions.\n- Another may improve a skill.\n- Another may clean up tool descriptions.",
+      "narrative": "Then it generates candidates — one tightens the instructions, one improves a skill, one cleans up the tool descriptions. Each is a different, testable version of the setup. ",
       "demo_actions": "Show candidate concepts in the docs or portal results. Explain that each candidate is a different configuration mutation, such as system prompt updates, skill edits, or tool description refinements.",
       "screenshot": null
     },
@@ -89,7 +89,7 @@
         "design_plan": false
       },
       "time": "~30s",
-      "narrative": "- After the run, you compare baseline and candidates.\n- Higher scores rise to the top.\n- Foundry marks the recommended config.",
+      "narrative": "After the run, we compare baseline to candidates. The higher scores rise, and Foundry marks the recommended configuration. ",
       "demo_actions": "Show the results table from the docs or portal. Call out baseline, candidate rows, composite score, strategy, and the starred winner.",
       "screenshot": null
     },
@@ -104,7 +104,7 @@
         "design_plan": false
       },
       "time": "~25s",
-      "narrative": "- Then you apply the winner and deploy.\n- Same model.\n- Better setup.",
+      "narrative": "Then we apply the winner and deploy. Same model, better setup — now part of the agent's normal startup. ",
       "demo_actions": "Show the CLI flow with azd ai agent optimize apply followed by azd deploy. Briefly explain config resolution and that the optimized config becomes part of the agent's normal startup path.",
       "screenshot": null
     },
@@ -119,12 +119,12 @@
         "design_plan": false
       },
       "time": "~20s",
-      "narrative": "- So this is the next move after Observe.\n- First, measure where the agent misses.\n- Then tune the agent before you tune the model.",
+      "narrative": "So the first move after is to measure where the agent misses, then tune the agent before you touch the model. ",
       "demo_actions": "Close by linking the chapters: Observe shows where performance breaks down, and Tune uses that signal to improve the agent through baseline scoring, candidate generation, ranking, and apply.",
       "screenshot": null
     }
   ],
   "state": "draft",
   "created_at": "2026-06-30T08:34:24.054124500Z",
-  "updated_at": "2026-06-30T08:34:24.054126300Z"
+  "updated_at": "2026-07-02T21:16:02.499709Z"
 }
