@@ -1,85 +1,100 @@
 {
   "title": "Observe - Agent Performance in Foundry",
-  "locked": true,
-  "description": "Performance inspection chapter in Foundry that focuses on traces, rubrics, and evals for the invoice-review job.",
+  "locked": false,
+  "description": "Evaluating Agent Performance in Foundry\nAn agent is only as good as it’s performance and results. Now that we are in production, we need to inspect agent performance through Foundry, focusing on traces, rubrics, and evals for the invoice-review job.\n\nOn stage Demo Lead: Elijiah\n\nThe loop's second move at two altitudes, first observe close-up on one agent's performance in Foundry, then fleet-wide governance in Agent 365. \n",
   "rows": [
     {
-      "locked": true,
+      "locked": false,
       "locks": {
-        "time": true,
-        "narrative": true,
-        "demo_actions": true,
-        "screenshot": true,
-        "visual": true,
-        "design_plan": true
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
       },
       "time": "~20s",
-      "narrative": "- Once the agents are running, the next question is simple.\n- Are they doing the job the right way?\n- This section stays close to the invoice-review task and shows how we inspect quality in Foundry.",
+      "narrative": "Once agents are running, the question is simple: are they doing the job the right way? \n\nLet’s take a close up look at agent performance, in Foundry. \n",
       "demo_actions": "Open the Foundry post-deployment view and frame this chapter as performance inspection.",
       "screenshot": ".cutready/screenshots/20260630_073751_057_2.jpg"
     },
     {
-      "locked": true,
+      "locked": false,
       "locks": {
-        "time": true,
-        "narrative": true,
-        "demo_actions": true,
-        "screenshot": true,
-        "visual": true,
-        "design_plan": true
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
       },
       "time": "~30s",
-      "narrative": "- Start with tracing.\n- The point is to see the path through the evidence.\n- Which records did the agent read?\n- Which steps did it take before making a recommendation?\n- That gives the team a concrete view into each run.",
+      "narrative": "Start with tracing. I want to see the path through the evidence — which records the agent read, and every step it took before it made a call. \n\nThat turns each run from a black box into something the team can actually inspect. \n",
       "demo_actions": "Open trace details for an invoice-review run. Show the sequence of evidence access and reasoning steps.",
       "screenshot": ".cutready/screenshots/20260630_073811_074_6.jpg"
     },
     {
-      "locked": true,
+      "locked": false,
       "locks": {
-        "time": true,
-        "narrative": true,
-        "demo_actions": true,
-        "screenshot": true,
-        "visual": true,
-        "design_plan": true
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "",
+      "narrative": "Note for Seth: Add Monitor",
+      "demo_actions": "",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
       },
       "time": "~30s",
-      "narrative": "- Then move into rubrics.\n- Keep them grounded in the real job.\n- Are we reasoning correctly over contract terms?\n- Are we using the right evidence?\n- Is the recommendation clear and defensible?",
+      "narrative": "Next, I turn to my rubrics. And this is the magic. Rubrics operate just like how a teacher uses a rubric to guide for grading for their students, rubrics guide the agent's work: is it reasoning correctly over the contract terms, using the right evidence, producing a clear and defensible recommendation? \n\nThe system can even generate that rubric from the agent itself, so the team isn't inventing evaluation criteria from a blank page. \n",
       "demo_actions": "Open Foundry rubric evaluators. Show criteria tied to contract reasoning, evidence use, and recommendation quality.",
       "screenshot": ".cutready/screenshots/20260630_073849_749_10.jpg"
     },
     {
-      "locked": true,
+      "locked": false,
       "locks": {
-        "time": true,
-        "narrative": true,
-        "demo_actions": true,
-        "screenshot": true,
-        "visual": true,
-        "design_plan": true
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
       },
       "time": "~30s",
-      "narrative": "- Once the rubric is defined, run evaluations against it.\n- Now we can see where the agent is strong and where it still needs work.\n- This is much better than relying on anecdotal testing or one-off examples.",
+      "narrative": "With the rubric set, we run evaluations against it. \n\nNow we can see exactly where the agent is strong and where it still misses — our performance is measured, not anecdotal. \n",
       "demo_actions": "Run or review evaluation results. Show scores, failures, and examples.",
       "screenshot": ".cutready/screenshots/20260630_073922_018_14.jpg"
     },
     {
-      "locked": true,
+      "locked": false,
       "locks": {
-        "time": true,
-        "narrative": true,
-        "demo_actions": true,
-        "screenshot": true,
-        "visual": true,
-        "design_plan": true
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
       },
       "time": "~20s",
-      "narrative": "- So this is the close-up view of Observe.\n- Foundry shows whether the invoice-review agent is reasoning well, using the right evidence, and producing recommendations the team can defend.",
+      "narrative": "That's the close-up: Foundry shows whether the invoice agent reasons well, uses the right evidence, and makes recommendations the team can stand behind. ",
       "demo_actions": "Pause on the eval summary and restate the role of traces, rubrics, and evals in production.",
       "screenshot": ".cutready/screenshots/20260630_073941_001_19.jpg"
     }
   ],
   "state": "draft",
   "created_at": "2026-06-23T17:42:03.432829600Z",
-  "updated_at": "2026-06-30T08:37:57.441584400Z"
+  "updated_at": "2026-07-02T21:30:21.917252Z"
 }
