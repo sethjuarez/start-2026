@@ -1,3 +1,10 @@
+# Build A
+- Instead of calling out vs code, mention if I wanted to get my hands on the code, I can (make it more natural and honest)
+- The path is moving from protoype > Foundry > production (don't say enterprise, say production)
+- Change 4.1 to 5.5 to align with Seth, but if I do mention 4.1, be honest: it's fast and cheaper than 5.5
+- Created by Jessica, hardened on Foundry
+- Make sure Seth and my agent pieces align in terms of what makes an agent (model + instructions, context, memory, tools) vs Seth (model + instructions, skills, tools)
+
 # Observe 1
 - through line with Jess's agent
 - need to have better trace output (this requires a `contract-policy-expert` correction)
@@ -25,7 +32,10 @@
 - I made my agent do it (where did the grader come from)
 
 # Overall
-- Pump up numbers
+- Pump up numbers > those are rookie numbers
+- Confidence numbers? Explain perhaps?
+- Add in that before we had no visibility, now we do... but I still have to go validate
+- From Anne: any reference to CMO needs to be changed to contract manufacturers (because CMO can == Chief Marketing Officer)
 - before we didn't know - now we do
 - run water through the business logic of all of this (numbers should make sense)
 - (From Jessica Hawk) i'd add the point around repeated use --> better results as well. The world has been trained that FT is only for the elite, which is no longer true thanks to Foundry
