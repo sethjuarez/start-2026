@@ -41,6 +41,7 @@
 - (From Jessica Hawk) i'd add the point around repeated use --> better results as well. The world has been trained that FT is only for the elite, which is no longer true thanks to Foundry
 
 Edits from Mike H. 
+ 
 # 1\. Adjustments to Narrative
 
 ## A. Overall story and taxonomy
