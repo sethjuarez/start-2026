@@ -14,7 +14,7 @@
         "design_plan": false
       },
       "time": "~35s",
-      "narrative": "You heard what Amy needs. I need to get an agent to production fast to make sure our payments are in line with our contracts. But before I promise anyone anything, I want a proof of concept. Something that shows me this can be automated safely and usefully.\n\nI have a lot of choices in where I build, but I start in the GitHub Copilot app. What sets GitHub Copilot App apart is that it brings agent-driven development natively on GitHub, with the enterprise trust only Microsoft can deliver. It's where I manage the work already in flight, from issues and reviews to my active coding sessions.",
+      "narrative": "You heard what Amy needs. I need to get an agent to production fast to make sure our payments are in line with our contracts. But before I promise anyone anything, I want a proof of concept. Something that shows me this can be automated safely and usefully.\n\nI have a lot of choices in where I build, but I start in the GitHub Copilot app. What sets the GitHub Copilot App apart is that it brings agent-driven development natively to GitHub, with the enterprise trust only Microsoft can deliver. It's where I manage the work already in flight, from issues and reviews to my active coding sessions.",
       "demo_actions": "Speak over the Teams visual, then bring the Copilot app forward. Orient the viewer to the home screen and briefly call out sessions, issues, reviews, and active coding sessions.",
       "screenshot": ""
     },
@@ -74,7 +74,7 @@
         "design_plan": false
       },
       "time": "~30s",
-      "narrative": "And to be clear, this isn't just a model. It's an agent: a model, plus instructions, plus context. Right now it's running entirely on my laptop using a local model. That means lower latency, the ability to work offline, and the assurance that my data never leaves my machine. Even on an airplane, I can keep building and testing.",
+      "narrative": "And to be clear, this isn't just a model. It's an agent: a model, plus instructions, plus context. Right now it's running on my laptop using a local model. That means lower latency, the ability to work offline, and the assurance that my data never leaves my machine. Even on an airplane, I can keep building and testing.",
       "demo_actions": "Point at the expanded Anatomy drawer to show Model, Instructions, Context, and Memory. Collapse it briefly if helpful so the icons stay visible while you call out local execution.",
       "screenshot": ""
     },
@@ -89,7 +89,7 @@
         "design_plan": false
       },
       "time": "~40s",
-      "narrative": "Now that it has the invoice, I can trigger the audit from the Canvas itself.\n\nThe agent immediately gets to work, entirely locally. It checks the invoice math and catches a line that doesn't foot: line 2 bills $552,720, but quantity times rate is $546,000. That's a $6,720 overstatement it can prove from the invoice alone.\n\nThat's the first proof. The invoice review workflow works locally. But it also tells me where to stop: negotiated rates and packaging authorization need the contract.",
+      "narrative": "Now that it has the invoice, I can trigger the audit from the Canvas itself.\n\nThe agent immediately gets to work, entirely locally. It checks the invoice math and catches a line that doesn't add up: line 2 bills $552,720, but quantity times rate is $546,000. That's a $6,720 overstatement it can prove from the invoice alone.\n\nThat's the first proof. The workflow works locally, and it also shows me the boundary. It can prove math issues from the invoice itself, but negotiated rates and packaging authorization need the contract.",
       "demo_actions": "Click the 'Audit locally' chip, or ask the audit question from the Canvas. Show the local agent streaming findings and pause on the line 2 math issue and the deferred contract questions.",
       "screenshot": ""
     },
@@ -104,7 +104,7 @@
         "design_plan": false
       },
       "time": "~35s",
-      "narrative": "But before I trust this in front of my CFO, I want a second opinion. So I ask Copilot to rubber duck the results - basically, have another agent challenge the reasoning and look for places I might be overclaiming.",
+      "narrative": "Before I take this any further, I want a second opinion. So I ask Copilot to rubber duck the results. In plain English, that means I have it review its own work from a skeptical angle and look for anything it may have overstated or missed.\n\nIt's a simple way to pressure-test the findings before I move on. I want to confirm what the local agent can support, and just as important, where it should stop until it has the contract.",
       "demo_actions": "Type '/rubberduck the invoice findings - where could they be overclaiming?' and start the review.",
       "screenshot": ""
     },
@@ -119,12 +119,12 @@
         "design_plan": false
       },
       "time": "~30s",
-      "narrative": "That critique may take a minute, and that's okay. I'm on a plane; the point of Part 1 was to prove the workflow works locally and to learn exactly what the local agent cannot know without the contract. Once I'm back in the office and the rubber duck has finished, I'll be ready to move the same agent into Microsoft Foundry - production-ready, with the contracts it needs.",
+      "narrative": "That critique may take a minute, and that's okay. I'm on a plane; the point of this PoC was to prove the workflow works locally and to learn exactly what the local agent cannot know without the contract. Once I'm back in the office and the rubber duck has finished, I'll be ready to move the same agent into Microsoft Foundry - production-ready, with the contracts it needs.",
       "demo_actions": "Tee up the pivot while rubber duck runs. Keep the rubber-duck review visible and queue the Foundry move for Part 2.",
       "screenshot": null
     }
   ],
   "state": "draft",
   "created_at": "2026-06-23T17:42:03.431179900Z",
-  "updated_at": "2026-07-08T02:53:11.577158Z"
+  "updated_at": "2026-07-08T03:23:24.367974Z"
 }
