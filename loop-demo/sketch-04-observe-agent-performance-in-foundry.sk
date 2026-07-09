@@ -1,7 +1,7 @@
 {
   "title": "Observe - Agent Performance in Foundry",
   "locked": false,
-  "description": "An agent is only as good as it’s performance and results. Now that we are in production, we need to inspect agent performance through Foundry, focusing on traces, rubrics, and evals for the invoice-review job.\n\n>On stage Demo Lead: Elijiah\n>The loop's second move at two altitudes, first observe close-up on one agent's performance in Foundry, then fleet-wide governance in Agent 365. \n",
+  "description": "An agent is only as good as it’s performance and results. Now that we are in production, we need to inspect agent performance through Foundry, focusing on traces, rubrics, and evals for the invoice-review job.\n\n\n\n>On stage Demo Lead: Elijiah\n>The loop's second move at two altitudes, first observe close-up on one agent's performance in Foundry, then fleet-wide governance in Agent 365. \n",
   "rows": [
     {
       "locked": false,
@@ -14,7 +14,7 @@
         "design_plan": false
       },
       "time": "~20s",
-      "narrative": "Once agents are running, the question is simple: are they doing the job the right way?\n\nLet's take a closer look at agent performance in Foundry.",
+      "narrative": "Now that Jess has deployed the agent to foundry, its time to OBSERVE how the agent is BEHAVING and PERFORMING\n\nLets start with behavior",
       "demo_actions": "Open the Foundry post-deployment view and frame this chapter as performance inspection.",
       "screenshot": ".cutready/screenshots/20260703_034041_row-1.png",
       "narration": {
@@ -168,5 +168,5 @@
   ],
   "state": "draft",
   "created_at": "2026-06-23T17:42:03.432829600Z",
-  "updated_at": "2026-07-04T06:40:25.515590900Z"
+  "updated_at": "2026-07-07T21:18:29.624842700Z"
 }
