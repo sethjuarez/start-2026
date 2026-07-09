@@ -14,7 +14,7 @@
         "design_plan": false
       },
       "time": "~25s",
-      "narrative": "We proved the idea locally. Now let's make it production-ready. The best part is I don't have to rebuild anything. I'm still working with the same agent. I'm just giving it the production services it needs.",
+      "narrative": "I’m back in the office, and the rubber duck review has finished. \n\nNow let’s take the exact same agent and make it production ready.\n\nThe best part is I don't have to rebuild anything. I'm still working with the same agent. I'm just giving it the production services it needs.",
       "demo_actions": "Stay in the same session with the Part 1 canvas still visible. Frame this as the move from local proof of concept to production readiness.",
       "screenshot": null
     },
@@ -29,7 +29,7 @@
         "design_plan": false
       },
       "time": "~25s",
-      "narrative": "Right from GitHub Copilot, I connect to Microsoft Foundry, choose my model, and I'm ready to go.",
+      "narrative": "Right from GitHub Copilot, I connect to Microsoft Foundry. \n\nSame workflow, same instructions, same experience. \n\nI’m just changing where it runs and giving it one new capability.",
       "demo_actions": "Type 'Let's move it into Microsoft Foundry and ground it on our real contracts.' Show the Foundry Agent canvas opening with the selected model.",
       "screenshot": null
     },
@@ -44,7 +44,7 @@
         "design_plan": false
       },
       "time": "~15s",
-      "narrative": "But the model was never the interesting part. The real value comes from grounding the agent in Caldova's knowledge. For this one, I connect it to our contracts in Foundry IQ. Now, instead of guessing negotiated rates, it validates against the actual agreement.",
+      "narrative": "Let’s look at the Anatomy of an Agent again.\n\nModel.\n\nInstructions.\n\nContext.\n\nThose are exactly the same pieces we used on the plane.\n\nThe only block is Tools.\n\nI’ve connected FoundryIQ to our approved contracts, and now this agent can retrieve trusted business knowledge instead of relying only what came in the instructions.\n\nThe only block still waiting is Memory, and that fills in the moment I start the conversation.",
       "demo_actions": "Point at the Tools tile and call out Foundry IQ with the contracts knowledge base.",
       "screenshot": null
     },
@@ -59,7 +59,7 @@
         "design_plan": false
       },
       "time": "~20s",
-      "narrative": "And because it's an extensible platform, I choose the model, the knowledge, and where the agent runs.",
+      "narrative": "Now, if we look at the code we added to wire this up to Foundry… And don’y worry if you don’t read Python. There are really only 3 things happening:\n\nFirst, we’re switching to a production model, GPT-5.5, running in Microsoft Foundry with enterprise authentication and governance.\n\nNext, we’re connecting Foundry IQ so the agent can ground every answer in our approved contracts.\n\nFinally, we assembel the agent using the exact same instructions from Part A, plus the Foundry IQ tool.\n\nThat’s the journey from proof of concept to production ready.",
       "demo_actions": "Click the Connection tab and show build_agent(), the model choice, the Foundry endpoint, and FoundryIQ(knowledge_base='contracts-kb').",
       "screenshot": null
     },
@@ -74,7 +74,7 @@
         "design_plan": false
       },
       "time": "~10s",
-      "narrative": "Now let's test it. I'll run the Aster Ridge invoice again.",
+      "narrative": "Now let's ask the same question aagain.\n\nSame invoice.\n\nSame prompt.\n\nYou’ll notice this one takes just a little longer.\n\nMy laptop agent only ad the invoice. This one is reaching into FoundryIQ, retrieving the actual contract language, and reconciling every invoice lline against what we agreed to.",
       "demo_actions": "Click the Chat tab, attach invoice-asterridge.pdf, and ask the contract audit question.",
       "screenshot": null
     },
@@ -88,8 +88,23 @@
         "visual": false,
         "design_plan": false
       },
+      "time": "",
+      "narrative": "It’s not guessing. It’s grounding every answeer in our business knowledge.\n\nThis time it finds what my laptop couldn’t. A unit price that’s higher than our negotiated rate. \n\nAnd a $99,880 packaging charge that was never authorized. Both backed by the exact same contract clauses they came from.",
+      "demo_actions": "",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
       "time": "~35s",
-      "narrative": "This time it catches the incorrect unit rate, identifies the unauthorized packaging charge, and cites the exact contract language behind each finding. That's the difference between an answer and an auditable answer.",
+      "narrative": "And that’s the part that makes this auditable. The Trace view shows the retrieval happening in real time. \n\nThe question sent to FoundryIQ.\n\nThe contract passages it retrieved. \n\nAnd the exact clauses used to support every conclusion.\n\nThat’s the difference between an answer, and an answer you can defend.",
       "demo_actions": "After the answer returns, click the Trace tab and show the live knowledge_base_retrieve call with the highlighted contract clauses behind each finding.",
       "screenshot": null
     },
@@ -104,7 +119,7 @@
         "design_plan": false
       },
       "time": "~15s",
-      "narrative": "Once I'm happy with the results, publishing is just one step. Now the hosted agent is ready to power real business workflows.",
+      "narrative": "Once I'm happy with the results, publishing is just one step. Now the hosted agent is ready to power real business workflows. I’ve also made it avialalbe where my finance team already works: Microsoft Teams.\n\nSame agent.\n\nSame grounding.\n\nSame traceability.\n\nJust meeting people where they already collaborate. ",
       "demo_actions": "Narrate the publish beat and show the Foundry canvas in its ready-to-publish state.",
       "screenshot": null
     },
@@ -119,7 +134,7 @@
         "design_plan": false
       },
       "time": "~25s",
-      "narrative": "Here's Caldova Waypoint, the invoice review application the finance team uses every day. Every invoice analyzed by the agent shows up here with a recommendation, supporting evidence, confidence score, and the contract or policy behind the decision.",
+      "narrative": "What started as a proof of concept on a plane is now a governed, grounded, production ready agent. Built in the GitHub Copilot app. Powered by Microsoft Foundry. Available where the business already works.",
       "demo_actions": "Transition to the Waypoint app visual and orient the viewer to the invoice review UI.",
       "screenshot": null
     },
@@ -133,43 +148,13 @@
         "visual": false,
         "design_plan": false
       },
-      "time": "~25s",
-      "narrative": "Finance can filter by escalation, review recoverable overpayments, and prioritize the items that need action first. But people don't always start in the application. Sometimes they're already collaborating in Teams, discussing an invoice or asking a question. Because this is the same hosted agent, I can publish it into Microsoft Teams as well.",
-      "demo_actions": "Show the Waypoint filters and queue views, then transition toward the Teams visual to set up the same agent in a collaboration surface.",
-      "screenshot": null
-    },
-    {
-      "locked": false,
-      "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
-      },
-      "time": "~30s",
-      "narrative": "So whether finance is working in Waypoint or asking a question in Teams, they get the same grounded agent, the same business knowledge, and the same auditable reasoning. So what started as a local proof of concept is now a production agent: grounded in Caldova's data, hosted in Foundry, and available where the team already works.",
-      "demo_actions": "Show the Teams answer, then pause on a closing visual that pairs Waypoint and Teams.",
-      "screenshot": null
-    },
-    {
-      "locked": false,
-      "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
-      },
       "time": "~10s",
-      "narrative": "Now we've built it. The next question isn't whether we can build agents. It's whether they're delivering the quality, performance, and return on investment the business expects.",
+      "narrative": "We’ve proven we can build an agent. \n\nThe next question is the one every business leader asks:\n\nHow do we know our agents are delivering the quality, performance, and return on investment the business expects?",
       "demo_actions": "Hand off to the eval chapter.",
       "screenshot": null
     }
   ],
   "state": "draft",
   "created_at": "2026-06-23T17:42:03.432034600Z",
-  "updated_at": "2026-07-06T01:18:42.905915Z"
+  "updated_at": "2026-07-09T16:06:44.683625Z"
 }
