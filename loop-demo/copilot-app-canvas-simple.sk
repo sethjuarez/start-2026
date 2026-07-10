@@ -89,8 +89,8 @@
         "design_plan": false
       },
       "time": "~35s",
-      "narrative": "Now I am not just changing the interface. I am giving this canvas a capability the agent can use to generate something genuinely useful from the shared context. I can continue iterating with the agent from the same session.  How about I tell it to add a generate meeting bfrief function add a capability? That is the point of canvas: the work stays visible and keeps evolving in place.",
-      "demo_actions": "From the same session, ask Copilot to revise the canvas by improving the meeting goals section or adding clearer follow-up actions. Show the update in the right side panel after the agent responds.",
+      "narrative": "Now we can take this one step further. Canvas is not just a place to display information. It can become a working surface with actions the agent can use on your behalf. So from the same session, I am going to add a capability that generates an executive meeting brief from everything we have captured here. That is where canvas starts to feel bigger than a document. It becomes a shared space for doing the work, not just looking at it.",
+      "demo_actions": "From the same session, ask Copilot to add an agent-callable capability such as generate_executive_meeting_brief. Show the request in chat, then highlight any visible updates to the canvas or capability list.",
       "screenshot": ""
     },
     {
@@ -104,8 +104,8 @@
         "design_plan": false
       },
       "time": "~30s",
-      "narrative": "Your first canvas does not need to be perfect. It just needs to be structured enough that you can steer it.",
-      "demo_actions": "Refine the canvas prompt or edit the surface to simplify the layout. Highlight before-and-after changes that improve readability.",
+      "narrative": "And this is the mindset I want people to leave with. Start with a simple surface that matches the way you work. Then shape it as you learn what would make it more useful -- cleaner layout, better sections, new capabilities, sharper outputs. The canvas grows with the job. Once you see that, it is easy to imagine your own version for account planning, deal reviews, handoff notes, meeting prep, or anything else you feel inspired to build.",
+      "demo_actions": "Show one last refinement pass: improve the layout, trigger the new capability, or briefly point out how this same pattern could apply to account planning, deal reviews, or handoff notes.",
       "screenshot": ""
     },
     {
@@ -119,12 +119,12 @@
         "design_plan": false
       },
       "time": "~20s",
-      "narrative": "Close on camera. So the simple model is this: start in an agent session, use /create-canvas to describe the work surface you want, then keep iterating as you and Copilot both update that shared artifact. Once viewers see that flow, they can make their own.",
-      "demo_actions": "Return to talking head for the summary, with a final quick cut back to the canvas in the right side panel before ending.",
+      "narrative": "Close on camera. That is the simple model: start right from the Home Screen, describe the work surface you want with /create-canvas, and then shape it as you go. You can refine the layout, add capabilities, and turn a rough idea into something genuinely useful. And once you see how easy it is to get started, you start thinking less about the feature and more about what you want to build next.",
+      "demo_actions": "Return to talking head for the summary, then cut back one last time to the finished canvas in the right panel. End on the canvas in view so the audience leaves with the artifact, not just the explanation.",
       "screenshot": ""
     }
   ],
   "state": "draft",
   "created_at": "2026-07-10T19:41:24.718846Z",
-  "updated_at": "2026-07-10T20:06:41.933246Z"
+  "updated_at": "2026-07-10T20:12:40.724999Z"
 }
