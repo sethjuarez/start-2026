@@ -59,7 +59,7 @@
         "design_plan": false
       },
       "time": "~20s",
-      "narrative": "Now, if we look at the code we added to wire this up to Foundry… And don’y worry if you don’t read Python. There are really only 3 things happening:\n\nFirst, we’re switching to a production model, GPT-5.5, running in Microsoft Foundry with enterprise authentication and governance.\n\nNext, we’re connecting Foundry IQ so the agent can ground every answer in our approved contracts.\n\nFinally, we assembel the agent using the exact same instructions from Part A, plus the Foundry IQ tool.\n\nThat’s the journey from proof of concept to production ready.",
+      "narrative": "Now, if we look at the code we added to wire this up to Foundry… And don’y worry if you don’t read Python. There are really only 3 things happening:\n\nFirst, we’re switching to a production model, GPT-5.5, running in Microsoft Foundry with enterprise authentication and governance.\n\nNext, we’re connecting Foundry IQ so the agent can ground every answer in our approved contracts.\n\nFinally, we assemble the agent using the exact same instructions from Part A, plus our foundry model, and the FoundryIQ tool.\n\nThat’s the journey from proof of concept to production ready.",
       "demo_actions": "Click the Connection tab and show build_agent(), the model choice, the Foundry endpoint, and FoundryIQ(knowledge_base='contracts-kb').",
       "screenshot": null
     },
@@ -74,7 +74,7 @@
         "design_plan": false
       },
       "time": "~10s",
-      "narrative": "Now let's ask the same question aagain.\n\nSame invoice.\n\nSame prompt.\n\nYou’ll notice this one takes just a little longer.\n\nMy laptop agent only ad the invoice. This one is reaching into FoundryIQ, retrieving the actual contract language, and reconciling every invoice lline against what we agreed to.",
+      "narrative": "Now let's ask the same question aagain.\n\nSame invoice.\n\nSame prompt.\n\nYou’ll notice this one takes just a little longer.\n\nMy laptop agent only had the invoice. This one is reaching into FoundryIQ, retrieving the actual contract language, and reconciling every invoice lline against what we agreed to.",
       "demo_actions": "Click the Chat tab, attach invoice-asterridge.pdf, and ask the contract audit question.",
       "screenshot": null
     },
@@ -133,9 +133,9 @@
         "visual": false,
         "design_plan": false
       },
-      "time": "~25s",
-      "narrative": "What started as a proof of concept on a plane is now a governed, grounded, production ready agent. Built in the GitHub Copilot app. Powered by Microsoft Foundry. Available where the business already works.",
-      "demo_actions": "Transition to the Waypoint app visual and orient the viewer to the invoice review UI.",
+      "time": "",
+      "narrative": "From Teams, I can open the invoice details directly. That deep link takes me into the full record, where I can see the decision, the evidence behind it, and the source documents the agent used. And if I jump into the agent run, this is where the broader system comes into view. We have several specialist agents working together, each connected to the right IQs to review the case and move it forward.",
+      "demo_actions": "",
       "screenshot": null
     },
     {
@@ -148,13 +148,13 @@
         "visual": false,
         "design_plan": false
       },
-      "time": "~10s",
-      "narrative": "We’ve proven we can build an agent. \n\nThe next question is the one every business leader asks:\n\nHow do we know our agents are delivering the quality, performance, and return on investment the business expects?",
-      "demo_actions": "Hand off to the eval chapter.",
+      "time": "~25s",
+      "narrative": "What started as a proof of concept on a plane is now a governed, grounded, production ready agent. Built in the GitHub Copilot app. Powered by Microsoft Foundry. Available where the business already works.",
+      "demo_actions": "Transition to the Waypoint app visual and orient the viewer to the invoice review UI.",
       "screenshot": null
     }
   ],
   "state": "draft",
   "created_at": "2026-06-23T17:42:03.432034600Z",
-  "updated_at": "2026-07-09T16:06:44.683625Z"
+  "updated_at": "2026-07-10T16:00:42.773637Z"
 }

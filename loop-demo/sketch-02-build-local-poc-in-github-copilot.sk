@@ -14,7 +14,7 @@
         "design_plan": false
       },
       "time": "~35s",
-      "narrative": "You heard what Amy needs. I need to get an agent to production fast to make sure our payments are in line with our contracts. But before I promise anyone anything, I want a proof of concept. Something that shows me this can be automated safely and usefully.\n\nI've got a lot of choices for where I build, but I start here, in the GitHub Copilot app. It brings agent-driven development natively to GitHub, with the enterprise trust only Microsoft can deliver. Whether I'm reviewing code, managing issues, or, in this case, building agents, this is where I work, even when I'm offline.",
+      "narrative": "I need to get an agent to production fast to make sure our payments are in line with our contracts. But before I promise anyone anything, I want a proof of concept. Something that shows me this can be automated safely and usefully.\n\nI've got a lot of choices for where I build, but I start here, in the GitHub Copilot app. It brings agent-driven development natively to GitHub, with the enterprise trust only Microsoft can deliver. Whether I'm reviewing code, managing issues, or, in this case, building agents, this is where I work, even when I'm offline.",
       "demo_actions": "Speak over the Teams visual, then bring the Copilot app forward. Orient the viewer to the home screen and briefly call out sessions, issues, reviews, and active coding sessions.",
       "screenshot": ""
     },
@@ -104,7 +104,7 @@
         "design_plan": false
       },
       "time": "~40s",
-      "narrative": "Now let’s run the audit - notice everything executes locally.\n\nPretty quickly it finds a billing discrepancy.\n\nIt looks like line 2 bills $664,720, but based on the invoice itself, the calculation should be $658,00. That’s a $6,720 overstatement it can prove from the invoice alone.\n\nMore importantly, it knows what it doesn’t know.\nIt flags negotiated pricing and packaging authorization as questions that require the contract, instead of making assumptions. That's exactly what I want from a proof of concept.",
+      "narrative": "Now let’s run the audit - notice everything executes locally.\n\nPretty quickly it finds a billing discrepancy.\n\nIt looks like line 2 bills $664,720, but based on the invoice itself, the calculation should be $658,000. That’s a $6,720 overstatement it can prove from the invoice alone.\n\nMore importantly, it knows what it doesn’t know.\nIt flags negotiated pricing and packaging authorization as questions that require the contract, instead of making assumptions. That's exactly what I want from a proof of concept.",
       "demo_actions": "Click the 'Audit locally' chip, or ask the audit question from the Canvas. Show the local agent streaming findings and pause on the line 2 math issue and the deferred contract questions.",
       "screenshot": ""
     },
@@ -141,5 +141,5 @@
   ],
   "state": "draft",
   "created_at": "2026-06-23T17:42:03.431179900Z",
-  "updated_at": "2026-07-09T15:52:32.208520Z"
+  "updated_at": "2026-07-09T20:27:29.688891Z"
 }
