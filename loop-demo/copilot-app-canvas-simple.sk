@@ -1,0 +1,130 @@
+{
+  "title": "GitHub Copilot App - Canvas, Simply Explained",
+  "locked": false,
+  "description": "Simple educational sketch with talking head and on-screen captures that explains what canvas is in the GitHub Copilot app, why it matters, and walks through creating an easy demo canvas.",
+  "rows": [
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~20s",
+      "narrative": "Talking head. Chat is great for asking questions, exploring ideas, and telling Copilot what you want. But when the work needs structure, iteration, and something you can inspect on screen, canvas gives you a shared surface to build with the agent. In this example, we will create a simple customer meeting canvas from scratch so viewers can see what canvas is and how to make one.",
+      "demo_actions": "On camera intro, then cut to the GitHub Copilot app. Land in an agent session to set up the idea that canvas starts from chat and becomes a visible working surface.",
+      "screenshot": ""
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~25s",
+      "narrative": "So here is the scenario. I am going to build a customer meeting canvas for an upcoming account conversation. I want three sections: account context, meeting goals, and follow-up actions. That gives us something concrete to create, edit, and hand back to the audience as a pattern they can reuse.",
+      "demo_actions": "Show a short written outline of the scenario in the app or a nearby note. Keep the three target sections visible and easy to read.",
+      "screenshot": ""
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~30s",
+      "narrative": "Now I create the canvas the way the product actually works. In the session prompt box, I type /create-canvas and describe the workflow I want. I ask for a customer meeting canvas with sections for account context, meeting goals, and follow-up actions, and I make clear what I want people and the agent to be able to do there.",
+      "demo_actions": "In an agent session, place the cursor in the prompt box and type /create-canvas followed by a prompt for a customer meeting canvas with sections for account context, meeting goals, and follow-up actions. Include what the user should edit directly and what the agent should help update.",
+      "screenshot": ""
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~35s",
+      "narrative": "Once I submit the prompt, the agent takes over. It pulls in its create-canvas skill, then asks one quick follow-up: where should this canvas live? I can save it to the session, to me as a user, or to the project repo. This time, I’ll choose user. From there, the agent starts building. It may take a minute or two, but when it’s done, the canvas opens in the right panel. Pause here for a second, because this is the key moment: what you’re seeing is a shared, interactive workspace.",
+      "demo_actions": "Submit the /create-canvas prompt. When the canvas opens in the right side panel, move through the main regions slowly. Use cursor emphasis to introduce each section and make the shared surface obvious.",
+      "screenshot": ""
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~30s",
+      "narrative": "And this is where it gets really useful. If I want to tighten up the canvas, I can do it right here just by telling the agent what I want in the chat on the left. If I want the UI to be more polished, I just ask for it. If I want this to feel more like a dashboard, I can say that. If the follow-up section needs clearer owners or more concrete next steps, I can ask for that too. The important thing is that the first draft is not the final answer -- it is a strong starting point that I can refine in seconds.",
+      "demo_actions": "Click into one section and rewrite an item. Add a missing follow-up action or assign a next step so viewers can see direct editing in action.",
+      "screenshot": ""
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~35s",
+      "narrative": "Now I am not just changing the interface. I am giving this canvas a capability the agent can use to generate something genuinely useful from the shared context. I can continue iterating with the agent from the same session.  How about I tell it to add a generate meeting bfrief function add a capability? That is the point of canvas: the work stays visible and keeps evolving in place.",
+      "demo_actions": "From the same session, ask Copilot to revise the canvas by improving the meeting goals section or adding clearer follow-up actions. Show the update in the right side panel after the agent responds.",
+      "screenshot": ""
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~30s",
+      "narrative": "Your first canvas does not need to be perfect. It just needs to be structured enough that you can steer it.",
+      "demo_actions": "Refine the canvas prompt or edit the surface to simplify the layout. Highlight before-and-after changes that improve readability.",
+      "screenshot": ""
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~20s",
+      "narrative": "Close on camera. So the simple model is this: start in an agent session, use /create-canvas to describe the work surface you want, then keep iterating as you and Copilot both update that shared artifact. Once viewers see that flow, they can make their own.",
+      "demo_actions": "Return to talking head for the summary, with a final quick cut back to the canvas in the right side panel before ending.",
+      "screenshot": ""
+    }
+  ],
+  "state": "draft",
+  "created_at": "2026-07-10T19:41:24.718846Z",
+  "updated_at": "2026-07-10T20:06:41.933246Z"
+}

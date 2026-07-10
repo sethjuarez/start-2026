@@ -1,0 +1,130 @@
+{
+  "title": "GitHub Copilot App - Skills, Simply Explained",
+  "locked": false,
+  "description": "Simple educational sketch with talking head and on-screen captures that explains what a skill is in the GitHub Copilot app, why it is useful, and walks through creating an easy demo skill.",
+  "rows": [
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~20s",
+      "narrative": "Talking head. Start with a real BDM problem: I keep asking Copilot for the same kind of customer prep before meetings, and I do not want to rewrite that prompt every time. So instead of explaining skills in the abstract, I am going to build one from scratch and use it right away.",
+      "demo_actions": "On camera intro. Then cut to the GitHub Copilot app home or chat view to frame the problem. Briefly show an example repeated customer-prep prompt in a note or chat so the need feels real.",
+      "screenshot": ".cutready/screenshots/20260703_110619_627_2.jpg"
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~25s",
+      "narrative": "Before creating anything, pick one narrow job. Mine will prepare a customer account brief before a meeting. It will pull together three things: recent activity, likely goals or pain points, and a short list of smart follow-up questions. That is simple enough to build in a minute and useful enough to reuse.",
+      "demo_actions": "Show the app UI and a short written outline of the job. Cursor over the three account-brief sections one by one so viewers can copy the pattern for their own skill ideas.",
+      "screenshot": ".cutready/screenshots/20260703_121758_649_2.jpg"
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~30s",
+      "narrative": "Now I open the skill creation flow and start with the basics: a clear name, a short description, and instructions that say exactly when this skill should be used. I want the audience to see that a skill is really just a reusable set of directions with a memorable name.",
+      "demo_actions": "Navigate to the skill creation flow in the GitHub Copilot app. Fill in a name like 'account-brief', add a short description, and start typing usage guidance into the instructions field.",
+      "screenshot": ".cutready/screenshots/20260703_122747_998_2.jpg"
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~35s",
+      "narrative": "Here is the part that matters most. I tell Copilot what to gather and how I want the answer organized. I ask for a short customer summary, likely priorities, open questions, and a few suggested talking points for the meeting. That makes the output easier to scan and easier to use live.",
+      "demo_actions": "Continue filling in the skill instructions. Add the account summary, likely priorities, open questions, and suggested talking points. Zoom in on the key lines as they are entered.",
+      "screenshot": ".cutready/screenshots/20260703_122844_886_6.jpg"
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~30s",
+      "narrative": "I also keep the instructions tight. If I ask for a full account strategy, I will get something too broad. So I keep this skill focused on pre-meeting prep. That is a good rule for viewers building their own: start with one repeated job, then expand only if you need to.",
+      "demo_actions": "Edit the instructions to remove anything broad or generic. Highlight the contrast between a loose request like full account strategy and the tighter version focused on pre-meeting prep.",
+      "screenshot": ".cutready/screenshots/20260703_122857_212_10.jpg"
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~35s",
+      "narrative": "With the skill saved, I can use it immediately. I give it a customer name or account context and call the skill by name. This is the payoff: instead of rebuilding the same meeting-prep prompt from memory, I get a consistent brief every time with one reusable command.",
+      "demo_actions": "Save the skill, then move into chat or the relevant work surface. Invoke the skill on an example customer or account context and show the exact way you call it so viewers can imitate it.",
+      "screenshot": ".cutready/screenshots/20260703_122908_365_12.jpg"
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~30s",
+      "narrative": "As the answer comes back, I check whether it followed the format I asked for. If it is too long or too generic, I do not start over from scratch. I go back to the skill, tighten one instruction, and test again. That loop is how you make a skill genuinely helpful.",
+      "demo_actions": "Review the generated result on screen. Cursor over the most useful parts. Then briefly jump back to the skill instructions to show one small refinement based on the output.",
+      "screenshot": ".cutready/screenshots/20260703_122932_620_18.jpg"
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~20s",
+      "narrative": "Close on camera. That is how I want people to think about skills: pick one repeated task, write clear instructions, save it with a name you will remember, and test it on real work. Once that clicks, viewers can start making their own.",
+      "demo_actions": "Return to talking head for the wrap-up, with the app visible briefly before fade out.",
+      "screenshot": ".cutready/screenshots/20260703_123209_972_22.jpg"
+    }
+  ],
+  "state": "draft",
+  "created_at": "2026-07-10T19:41:11.803572Z",
+  "updated_at": "2026-07-10T19:41:11.803572Z"
+}
