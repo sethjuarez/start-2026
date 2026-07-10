@@ -3,6 +3,10 @@
     {
       "path": "loop-demo",
       "name": "loop-demo"
+    },
+    {
+      "path": "keynote",
+      "name": "keynote"
     }
   ]
 }

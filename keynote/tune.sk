@@ -1,0 +1,106 @@
+{
+  "title": "Tune",
+  "locked": false,
+  "description": "Imported from video `tune-complete-v3.mp4` using sidecar transcript `tune-complete-v3.vtt`. Scene rows are transcript-derived and ready for review.",
+  "rows": [
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "0:00 - 0:35",
+      "duration_seconds": 36,
+      "narrative": "In the Observe section, we found some opportunities for growth for our agents. Essentially, we have two very important and distinct goals. Number one, we want to make our agents more accurate. And number two, we want to improve the cost without sacrificing that accuracy. So let's start with accuracy first. You recall that when we ran these tests earlier, the bottom of our baseline was a little low, and we wanted to see if we could raise this a little bit. The good thing is that you remember that these measurements come from a rubric. The rubric helps the agent understand when it's being evaluated, how it's doing, and how it can be scored.",
+      "demo_actions": "",
+      "screenshot": ".cutready/screenshots/video-fc124df9c2c14ab3b0f90a3fdd115a76-scene-01.png"
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "0:36 - 1:22",
+      "duration_seconds": 46,
+      "narrative": "What if we could use this rubric and these evaluations to actually optimize the things in the agent like its instructions? Well, it turns out that in Foundry, we have something called Optimize. And the cool thing about this is it will actually go through and agentically optimize things like skills, tools, and system prompts. And it will do it in a way. That will take it from something like a low baseline, like 0.508 on the rubric score, all the way up to 0.85. And that's pretty cool. In fact, when I ran this against our test data set again, notice that the bottom was indeed brought up a lot. There's no 67%. We're all hovering around the 80s, which for a first pass is awesome. And that's all in Microsoft Foundry using the Optimize tab. It's amazing.",
+      "demo_actions": "",
+      "screenshot": ".cutready/screenshots/video-fc124df9c2c14ab3b0f90a3fdd115a76-scene-02.png"
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "1:22 - 1:54",
+      "duration_seconds": 31,
+      "narrative": "The second thing we found, as you recall, that when we were looking at the Agent 365 screen, there was a suggestion that we should try maybe a smaller model to maybe help with our costs a little bit. And it turns out in Microsoft Foundry, we have a ton of models that you can choose from. There's a lot of them. But I thought, why can't we do something that heretofore was reserved for data scientists? Why don't we fine-tune a model that then we can use for our agent?",
+      "demo_actions": "",
+      "screenshot": ".cutready/screenshots/video-fc124df9c2c14ab3b0f90a3fdd115a76-scene-03.png"
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "1:54 - 2:19",
+      "duration_seconds": 25,
+      "narrative": "Let me show you how. This can be done. So in Microsoft Foundry, you can go to the Fine-Tune tab. And then you can click the Fine-Tune button. And you can select from any number of customization methods for your model, like Supervised Fine-Tuning, DPO, or Reinforcement. I like Reinforcement Learning, so we're going to do that. We're going to take 04 Mini because it's a tiny model. And it will hopefully give us the same kind of experience. I'm going to do a standard training type and hit Next.",
+      "demo_actions": "",
+      "screenshot": ".cutready/screenshots/video-fc124df9c2c14ab3b0f90a3fdd115a76-scene-04.png"
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "2:19 - 4:05",
+      "duration_seconds": 106,
+      "narrative": "And then this is where it gets interesting. You can choose your own data sets to train and test. I already have those set up. But one of the cool things is as this agent matures and it actually goes on its lifespan, you can look at the traces that you saw earlier from Observe and use those exact same traces as the data to train on, which is amazing. We already have our own training data set, and we have our own validation data set. So I will choose those. The next thing you have to do is you have to build a grader. And a grader is just a Python file that grades how well the actual training, the training process is going. And you're probably wondering, how does one do such a thing? I actually forgot that the agent did it for me, so I asked it to remind me. And this is what it did. It gave me a 30-second explanation. We did not make up the business facts. We use existing review examples turned into many evidence review practice questions and build a grader that checks citations, gaps, and advisor behavior. So basically, because I already had a bunch of contracts. And I already had a bunch of example invoices. It looked at those to generate a test set for me, as well as the actual Python grader. And if you want to see the Python grader, it's literally this file. It has the same kind of scores that we had, like for example, for our rubric, but this is more deterministic. It's effectively looking at this from a code point of view. Like for example, can we, here, is the answer shaped like the contract we asked for? Or does it cite the right policy or contract evidence? We can score that directly. But again, the agent helped me build that, which was amazing. So we fine-tuned this model.",
+      "demo_actions": "",
+      "screenshot": ".cutready/screenshots/video-fc124df9c2c14ab3b0f90a3fdd115a76-scene-05.png"
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "4:05 - 5:10",
+      "duration_seconds": 65,
+      "narrative": "Let me go back and show you the fine-tuned model. This is the model right here that we fine-tuned. You can see that as we monitor it, it got progressively better until I did an eval. And remember, this is the one we did with the agent optimizer. Did we do just as good with the actual fine-tuned model? Let's take a look. We surely did. In fact, let me go back to my GitHub copilot because I actually told it to compare them side by side. Notice that it actually did 81.7% with the 5.5 and the optimized agent. It did 82.5% with the same optimized assets and the new tiny model, but the cost comparison is where it really comes through. Take a look at this. We can get an estimated almost 70% savings with this brand new model. And again, I don't know. I did this all agentically myself, well, with the agent. So there you go. I showed you how to actually tune your agent to be better first on accuracy with a big model, and then we swapped out that model and still maintain the accuracy with fine-tuning.",
+      "demo_actions": "",
+      "screenshot": ".cutready/screenshots/video-fc124df9c2c14ab3b0f90a3fdd115a76-scene-06.png"
+    }
+  ],
+  "state": "draft",
+  "created_at": "2026-07-10T07:30:10.392211700Z",
+  "updated_at": "2026-07-10T07:30:38.206674600Z"
+}
