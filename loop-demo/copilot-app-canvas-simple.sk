@@ -14,7 +14,7 @@
         "design_plan": false
       },
       "time": "~20s",
-      "narrative": "Talking head. Chat is great for asking questions, exploring ideas, and telling Copilot what you want. But when the work needs structure, iteration, and something you can inspect on screen, canvas gives you a shared surface to build with the agent. In this example, we will create a simple customer meeting canvas from scratch so viewers can see what canvas is and how to make one.",
+      "narrative": "Talking head. Chat is great for asking questions, exploring ideas, and telling Copilot what you want. But when the work needs structure, iteration, and something you can inspect on screen, canvas gives you a shared surface to build with the agent. In this example, we are going to create a simple customer meeting canvas from scratch so you can see what canvas is and how to make one.",
       "demo_actions": "On camera intro, then cut to the GitHub Copilot app. Land in an agent session to set up the idea that canvas starts from chat and becomes a visible working surface.",
       "screenshot": ""
     },
@@ -29,7 +29,7 @@
         "design_plan": false
       },
       "time": "~25s",
-      "narrative": "So here is the scenario. I am going to build a customer meeting canvas for an upcoming account conversation. I want three sections: account context, meeting goals, and follow-up actions. That gives us something concrete to create, edit, and hand back to the audience as a pattern they can reuse.",
+      "narrative": "Here is the scenario. We are getting ready for a customer meeting, and I want a simple canvas with three sections: account context, meeting goals, and follow-up actions. That gives us something concrete to create, edit, and refine as we go.",
       "demo_actions": "Show a short written outline of the scenario in the app or a nearby note. Keep the three target sections visible and easy to read.",
       "screenshot": ""
     },
@@ -44,7 +44,7 @@
         "design_plan": false
       },
       "time": "~30s",
-      "narrative": "Now I create the canvas the way the product actually works. In the session prompt box, I type /create-canvas and describe the workflow I want. I ask for a customer meeting canvas with sections for account context, meeting goals, and follow-up actions, and I make clear what I want people and the agent to be able to do there.",
+      "narrative": "Now I will create the canvas the way the product actually works. In the session prompt box, I type /create-canvas and describe the work surface I want. I ask for a customer meeting canvas with sections for account context, meeting goals, and follow-up actions, and I make clear what the user should edit directly and what the agent should help update.",
       "demo_actions": "In an agent session, place the cursor in the prompt box and type /create-canvas followed by a prompt for a customer meeting canvas with sections for account context, meeting goals, and follow-up actions. Include what the user should edit directly and what the agent should help update.",
       "screenshot": ""
     },
@@ -59,7 +59,7 @@
         "design_plan": false
       },
       "time": "~35s",
-      "narrative": "Once I submit the prompt, the agent takes over. It pulls in its create-canvas skill, then asks one quick follow-up: where should this canvas live? I can save it to the session, to me as a user, or to the project repo. This time, I’ll choose user. From there, the agent starts building. It may take a minute or two, but when it’s done, the canvas opens in the right panel. Pause here for a second, because this is the key moment: what you’re seeing is a shared, interactive workspace.",
+      "narrative": "Once I submit the prompt, the agent takes over. It pulls in its create-canvas skill, then asks one quick follow-up: where should this canvas live? I can save it to the session, to me as a user, or to the project repo. This time, I will choose user. From there, the agent starts building. It may take a minute or two, but when it is done, the canvas opens in the right panel. Pause here for a second, because this is the key moment: what you are seeing is a shared, interactive workspace.",
       "demo_actions": "Submit the /create-canvas prompt. When the canvas opens in the right side panel, move through the main regions slowly. Use cursor emphasis to introduce each section and make the shared surface obvious.",
       "screenshot": ""
     },
@@ -74,7 +74,7 @@
         "design_plan": false
       },
       "time": "~30s",
-      "narrative": "And this is where it gets really useful. If I want to tighten up the canvas, I can do it right here just by telling the agent what I want in the chat on the left. If I want the UI to be more polished, I just ask for it. If I want this to feel more like a dashboard, I can say that. If the follow-up section needs clearer owners or more concrete next steps, I can ask for that too. The important thing is that the first draft is not the final answer -- it is a strong starting point that I can refine in seconds.",
+      "narrative": "And this is where it starts to get useful. If I want to tighten up the canvas, I can do it right here by telling the agent what I want in the chat on the left. If I want the UI to feel more polished, I can ask for that. If I want this to look more like a dashboard, I can ask for that too. If the follow-up section needs clearer owners or more concrete next steps, I can ask for that as well. The important thing is that the first draft gives me something I can shape and improve.",
       "demo_actions": "Click into one section and rewrite an item. Add a missing follow-up action or assign a next step so viewers can see direct editing in action.",
       "screenshot": ""
     },
@@ -119,7 +119,7 @@
         "design_plan": false
       },
       "time": "~20s",
-      "narrative": "Close on camera. That is the simple model: start right from the Home Screen, describe the work surface you want with /create-canvas, and then shape it as you go. You can refine the layout, add capabilities, and turn a rough idea into something genuinely useful. And once you see how easy it is to get started, you start thinking less about the feature and more about what you want to build next.",
+      "narrative": "Close on camera. That is the simple model: start in an agent session, describe the work surface you want with /create-canvas, and then shape it as you go. You can refine the layout, add capabilities, and turn a rough idea into something genuinely useful. And once you see how easy it is to get started, you start thinking less about the feature and more about what you want to build next.",
       "demo_actions": "Return to talking head for the summary, then cut back one last time to the finished canvas in the right panel. End on the canvas in view so the audience leaves with the artifact, not just the explanation.",
       "screenshot": ""
     }
