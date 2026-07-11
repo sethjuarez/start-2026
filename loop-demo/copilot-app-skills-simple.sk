@@ -14,9 +14,9 @@
         "design_plan": false
       },
       "time": "~20s",
-      "narrative": "Talking head. Start with a real BDM problem: I keep asking Copilot for the same kind of customer prep before meetings, and I do not want to rewrite that prompt every time. So instead of explaining skills in the abstract, I am going to build one from scratch and use it right away.",
-      "demo_actions": "On camera intro. Then cut to the GitHub Copilot app home or chat view to frame the problem. Briefly show an example repeated customer-prep prompt in a note or chat so the need feels real.",
-      "screenshot": ".cutready/screenshots/20260703_110619_627_2.jpg"
+      "narrative": "Talking head. If you are new to skills, the simplest way to think about them is this: a skill is a saved set of instructions for a job you do more than once. Instead of rewriting the same prompt every time, you define the pattern once and reuse it when you need it. In this example, the repeated job is customer meeting prep. I am going to build a skill from scratch, then use it so you can see both what it is and why it helps.",
+      "demo_actions": "On camera intro. Then cut to the GitHub Copilot app home or chat view. Briefly show the kind of repeated meeting-prep prompt someone might type over and over, so viewers can immediately see the problem the skill solves.",
+      "screenshot": ""
     },
     {
       "locked": false,
@@ -29,9 +29,9 @@
         "design_plan": false
       },
       "time": "~25s",
-      "narrative": "Before creating anything, pick one narrow job. Mine will prepare a customer account brief before a meeting. It will pull together three things: recent activity, likely goals or pain points, and a short list of smart follow-up questions. That is simple enough to build in a minute and useful enough to reuse.",
-      "demo_actions": "Show the app UI and a short written outline of the job. Cursor over the three account-brief sections one by one so viewers can copy the pattern for their own skill ideas.",
-      "screenshot": ".cutready/screenshots/20260703_121758_649_2.jpg"
+      "narrative": "To keep the concept concrete, I am using the same Acme Corp meeting-prep scenario from the canvas demo. In that video, the canvas helped organize account context, meeting goals, and follow-up actions. Here, the skill will take that same information and turn it into a concise executive meeting brief. That connection matters: canvas helps shape the work, and a skill helps repeat a useful pattern.",
+      "demo_actions": "Briefly show the finished Acme Corp meeting canvas from the earlier demo, then move to a simple outline of the skill idea. Cursor over the account context, meeting goals, and follow-up actions sections to show exactly what the skill will use.",
+      "screenshot": ""
     },
     {
       "locked": false,
@@ -44,9 +44,9 @@
         "design_plan": false
       },
       "time": "~30s",
-      "narrative": "Now I open the skill creation flow and start with the basics: a clear name, a short description, and instructions that say exactly when this skill should be used. I want the audience to see that a skill is really just a reusable set of directions with a memorable name.",
-      "demo_actions": "Navigate to the skill creation flow in the GitHub Copilot app. Fill in a name like 'account-brief', add a short description, and start typing usage guidance into the instructions field.",
-      "screenshot": ".cutready/screenshots/20260703_122747_998_2.jpg"
+      "narrative": "Now I open the skill creation flow and start with the basics: a clear name, a short description, and instructions that say exactly when this skill should be used. Since this one builds on the canvas scenario, I want the setup to feel specific. Something like executive-meeting-brief tells me what it does, and when I would reach for it.",
+      "demo_actions": "Navigate to the skill creation flow in the GitHub Copilot app. Fill in the name 'executive-meeting-brief'. Add this description: 'Creates a concise executive-ready meeting brief from customer context and meeting notes.' In the instructions field, paste this exact prompt:\n\nHelp me turn this into a skill that I can use when I need a concise executive meeting brief for a customer conversation.\n\nBased on the customer context I provide, write the output in five sections:\n1. Customer summary - 2 to 3 sentences on who they are and what matters right now.\n2. Likely priorities - 3 bullets on current goals, pressure points, or initiatives.\n3. Key risks or open questions - 3 bullets on gaps, blockers, or things we should validate in the meeting.\n4. Suggested talking points - 3 to 5 bullets I can use in the conversation.\n5. Recommended follow-up actions - 3 bullets on what to do next after the meeting.\n\nKeep the tone concise, specific, and executive-friendly.\nDo not add filler or generic advice.\nIf information is missing, say what needs to be confirmed.",
+      "screenshot": ""
     },
     {
       "locked": false,
@@ -59,9 +59,9 @@
         "design_plan": false
       },
       "time": "~35s",
-      "narrative": "Here is the part that matters most. I tell Copilot what to gather and how I want the answer organized. I ask for a short customer summary, likely priorities, open questions, and a few suggested talking points for the meeting. That makes the output easier to scan and easier to use live.",
-      "demo_actions": "Continue filling in the skill instructions. Add the account summary, likely priorities, open questions, and suggested talking points. Zoom in on the key lines as they are entered.",
-      "screenshot": ".cutready/screenshots/20260703_122844_886_6.jpg"
+      "narrative": "This is the part that really defines the skill. The instructions tell Copilot what to gather and how to organize the answer. For this meeting brief, I want five things every time: a short customer summary, likely priorities, key risks or open questions, suggested talking points, and recommended follow-up actions. I also want the tone to stay concise and executive-friendly, because this should be something a seller can scan right before the call.",
+      "demo_actions": "Paste the full instructions into the skill. Scroll through the five requested sections slowly so viewers can read them. Pause on the lines about concise, specific, executive-friendly output and missing information, since those details shape the quality of the result.",
+      "screenshot": ""
     },
     {
       "locked": false,
@@ -74,9 +74,9 @@
         "design_plan": false
       },
       "time": "~30s",
-      "narrative": "I also keep the instructions tight. If I ask for a full account strategy, I will get something too broad. So I keep this skill focused on pre-meeting prep. That is a good rule for viewers building their own: start with one repeated job, then expand only if you need to.",
-      "demo_actions": "Edit the instructions to remove anything broad or generic. Highlight the contrast between a loose request like full account strategy and the tighter version focused on pre-meeting prep.",
-      "screenshot": ".cutready/screenshots/20260703_122857_212_10.jpg"
+      "narrative": "One good habit when you build a skill is to keep it focused. If the instructions ask for too much, the result usually gets broad and less useful. So this skill stays tightly scoped to pre-meeting prep. That gives the viewer a practical rule to follow: start with one repeated job, make it work well, and only add more if you need it.",
+      "demo_actions": "Point out one broad request you are avoiding, such as a full account strategy. Then show how the current instructions stay focused on pre-meeting prep and executive-readiness.",
+      "screenshot": ""
     },
     {
       "locked": false,
@@ -89,9 +89,9 @@
         "design_plan": false
       },
       "time": "~35s",
-      "narrative": "With the skill saved, I can use it immediately. I give it a customer name or account context and call the skill by name. This is the payoff: instead of rebuilding the same meeting-prep prompt from memory, I get a consistent brief every time with one reusable command.",
-      "demo_actions": "Save the skill, then move into chat or the relevant work surface. Invoke the skill on an example customer or account context and show the exact way you call it so viewers can imitate it.",
-      "screenshot": ".cutready/screenshots/20260703_122908_365_12.jpg"
+      "narrative": "With the skill saved, I can use it right away. This is where the connection back to canvas becomes useful. The canvas already holds the raw material for the meeting, so now I can pass that context into the skill and ask for the brief. This is the payoff for the viewer: one place to gather the information, and one reusable instruction set to turn it into the output you want.",
+      "demo_actions": "Save the skill, then move into chat or the relevant work surface. Paste this exact prompt as a clean multi-line block:\n\nUse the executive-meeting-brief skill for Acme Corp.\n\nHere is the context:\nAccount context - Acme Corp is evaluating GitHub Copilot for a broader rollout after a successful pilot with 120 developers.\nMeeting goals - understand rollout blockers, security concerns, and what success metrics matter to the VP of Engineering.\nFollow-up actions - confirm procurement timeline, identify internal champion, and propose next-step enablement plan.\n\nCreate the brief.\n\nKeep the full prompt visible on screen before submitting so viewers can copy it.",
+      "screenshot": ""
     },
     {
       "locked": false,
@@ -104,9 +104,9 @@
         "design_plan": false
       },
       "time": "~30s",
-      "narrative": "As the answer comes back, I check whether it followed the format I asked for. If it is too long or too generic, I do not start over from scratch. I go back to the skill, tighten one instruction, and test again. That loop is how you make a skill genuinely helpful.",
-      "demo_actions": "Review the generated result on screen. Cursor over the most useful parts. Then briefly jump back to the skill instructions to show one small refinement based on the output.",
-      "screenshot": ".cutready/screenshots/20260703_122932_620_18.jpg"
+      "narrative": "When the answer comes back, you can see why a skill is different from a one-off prompt. The structure is already baked in, so the output is easier to scan and easier to refine. If the brief needs to be sharper or shorter, I do not start over. I adjust the skill and run it again. Once that clicks, it is easy to imagine other repeated jobs you could turn into skills too.",
+      "demo_actions": "Review the generated result on screen. Cursor over each of the five sections so viewers can see that the structure from the instructions carried through to the output. Then briefly jump back to the skill instructions and make one small refinement to show how iteration works.",
+      "screenshot": ""
     },
     {
       "locked": false,
@@ -119,12 +119,12 @@
         "design_plan": false
       },
       "time": "~20s",
-      "narrative": "Close on camera. That is how I want people to think about skills: pick one repeated task, write clear instructions, save it with a name you will remember, and test it on real work. Once that clicks, viewers can start making their own.",
-      "demo_actions": "Return to talking head for the wrap-up, with the app visible briefly before fade out.",
-      "screenshot": ".cutready/screenshots/20260703_123209_972_22.jpg"
+      "narrative": "Close on camera. That is the core idea: a skill lets you save a good instruction pattern for a job you repeat. In this example, the canvas organized the Acme Corp meeting prep, and the skill turned that context into a reusable executive brief. Once you understand that relationship, it becomes much easier to spot other tasks that should become skills.",
+      "demo_actions": "Return to talking head for the wrap-up, then briefly show the finished skill and the Acme Corp meeting-prep context on screen before fade out.",
+      "screenshot": ""
     }
   ],
   "state": "draft",
   "created_at": "2026-07-10T19:41:11.803572Z",
-  "updated_at": "2026-07-10T19:41:11.803572Z"
+  "updated_at": "2026-07-10T22:01:50.027229Z"
 }
