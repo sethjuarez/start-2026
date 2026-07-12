@@ -16,7 +16,7 @@
       "time": "0:00 - 0:14",
       "duration_seconds": 14,
       "narrative": "In Observe, we found two clear problems to solve. First, improve the agent's accuracy. Second, bring down cost without giving that accuracy back. So let's take those one at a time.",
-      "demo_actions": "- Intro",
+      "demo_actions": "- Intro\n- We want to solve the accuracy and cost challenges",
       "screenshot": ".cutready/screenshots/video-1bee6aadd65f49b9a44d7cf4b37df18d-scene-01.png"
     },
     {
@@ -32,7 +32,7 @@
       "time": "0:14 - 0:44",
       "duration_seconds": 30,
       "narrative": "Let's start with accuracy. Back in the Contract Policy Expert agent, there's a new Optimize tab. This focuses on the agent's assets - the instruction text, skill text, tool definitions, and system prompt. It uses the rubrics and prior eval data to test, adjust, and try again.",
-      "demo_actions": "- Open Contract Policy Expert.\n- Go to Optimize.\n- Show assets, not model.\n- Highlight instructions, skills, tools, prompt.\n- Land on evals/data/rubrics loop.",
+      "demo_actions": "*BEGIN ACCURACY*\n\n- Open Contract Policy Expert.\n- Go to Optimize.\n- Show assets, not model.\n- Highlight instructions, skills, tools, prompt.\n- Land on evals/data/rubrics loop.",
       "screenshot": ".cutready/screenshots/video-1bee6aadd65f49b9a44d7cf4b37df18d-scene-02.png"
     },
     {
@@ -64,7 +64,7 @@
       "time": "1:49 - 2:46",
       "duration_seconds": 57,
       "narrative": "Now for the cost side. Foundry gives us a lot of model options, and one straightforward move is to pick a less expensive base model. But we can go further than that. We can fine-tune a smaller model for this task. So here I'm creating a fine-tuning job, choosing the model, picking reinforcement fine-tuning, and setting the training mode.",
-      "demo_actions": "- Switch to Foundry.\n- Show models",
+      "demo_actions": "*BEGIN COST*\n- Switch to Foundry.\n- Show models",
       "screenshot": ".cutready/screenshots/video-1bee6aadd65f49b9a44d7cf4b37df18d-scene-04.png"
     },
     {
@@ -102,5 +102,5 @@
   ],
   "state": "draft",
   "created_at": "2026-07-10T19:37:27.445359800Z",
-  "updated_at": "2026-07-10T19:50:36.600263500Z"
+  "updated_at": "2026-07-12T18:12:32.727576900Z"
 }
