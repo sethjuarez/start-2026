@@ -1,0 +1,162 @@
+{
+  "title": "BUILD - Foundry",
+  "locked": false,
+  "description": "Enterprise build path from local agent to Foundry-hosted, grounded agent published across Microsoft 365.",
+  "rows": [
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~25s",
+      "narrative": "I’m back in the office, and the rubber duck review has finished. \n\nNow let’s take the exact same agent and make it production ready.\n\nThe best part is I don't have to rebuild anything. I'm still working with the same agent. I'm just giving it the production services it needs.",
+      "demo_actions": "Stay in the same session with the Part 1 canvas still visible. Frame this as the move from local proof of concept to production readiness.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~25s",
+      "narrative": "Right from GitHub Copilot, I connect to Microsoft Foundry. \n\nSame workflow, same instructions, same experience. \n\nI’m just changing where it runs and giving it one new capability.",
+      "demo_actions": "Type 'Let's move it into Microsoft Foundry and ground it on our real contracts.' Show the Foundry Agent canvas opening with the selected model.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~15s",
+      "narrative": "Let’s look at the Anatomy of an Agent again.\n\nModel.\n\nInstructions.\n\nContext.\n\nThose are exactly the same pieces we used on the plane.\n\nThe only block is Tools.\n\nI’ve connected FoundryIQ to our approved contracts, and now this agent can retrieve trusted business knowledge instead of relying only what came in the instructions.\n\nThe only block still waiting is Memory, and that fills in the moment I start the conversation.",
+      "demo_actions": "Point at the Tools tile and call out Foundry IQ with the contracts knowledge base.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~20s",
+      "narrative": "Now, if we look at the code we added to wire this up to Foundry… And don’y worry if you don’t read Python. There are really only 3 things happening:\n\nFirst, we’re switching to a production model, GPT-5.5, running in Microsoft Foundry with enterprise authentication and governance.\n\nNext, we’re connecting Foundry IQ so the agent can ground every answer in our approved contracts.\n\nFinally, we assemble the agent using the exact same instructions from Part A, plus our foundry model, and the FoundryIQ tool.\n\nThat’s the journey from proof of concept to production ready.",
+      "demo_actions": "Click the Connection tab and show build_agent(), the model choice, the Foundry endpoint, and FoundryIQ(knowledge_base='contracts-kb').",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~10s",
+      "narrative": "Now let's ask the same question aagain.\n\nSame invoice.\n\nSame prompt.\n\nYou’ll notice this one takes just a little longer.\n\nMy laptop agent only had the invoice. This one is reaching into FoundryIQ, retrieving the actual contract language, and reconciling every invoice lline against what we agreed to.",
+      "demo_actions": "Click the Chat tab, attach invoice-asterridge.pdf, and ask the contract audit question.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~30s",
+      "duration_seconds": 30,
+      "narrative": "It’s not guessing. It’s grounding every answeer in our business knowledge.\n\nThis time it finds what my laptop couldn’t. A unit price that’s higher than our negotiated rate. \n\nAnd a $99,880 packaging charge that was never authorized. Both backed by the exact same contract clauses they came from.",
+      "demo_actions": "",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~35s",
+      "narrative": "And that’s the part that makes this auditable. The Trace view shows the retrieval happening in real time. \n\nThe question sent to FoundryIQ.\n\nThe contract passages it retrieved. \n\nAnd the exact clauses used to support every conclusion.\n\nThat’s the difference between an answer, and an answer you can defend.",
+      "demo_actions": "After the answer returns, click the Trace tab and show the live knowledge_base_retrieve call with the highlighted contract clauses behind each finding.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~15s",
+      "narrative": "Once I'm happy with the results, publishing is just one step. Now the hosted agent is ready to power real business workflows. I’ve also made it avialalbe where my finance team already works: Microsoft Teams.\n\nSame agent.\n\nSame grounding.\n\nSame traceability.\n\nJust meeting people where they already collaborate. ",
+      "demo_actions": "Narrate the publish beat and show the Foundry canvas in its ready-to-publish state.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~30s",
+      "duration_seconds": 30,
+      "narrative": "From Teams, I can open the invoice details directly. That deep link takes me into the full record, where I can see the decision, the evidence behind it, and the source documents the agent used. And if I jump into the agent run, this is where the broader system comes into view. We have several specialist agents working together, each connected to the right IQs to review the case and move it forward.",
+      "demo_actions": "",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~25s",
+      "narrative": "What started as a proof of concept on a plane is now a governed, grounded, production ready agent. Built in the GitHub Copilot app. Powered by Microsoft Foundry. Available where the business already works.",
+      "demo_actions": "Transition to the Waypoint app visual and orient the viewer to the invoice review UI.",
+      "screenshot": null
+    }
+  ],
+  "state": "draft",
+  "created_at": "2026-06-23T17:42:03.432034600Z",
+  "updated_at": "2026-07-12T18:03:47.514129700Z"
+}

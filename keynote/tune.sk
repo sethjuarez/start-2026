@@ -1,0 +1,106 @@
+{
+  "title": "Tune",
+  "locked": false,
+  "description": "Imported from video `tune-complete-v4.mp4` using sidecar transcript `tune-complete-v4.vtt`. Scene rows are transcript-derived and ready for review.",
+  "rows": [
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "0:00 - 0:14",
+      "duration_seconds": 14,
+      "narrative": "In Observe, we found two clear problems to solve. First, improve the agent's accuracy. Second, bring down cost without giving that accuracy back. So let's take those one at a time.",
+      "demo_actions": "- Intro\n- We want to solve the accuracy and cost challenges",
+      "screenshot": ".cutready/screenshots/video-1bee6aadd65f49b9a44d7cf4b37df18d-scene-01.png"
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "0:14 - 0:44",
+      "duration_seconds": 30,
+      "narrative": "Let's start with accuracy. Back in the Contract Policy Expert agent, there's a new Optimize tab. This focuses on the agent's assets - the instruction text, skill text, tool definitions, and system prompt. It uses the rubrics and prior eval data to test, adjust, and try again.",
+      "demo_actions": "*BEGIN ACCURACY*\n\n- Open Contract Policy Expert.\n- Go to Optimize.\n- Show assets, not model.\n- Highlight instructions, skills, tools, prompt.\n- Land on evals/data/rubrics loop.",
+      "screenshot": ".cutready/screenshots/video-1bee6aadd65f49b9a44d7cf4b37df18d-scene-02.png"
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "0:44 - 1:49",
+      "duration_seconds": 65,
+      "narrative": "And you can see the lift in the results. Internal testing moved up to 85%, and the weaker band we saw earlier is no longer dragging things down. For a first pass, that's a solid improvement. The important part is what changed. Instead of treating this like magic, we can open the diffs and see the edits directly. The GitHub Copilot App also summarized the changes in plain language - for example, it made the instructions more explicit about citing contract evidence. When you compare the before and after text, the prompt is doing a better job of telling the agent exactly what good output looks like. That's how we improved accuracy.",
+      "demo_actions": "- Open improved eval.\n- Brief weak-band comparison.\n- Open diffs.\n- Zoom on prompt changes.\n- Make before/after obvious.\n- Show Copilot summary.",
+      "screenshot": ".cutready/screenshots/video-1bee6aadd65f49b9a44d7cf4b37df18d-scene-03.png"
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "1:49 - 2:46",
+      "duration_seconds": 57,
+      "narrative": "Now for the cost side. Foundry gives us a lot of model options, and one straightforward move is to pick a less expensive base model. But we can go further than that. We can fine-tune a smaller model for this task. So here I'm creating a fine-tuning job, choosing the model, picking reinforcement fine-tuning, and setting the training mode.",
+      "demo_actions": "*BEGIN COST*\n- Switch to Foundry.\n- Show models",
+      "screenshot": ".cutready/screenshots/video-1bee6aadd65f49b9a44d7cf4b37df18d-scene-04.png"
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "2:46 - 4:16",
+      "duration_seconds": 90,
+      "narrative": "Next comes the training setup. I already have a training set and a validation set, and over time you can also use agent traces to build better examples from real usage. For reinforcement fine-tuning, we also need a grader -- a Python file that scores the model's answers. In my case, Copilot helped build both pieces from the contracts and invoices we already had. The grader is simple and specific: did the model return the right evidence, in the right format, without taking actions this agent should not take? It then weights those checks so the training job knows what matters most.",
+      "demo_actions": "- Show train and validation sets.\n- Mention traces as future data.\n- Open grader file.\n- Point out evidence, format, role checks.\n- Show weights.\n- Open Copilot build-up.",
+      "screenshot": ".cutready/screenshots/video-1bee6aadd65f49b9a44d7cf4b37df18d-scene-05.png"
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "4:16 - 5:20",
+      "duration_seconds": 63,
+      "narrative": "Once the job is running, we can watch the monitor and see the training improve over time. Then we test the fine-tuned model against the same eval set. The key result is that accuracy holds up, and in some cases improves. Copilot then helps summarize the business impact. Compared with the original GPT model, this fine-tuned version stays at roughly the same quality while cutting cost by almost 70%. So we solved both problems: better performance, and much lower operating cost.",
+      "demo_actions": "- Open monitor.\n- Move to final eval.\n- Compare to original quality.\n- Open Copilot summary.\n- Show cost comparison.\n- Land the ~70% reduction.",
+      "screenshot": ".cutready/screenshots/video-1bee6aadd65f49b9a44d7cf4b37df18d-scene-06.png"
+    }
+  ],
+  "state": "draft",
+  "created_at": "2026-07-10T19:37:27.445359800Z",
+  "updated_at": "2026-07-12T18:12:32.727576900Z"
+}

@@ -1,7 +1,7 @@
 {
-  "title": "Tune - Improve Quality and Lower Cost in Foundry",
+  "title": "Tune - Use RFT to Move to a Smaller Model",
   "locked": false,
-  "description": "Tuning chapter that uses traces and eval signals to improve the invoice-review agent in Foundry, then carries that behavior toward smaller lower-cost models.",
+  "description": "Tune Part B – Reinforcement Fine Tuning and model selection\n\nReinforce fine-tuning in Azure AI Foundry to improve agent decisions, shifting work from a larger model to a smaller one. We navigate the reward function, scenario-based training data, and evaluation results that demonstrate whether the tuned smaller model preserves quality while reducing cost.\n",
   "rows": [
     {
       "locked": false,
@@ -14,39 +14,21 @@
         "design_plan": false
       },
       "time": "~20s",
-      "narrative": "- Tune starts from what we learned in Observe.\n- Performance is visible.\n- Cost is visible.\n- Now we use that information to make the system better.",
-      "demo_actions": "Open the optimization area in Foundry and frame the goal as better quality at lower cost.",
-      "screenshot": null
-    },
-    {
-      "locked": false,
-      "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
-      },
-      "time": "~35s",
-      "narrative": "- Start with the evaluation signals.\n- The team already knows where the invoice-review agent is strong and where it falls short.\n- Those traces and evals become the input for optimization.\n- So we are tuning against the real job, not vague benchmarks.",
-      "demo_actions": "Show how trace and eval outputs feed into the optimization flow.",
-      "screenshot": null
-    },
-    {
-      "locked": false,
-      "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
-      },
-      "time": "~35s",
-      "narrative": "- Foundry Agent Optimizer helps improve the agent on the work that matters.\n- The target is better contract reasoning, better evidence use, and clearer recommendations.\n- This keeps the improvements tied to the same invoice-review task the business cares about.",
-      "demo_actions": "Open Foundry Agent Optimizer. Show optimization inputs, target rubrics, and an updated result or comparison.",
-      "screenshot": ".cutready/screenshots/20260622_213153_963_26.jpg"
+      "narrative": "Our agent works, but it leans on a large model for its judgment. \n\nThat’s great for performance. But the ROI of our program is getting eroded. And we need to make changes to increase the ROI of AI. \n\nThe goal now: keep the decision quality and drop the cost. \n\nThat's reinforcement fine-tuning. \n",
+      "demo_actions": "Frame the current architecture in Foundry as a working agent that currently relies on a larger model for decision quality. Set up this chapter as a cost reduction story: can we train a smaller model to make the same decisions well enough to take over more of the work?",
+      "screenshot": ".cutready/screenshots/20260630_081728_325_42.jpg",
+      "narration": {
+        "path": ".cutready/narration/row-1-5d6f53eebff8.webm",
+        "source_text": "Our agent works, but it leans on a large model for its judgment. \n\nThat’s great for performance. But the ROI of our program is getting eroded. And we need to make changes to increase the ROI of AI. \n\nThe goal now: keep the decision quality and drop the cost. \n\nThat's reinforcement fine-tuning. \n",
+        "source_text_hash": "e8c47439633f34658a8a61e57293af78f474dc20299f6e4267d3659eb98a66a5",
+        "mime_type": "audio/webm;codecs=opus",
+        "duration_ms": 19930,
+        "leading_silence_ms": 790,
+        "trailing_silence_ms": 790,
+        "silence_threshold_db": -45.0,
+        "byte_size": 321008,
+        "recorded_at": "2026-07-03T12:49:28.301651100Z"
+      }
     },
     {
       "locked": false,
@@ -59,9 +41,21 @@
         "design_plan": false
       },
       "time": "~30s",
-      "narrative": "- But quality is only half the story.\n- At scale, run cost matters too.\n- If invoice assurance grows across many suppliers and manufacturing programs, the operating model has to stay efficient.",
-      "demo_actions": "Bring cost back into view as part of the optimization decision.",
-      "screenshot": ".cutready/screenshots/20260622_213045_628_22.jpg"
+      "narrative": "I have the flexibility to tune in multiple ways. \n\n\nBut when the task is making the right decision on something you can score cleanly — like an invoice call — RFT is the strong fit. \n",
+      "demo_actions": "Open the Foundry fine-tuning overview. Highlight SFT, DPO, and RFT. Explain that this use case is about decision quality on a measurable task, which makes RFT a good method for training a smaller specialist model.",
+      "screenshot": ".cutready/screenshots/20260630_012438_tuning-options.png",
+      "narration": {
+        "path": ".cutready/narration/row-2-4c1554d8c62f.webm",
+        "source_text": "I have the flexibility to tune in multiple ways. \n\n\nBut when the task is making the right decision on something you can score cleanly — like an invoice call — RFT is the strong fit. \n",
+        "source_text_hash": "872b1f7f77e3dc3353cc34e0698d7e5e0385fa69c55c2cb513ff806adecf2a8c",
+        "mime_type": "audio/webm;codecs=opus",
+        "duration_ms": 11160,
+        "leading_silence_ms": 50,
+        "trailing_silence_ms": 450,
+        "silence_threshold_db": -45.0,
+        "byte_size": 179006,
+        "recorded_at": "2026-07-03T12:49:43.902374200Z"
+      }
     },
     {
       "locked": false,
@@ -73,10 +67,22 @@
         "visual": false,
         "design_plan": false
       },
-      "time": "~35s",
-      "narrative": "- This is where the model progression comes in.\n- Take what we learned from the stronger model.\n- Carry that behavior toward a smaller model that can handle more of the workload at lower cost.\n- The goal is to preserve the reasoning quality that matters.",
-      "demo_actions": "Show the model comparison or hill-climbing setup from a larger model toward a smaller one.",
-      "screenshot": ".cutready/screenshots/20260622_213254_487_30.jpg"
+      "time": "~30s",
+      "narrative": "This is the reward function — where we define a good decision in code. The model isn't rewarded for sounding polished. It's rewarded for choosing the correct action. ",
+      "demo_actions": "Open the repo file for the reward or grader logic, such as rl/retail_grader_rft_tools.py. Introduce it as the mechanism that scores whether the smaller model is making the right business decisions.",
+      "screenshot": ".cutready/screenshots/20260630_081852_660_50.jpg",
+      "narration": {
+        "path": ".cutready/narration/row-3-08a01255ffac.webm",
+        "source_text": "This is the reward function — where we define a good decision in code. The model isn't rewarded for sounding polished. It's rewarded for choosing the correct action. ",
+        "source_text_hash": "623e2d84bdf6b7c6dbedb3404b05995c0088681e62f1e98bf3ac2e82620080f2",
+        "mime_type": "audio/webm;codecs=opus",
+        "duration_ms": 11521,
+        "leading_silence_ms": 600,
+        "trailing_silence_ms": 960,
+        "silence_threshold_db": -45.0,
+        "byte_size": 184802,
+        "recorded_at": "2026-07-03T12:49:59.362116Z"
+      }
     },
     {
       "locked": false,
@@ -88,10 +94,76 @@
         "visual": false,
         "design_plan": false
       },
-      "time": "~35s",
-      "narrative": "- Fine-tuning and RLE help close the gap.\n- The point is not to make every model identical.\n- The point is to keep the invoice-review behavior the business needs while reducing cost per run.",
-      "demo_actions": "Show the fine-tuning or RLE step, then compare before-and-after quality and cost.",
-      "screenshot": ".cutready/screenshots/20260622_213310_576_34.jpg"
+      "time": "~30s",
+      "narrative": "Essentially, this grader measures whether the cheaper model preserves the optimized expert behavior: grounded, cited contract-policy evidence with the right decision boundaries, rather than fluent but unsupported answers. \n",
+      "demo_actions": "Scroll through the grader file and point out the business criteria it scores: correct decision, correct amount, correct tools, and correct workflow. Explain that this creates a measurable standard the smaller model can be trained against.",
+      "screenshot": ".cutready/screenshots/20260630_081852_660_50.jpg",
+      "narration": {
+        "path": ".cutready/narration/row-4-13708c057ed0.webm",
+        "source_text": "Essentially, this grader measures whether the cheaper model preserves the optimized expert behavior: grounded, cited contract-policy evidence with the right decision boundaries, rather than fluent but unsupported answers. \n",
+        "source_text_hash": "ce4d7252bcef9a848f537329f1aa9c5d899ba61b2b58dd2d5b043ad9505b76ae",
+        "mime_type": "audio/webm;codecs=opus",
+        "duration_ms": 15543,
+        "leading_silence_ms": 680,
+        "trailing_silence_ms": 690,
+        "silence_threshold_db": -45.0,
+        "byte_size": 249524,
+        "recorded_at": "2026-07-03T12:50:18.483114600Z"
+      }
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~25s",
+      "narrative": "The training data isn't generic chat. Each row is a real work scenario — the request, the policy context, the expected resolution, the tools, the actions. \n\nThat's how we teach the smaller model how Caldova actually operates. \n",
+      "demo_actions": "Open the data JSONL files. Show that each record includes the user request, policy or system context, expected resolution, expected tools, expected actions, expected amounts, and scenario metadata.",
+      "screenshot": ".cutready/screenshots/20260630_082004_088_54.jpg",
+      "narration": {
+        "path": ".cutready/narration/row-5-3a02b9b3e4ff.webm",
+        "source_text": "The training data isn't generic chat. Each row is a real work scenario — the request, the policy context, the expected resolution, the tools, the actions. \n\nThat's how we teach the smaller model how Caldova actually operates. \n",
+        "source_text_hash": "d672e643a2cebc37beeb7b48f039f9ea975647877cd7d730520cd74f800f609d",
+        "mime_type": "audio/webm;codecs=opus",
+        "duration_ms": 14372,
+        "leading_silence_ms": 870,
+        "trailing_silence_ms": 570,
+        "silence_threshold_db": -45.0,
+        "byte_size": 231170,
+        "recorded_at": "2026-07-03T12:51:04.239851900Z"
+      }
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~25s",
+      "narrative": "Once the reinforcement fine tuning job starts, we can monitor progress, see if its improving, and generally ensure that the process is proceeding well.\n",
+      "demo_actions": "Show the console, eval output, or leaderboard. Compare a larger frontier model, a smaller untuned base model, and the fine-tuned smaller specialist on the same held-out set. Call out quality, tool use, task success, and cost.",
+      "screenshot": ".cutready/screenshots/20260703_124340_447_1.jpg",
+      "narration": {
+        "path": ".cutready/narration/row-6-a0d6dd300b8b.webm",
+        "source_text": "Once the reinforcement fine tuning job starts, we can monitor progress, see if its improving, and generally ensure that the process is proceeding well.\n",
+        "source_text_hash": "02ce09fa4eef7dafc04d0c9fecb0ea4ce02a414a5c50368596c241c1e0070c5e",
+        "mime_type": "audio/webm;codecs=opus",
+        "duration_ms": 10155,
+        "leading_silence_ms": 540,
+        "trailing_silence_ms": 890,
+        "silence_threshold_db": -45.0,
+        "byte_size": 162584,
+        "recorded_at": "2026-07-03T12:51:18.442206Z"
+      }
     },
     {
       "locked": false,
@@ -104,12 +176,24 @@
         "design_plan": false
       },
       "time": "~20s",
-      "narrative": "- That gives Pharma Company a practical operating model.\n- Governed agents can scale invoice assurance.\n- Recommendation quality stays high where it matters.\n- And run cost stays under control as volume grows.",
-      "demo_actions": "Close on the final quality and cost comparison tied back to invoice-review volume and business impact.",
-      "screenshot": null
+      "narrative": "So the payoff here is simple: we didn’t trade quality for cost. The smaller RFT model preserved the optimized contract-policy expert behavior across the baseline evaluation suite, with a 0.944 grader score, while reducing estimated inference cost by roughly 82%.\nNot bad!\n",
+      "demo_actions": "Close on the full loop: reward function, training scenarios, and evaluation results. Summarize RFT in Foundry as a way to move work from a larger expensive model to a smaller cheaper one, while holding onto acceptable decision quality.",
+      "screenshot": ".cutready/screenshots/20260703_124654_711_6.jpg",
+      "narration": {
+        "path": ".cutready/narration/row-7-3dc1eea0742d.webm",
+        "source_text": "So the payoff here is simple: we didn’t trade quality for cost. The smaller RFT model preserved the optimized contract-policy expert behavior across the baseline evaluation suite, with a 0.944 grader score, while reducing estimated inference cost by roughly 82%.\nNot bad!\n",
+        "source_text_hash": "bdcaa1e9ffb5763a3950e6564ca4590bc92bb6b0ba6e7272b07f8c08bb19aa73",
+        "mime_type": "audio/webm;codecs=opus",
+        "duration_ms": 22338,
+        "leading_silence_ms": 910,
+        "trailing_silence_ms": 960,
+        "silence_threshold_db": -45.0,
+        "byte_size": 359648,
+        "recorded_at": "2026-07-03T12:51:48.548364100Z"
+      }
     }
   ],
   "state": "draft",
   "created_at": "2026-06-23T17:42:03.434006200Z",
-  "updated_at": "2026-06-23T17:42:03.434006400Z"
+  "updated_at": "2026-07-03T12:51:54.852820300Z"
 }

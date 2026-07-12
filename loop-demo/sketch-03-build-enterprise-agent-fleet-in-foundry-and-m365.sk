@@ -1,7 +1,7 @@
 {
-  "title": "Build - Enterprise Agent Fleet in Foundry and M365",
+  "title": "Build Part B- Enterprise Agent Fleet in Foundry and M365",
   "locked": false,
-  "description": "Enterprise build chapter that moves from the local POC into VS Code, connected IQs, hosted deployment in Foundry, and business access through M365 and Teams.",
+  "description": "Enterprise build path from local agent to Foundry-hosted, grounded agent published across Microsoft 365.",
   "rows": [
     {
       "locked": false,
@@ -13,10 +13,85 @@
         "visual": false,
         "design_plan": false
       },
+      "time": "~25s",
+      "narrative": "I’m back in the office, and the rubber duck review has finished. \n\nNow let’s take the exact same agent and make it production ready.\n\nThe best part is I don't have to rebuild anything. I'm still working with the same agent. I'm just giving it the production services it needs.",
+      "demo_actions": "Stay in the same session with the Part 1 canvas still visible. Frame this as the move from local proof of concept to production readiness.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~25s",
+      "narrative": "Right from GitHub Copilot, I connect to Microsoft Foundry. \n\nSame workflow, same instructions, same experience. \n\nI’m just changing where it runs and giving it one new capability.",
+      "demo_actions": "Type 'Let's move it into Microsoft Foundry and ground it on our real contracts.' Show the Foundry Agent canvas opening with the selected model.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~15s",
+      "narrative": "Let’s look at the Anatomy of an Agent again.\n\nModel.\n\nInstructions.\n\nContext.\n\nThose are exactly the same pieces we used on the plane.\n\nThe only block is Tools.\n\nI’ve connected FoundryIQ to our approved contracts, and now this agent can retrieve trusted business knowledge instead of relying only what came in the instructions.\n\nThe only block still waiting is Memory, and that fills in the moment I start the conversation.",
+      "demo_actions": "Point at the Tools tile and call out Foundry IQ with the contracts knowledge base.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
       "time": "~20s",
-      "narrative": "- The local proof of concept showed that the task works.\n- Now the agent needs to grow up.\n- Move into an environment with the security, governance, and visibility required for production use.",
-      "demo_actions": "Transition from the local POC to VS Code or the enterprise build environment. Frame this as the move from experiment to production.",
-      "screenshot": ".cutready/screenshots/20260622_142419_vlcsnap-2026-06-22-14h24m13s620.png"
+      "narrative": "Now, if we look at the code we added to wire this up to Foundry… And don’y worry if you don’t read Python. There are really only 3 things happening:\n\nFirst, we’re switching to a production model, GPT-5.5, running in Microsoft Foundry with enterprise authentication and governance.\n\nNext, we’re connecting Foundry IQ so the agent can ground every answer in our approved contracts.\n\nFinally, we assemble the agent using the exact same instructions from Part A, plus our foundry model, and the FoundryIQ tool.\n\nThat’s the journey from proof of concept to production ready.",
+      "demo_actions": "Click the Connection tab and show build_agent(), the model choice, the Foundry endpoint, and FoundryIQ(knowledge_base='contracts-kb').",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "~10s",
+      "narrative": "Now let's ask the same question aagain.\n\nSame invoice.\n\nSame prompt.\n\nYou’ll notice this one takes just a little longer.\n\nMy laptop agent only had the invoice. This one is reaching into FoundryIQ, retrieving the actual contract language, and reconciling every invoice lline against what we agreed to.",
+      "demo_actions": "Click the Chat tab, attach invoice-asterridge.pdf, and ask the contract audit question.",
+      "screenshot": null
+    },
+    {
+      "locked": false,
+      "locks": {
+        "time": false,
+        "narrative": false,
+        "demo_actions": false,
+        "screenshot": false,
+        "visual": false,
+        "design_plan": false
+      },
+      "time": "",
+      "narrative": "It’s not guessing. It’s grounding every answeer in our business knowledge.\n\nThis time it finds what my laptop couldn’t. A unit price that’s higher than our negotiated rate. \n\nAnd a $99,880 packaging charge that was never authorized. Both backed by the exact same contract clauses they came from.",
+      "demo_actions": "",
+      "screenshot": null
     },
     {
       "locked": false,
@@ -29,9 +104,9 @@
         "design_plan": false
       },
       "time": "~35s",
-      "narrative": "- In VS Code, connect the agent to the right IQs.\n- The local proof of concept used simulated records.\n- This version can reach real enterprise evidence with visible guardrails on tool calls.\n- That is the difference between a good demo and a system the business can trust.",
-      "demo_actions": "Open the agent project in VS Code. Show configuration for IQs, tool access, and policy controls.",
-      "screenshot": ".cutready/screenshots/20260622_142540_vlcsnap-2026-06-22-14h25m35s396.png"
+      "narrative": "And that’s the part that makes this auditable. The Trace view shows the retrieval happening in real time. \n\nThe question sent to FoundryIQ.\n\nThe contract passages it retrieved. \n\nAnd the exact clauses used to support every conclusion.\n\nThat’s the difference between an answer, and an answer you can defend.",
+      "demo_actions": "After the answer returns, click the Trace tab and show the live knowledge_base_retrieve call with the highlighted contract clauses behind each finding.",
+      "screenshot": null
     },
     {
       "locked": false,
@@ -43,10 +118,10 @@
         "visual": false,
         "design_plan": false
       },
-      "time": "~40s",
-      "narrative": "- Name the sources clearly.\n- Work IQ brings in email and Microsoft 365 context.\n- Foundry IQ brings indexed contracts.\n- Fabric IQ brings structured invoice data.\n- Web IQ can add current outside financial context when needed.",
-      "demo_actions": "Open the toolbox or connected data sources and point out the key IQs that support invoice assurance.",
-      "screenshot": ".cutready/screenshots/20260622_142437_vlcsnap-2026-06-22-14h24m33s324.png"
+      "time": "~15s",
+      "narrative": "Once I'm happy with the results, publishing is just one step. Now the hosted agent is ready to power real business workflows. I’ve also made it avialalbe where my finance team already works: Microsoft Teams.\n\nSame agent.\n\nSame grounding.\n\nSame traceability.\n\nJust meeting people where they already collaborate. ",
+      "demo_actions": "Narrate the publish beat and show the Foundry canvas in its ready-to-publish state.",
+      "screenshot": null
     },
     {
       "locked": false,
@@ -58,10 +133,10 @@
         "visual": false,
         "design_plan": false
       },
-      "time": "~30s",
-      "narrative": "- Once those connections are in place, deploy the agent as a hosted agent in Foundry.\n- Now we have a managed runtime with isolation and a clear execution path we can inspect.\n- The idea is the same as the local build.\n- The operating model is now enterprise-ready.",
-      "demo_actions": "Deploy the agent in Foundry. Show hosted agent setup, cloud isolation cues, and a simple execution.",
-      "screenshot": ".cutready/screenshots/20260622_142605_vlcsnap-2026-06-22-14h25m58s345.png"
+      "time": "",
+      "narrative": "From Teams, I can open the invoice details directly. That deep link takes me into the full record, where I can see the decision, the evidence behind it, and the source documents the agent used. And if I jump into the agent run, this is where the broader system comes into view. We have several specialist agents working together, each connected to the right IQs to review the case and move it forward.",
+      "demo_actions": "",
+      "screenshot": null
     },
     {
       "locked": false,
@@ -73,28 +148,13 @@
         "visual": false,
         "design_plan": false
       },
-      "time": "~30s",
-      "narrative": "- From there, the agent becomes easier for the business to use.\n- People do not need to open a builder tool.\n- Invoice assurance can show up where they already work, including Teams through M365.",
-      "demo_actions": "Move to the M365 or Teams surface. Show the autopilot or agent entry point in Teams.",
-      "screenshot": ".cutready/screenshots/20260622_212932_145_14.jpg"
-    },
-    {
-      "locked": false,
-      "locks": {
-        "time": false,
-        "narrative": false,
-        "demo_actions": false,
-        "screenshot": false,
-        "visual": false,
-        "design_plan": false
-      },
-      "time": "~30s",
-      "narrative": "- Here is a simple interaction.\n- A user asks about an invoice.\n- The agent responds with a recommendation grounded in contract and operating evidence.\n- So the system has moved from one local build to an enterprise agent people can actually use.",
-      "demo_actions": "Run a short Teams interaction tied to invoice assurance. Ask the agent to review or explain an invoice decision and show the response.",
-      "screenshot": ".cutready/screenshots/20260622_212825_082_6.jpg"
+      "time": "~25s",
+      "narrative": "What started as a proof of concept on a plane is now a governed, grounded, production ready agent. Built in the GitHub Copilot app. Powered by Microsoft Foundry. Available where the business already works.",
+      "demo_actions": "Transition to the Waypoint app visual and orient the viewer to the invoice review UI.",
+      "screenshot": null
     }
   ],
   "state": "draft",
   "created_at": "2026-06-23T17:42:03.432034600Z",
-  "updated_at": "2026-06-23T17:42:03.432034800Z"
+  "updated_at": "2026-07-10T16:00:42.773637Z"
 }
