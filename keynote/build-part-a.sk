@@ -14,7 +14,7 @@
         "design_plan": false
       },
       "time": "~35s",
-      "narrative": "I need to get an agent to production fast to make sure our payments are in line with our contracts. But before I promise anyone anything, I want a proof of concept. Something that shows me this can be automated safely and usefully.\n\nI've got a lot of choices for where I build, but I start here, in the GitHub Copilot app. It brings agent-driven development natively to GitHub, with the enterprise trust only Microsoft can deliver. Whether I'm reviewing code, managing issues, or, in this case, building agents, this is where I work, even when I'm offline.",
+      "narrative": "I need to get an agent to production fast to make sure our payments match our contracts. But before I promise anyone anything, I want a proof of concept. Something that shows this can be automated safely.\n\nI have a lot of choices for where I build, but I start here in the GitHub Copilot app. It brings agent-driven development into GitHub, with the enterprise trust Microsoft brings. Whether I'm reviewing code, managing issues, or building agents, this is where I work, even on airplane wifi.",
       "demo_actions": "Speak over the Teams visual, then bring the Copilot app forward. Orient the viewer to the home screen and briefly call out sessions, issues, reviews, and active coding sessions.",
       "screenshot": ""
     },
@@ -29,7 +29,7 @@
         "design_plan": false
       },
       "time": "~40s",
-      "narrative": "Let me prove Caldova's idea. One prompt: 'Help me check our invoices for overbilling,' and the app handles the setup.\n\nFirst, it creates an isolated workspace, so I can experiment without affecting the main project or anyone else's work.",
+      "narrative": "Let me prove Caldova's idea. One prompt - 'Help me check our invoices for overbilling' - and the app handles the setup.\n\nFirst, it creates an isolated workspace, so I can experiment without affecting the main project or anyone else's work.",
       "demo_actions": "Type the prompt into a new session and press Enter. Let the session start, then point at the branch or worktree indicator in the header as setup begins.",
       "screenshot": ""
     },
@@ -44,7 +44,7 @@
         "design_plan": false
       },
       "time": "~30s",
-      "narrative": "Next, it loads a reusable workflow I built specifically for invoice auditing. In GitHub Copilot these are called Skills. Instead of rewriting instructions every time, I package the workflow (or skill) once, commit it to my repository, and my teammates get exactly the same experience.\n\nBefore anything runs, it performs a quick preflight check to make sure my local AI model is ready.",
+      "narrative": "Next, it loads a reusable workflow I built for invoice auditing. In GitHub Copilot these are called Skills. Instead of rewriting instructions every time, I package the workflow once, commit it to my repository, and my teammates get the same experience.\n\nBefore anything runs, it does a quick preflight check to make sure my local AI model is ready.",
       "demo_actions": "Stay in the setup flow. Point at the skill-load line for the local-agent skill, then let the local model preflight run and land on the phi4-mini checkmark.",
       "screenshot": null
     },
@@ -59,7 +59,7 @@
         "design_plan": false
       },
       "time": "~35s",
-      "narrative": "Here's the app. On the right is a Canvas, a shared workspace where the agent and I collaborate together. On the left is our conversation. They're connected live in both directions. Watch this. I'll poke the canvas.\n\nMy conversation updates the canvas... and the canvas responds right back. Now let's put it to work. I’ll add the Aster Ridge invoice.",
+      "narrative": "Here's the app. On the right is a Canvas, a shared workspace where the agent and I collaborate. On the left is our conversation. They're connected live in both directions. Watch this. I'll poke the canvas.\n\nMy conversation updates the canvas, and the canvas responds right back. Now let's put it to work. I’ll add the Aster Ridge invoice.",
       "demo_actions": "Show the Local Agent canvas with the Anatomy drawer expanded. Gesture left to right from the Copilot session to the Canvas, then click 'Add the Aster Ridge invoice (PDF)' so the PDF attaches and the context tile lights up.",
       "screenshot": ""
     },
@@ -74,7 +74,7 @@
         "design_plan": false
       },
       "time": "",
-      "narrative": "The moment I do, the agent reads it and greets me with what it found. Four line items, with a total of roughly $1.5 million dollars, all before I’ve asked a single thing.\n\nSo, how is this working? I’m so glad you asked! Built into the Canvas is something I love called the Anatomy of an Agent. Every agent is built from just a few pieces:\n\nA model that reasons.\n\nInstructions that define its job.\n\nContext, in this case our invoice.\n\nAnd memory, so it remembers the conversation.\n\nThat’s an agent.",
+      "narrative": "The moment I do, the agent reads it and greets me with what it found. Four line items, with a total of about $1.5 million, before I’ve asked a single thing.\n\nSo how is this working? Built into the Canvas is something I love called the Anatomy of an Agent. Every agent is built from a few pieces:\n\nA model that reasons.\n\nInstructions that define its job.\n\nContext, in this case our invoice.\n\nAnd memory, so it remembers the conversation.\n\nThat’s an agent.",
       "demo_actions": "",
       "screenshot": null
     },
@@ -89,7 +89,7 @@
         "design_plan": false
       },
       "time": "~30s",
-      "narrative": "Right now, it’s all running locally on my laptop. Fast. Private. Low latency. And my data never leaves the machine.\n\nSo, even on an airplane, I can keep building and testing.",
+      "narrative": "Right now, it’s all running locally on my laptop. Fast. Private. And my data never leaves the machine.\n\nSo even on an airplane, I can keep building and testing.",
       "demo_actions": "Point at the expanded Anatomy drawer to show Model, Instructions, Context, and Memory. Collapse it briefly if helpful so the icons stay visible while you call out local execution.",
       "screenshot": ""
     },
@@ -104,7 +104,7 @@
         "design_plan": false
       },
       "time": "~40s",
-      "narrative": "Now let’s run the audit - notice everything executes locally.\n\nPretty quickly it finds a billing discrepancy.\n\nIt looks like line 2 bills $664,720, but based on the invoice itself, the calculation should be $658,000. That’s a $6,720 overstatement it can prove from the invoice alone.\n\nMore importantly, it knows what it doesn’t know.\nIt flags negotiated pricing and packaging authorization as questions that require the contract, instead of making assumptions. That's exactly what I want from a proof of concept.",
+      "narrative": "Now let’s run the audit - notice everything executes locally.\n\nPretty quickly it finds a billing discrepancy.\n\nLine 2 bills $664,720, but based on the invoice itself, the calculation should be $658,000. That’s a $6,720 overstatement it can prove from the invoice alone.\n\nMore importantly, it knows what it doesn’t know.\nIt flags negotiated pricing and packaging authorization as questions that require the contract instead of making assumptions. That's exactly what I want from a proof of concept.",
       "demo_actions": "Click the 'Audit locally' chip, or ask the audit question from the Canvas. Show the local agent streaming findings and pause on the line 2 math issue and the deferred contract questions.",
       "screenshot": ""
     },
@@ -119,7 +119,7 @@
         "design_plan": false
       },
       "time": "~35s",
-      "narrative": "Before I take this any further, I want a second opinion.\n\nGitHub Copilot has a built-in command called /rubber-duck. The name comes from a long-standing developer practice of talking through your work to uncover mistakes.\n\nHere, Copilot takes that a step further. It reviews its own analysis, challenges its reasoning, and looks for unsupported conclusions. Think of it as an automatic devil's advocate before the numbers leave the room.\n\nIt's a simple way to pressure-test the findings before I move on.",
+      "narrative": "Before I take this any further, I want a second opinion.\n\nGitHub Copilot has a built-in command called /rubber-duck. The name comes from a long-standing developer practice of talking through your work to uncover mistakes.\n\nHere, Copilot goes a step further. It reviews its own analysis, challenges its reasoning, and looks for unsupported conclusions. Think of it as an automatic devil's advocate before the numbers leave the room.\n\nIt's a simple way to pressure-test the findings before I move on.",
       "demo_actions": "Type '/rubberduck the invoice findings - where could they be overclaiming?' and start the review.",
       "screenshot": ""
     },
@@ -134,12 +134,12 @@
         "design_plan": false
       },
       "time": "~30s",
-      "narrative": "Now, that review may take a minute, and that’s okay. \n\nI’m on a plane. The point of this PoC was to prove the workflow works locally and to learn exactly what the agent cannot know until it has access to our business knowledge.\n\nOnce I'm back in the office and the rubber duck has finished, I'll be ready to move the same agent into Microsoft Foundry - production-ready, with the contracts it needs.",
+      "narrative": "Now, that review may take a minute, and that’s okay.\n\nI’m on a plane. The point of this proof of concept was to show the workflow works locally and to learn what the agent cannot know until it has access to our business knowledge.\n\nOnce I'm back in the office and the rubber duck has finished, I'll be ready to move the same agent into Microsoft Foundry, with the contracts it needs.",
       "demo_actions": "Tee up the pivot while rubber duck runs. Keep the rubber-duck review visible and queue the Foundry move for Part 2.",
       "screenshot": null
     }
   ],
   "state": "draft",
   "created_at": "2026-06-23T17:42:03.431179900Z",
-  "updated_at": "2026-07-12T18:03:38.486204300Z"
+  "updated_at": "2026-07-13T04:17:17.930778Z"
 }
